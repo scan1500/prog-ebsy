@@ -1,0 +1,101 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             |.text|, CODE, READONLY
+    2 00000000                 EXTERN           cur_pid
+    3 00000000                 EXTERN           next_pid
+    4 00000000         
+    5 00000000         firstProc
+                               PROC
+    6 00000000                 export           firstProc
+    7 00000000 4685            mov              sp, r0
+    8 00000002 E8BD 9FF0       pop              {r4-r12, pc}
+    9 00000006                 ENDP
+   10 00000006         
+   11 00000006         ctxsw   PROC
+   12 00000006                 export           ctxsw
+   13 00000006 E92D 5FF0       push             {r4-r12, lr} ; store registers 
+                                                            to stack. lowest re
+                                                            gister number goes 
+                                                            to lowest stack-add
+                                                            ress. lr = r14, so 
+                                                            lr is pushed last.
+   14 0000000A F8C0 D000       str              sp, [r0]    ; procs[cur_pid].sp
+                                                             = SP
+   15 0000000E 468D            mov              sp, r1      ; SP = procs[next_p
+                                                            id].sp
+   16 00000010 4902            ldr              r1, =cur_pid
+   17 00000012 4A03            ldr              r2, =next_pid
+   18 00000014 6812            ldr              r2, [r2]
+   19 00000016 600A            str              r2, [r1]    ; cur_pid = next_pi
+                                                            d
+   20 00000018 E8BD 9FF0       pop              {r4-r12, pc} ; restore next pro
+                                                            c's context
+   21 0000001C                 ENDP
+   22 0000001C         
+   23 0000001C                 END
+              00000000 
+              00000000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\ctxsw.d -o.\objects\ctxsw.o -IC:\Keil_v5\ARM\RV31\INC -I
+C:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x --predefine="_
+_EVAL SETA 1" --predefine="__UVISION_VERSION SETA 524" --list=.\listings\ctxsw.
+lst ..\..\..\..\ctxsw.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 1 in file ..\..\..\..\ctxsw.s
+   Uses
+      None
+Comment: .text unused
+ctxsw 00000006
+
+Symbol: ctxsw
+   Definitions
+      At line 11 in file ..\..\..\..\ctxsw.s
+   Uses
+      At line 12 in file ..\..\..\..\ctxsw.s
+Comment: ctxsw used once
+firstProc 00000000
+
+Symbol: firstProc
+   Definitions
+      At line 5 in file ..\..\..\..\ctxsw.s
+   Uses
+      At line 6 in file ..\..\..\..\ctxsw.s
+Comment: firstProc used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+cur_pid 00000000
+
+Symbol: cur_pid
+   Definitions
+      At line 2 in file ..\..\..\..\ctxsw.s
+   Uses
+      At line 16 in file ..\..\..\..\ctxsw.s
+Comment: cur_pid used once
+next_pid 00000000
+
+Symbol: next_pid
+   Definitions
+      At line 3 in file ..\..\..\..\ctxsw.s
+   Uses
+      At line 17 in file ..\..\..\..\ctxsw.s
+Comment: next_pid used once
+2 symbols
+339 symbols in table

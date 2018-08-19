@@ -1,0 +1,76 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             |.text|, CODE, READONLY
+    2 00000000         
+    3 00000000         firstProc
+                               PROC
+    4 00000000                 export           firstProc
+    5 00000000         
+    6 00000000 4685            mov              sp, r0
+    7 00000002 E8BD 9FF0       pop              {r4-r12, pc}
+    8 00000006         
+    9 00000006                 ENDP
+   10 00000006         
+   11 00000006         ctxsw   PROC
+   12 00000006                 export           ctxsw
+   13 00000006         
+   14 00000006 4685            mov              sp, r0
+   15 00000008 E92D 5FF0       push             {r4-r12, lr}
+   16 0000000C         
+   17 0000000C 468D            mov              sp, r1
+   18 0000000E E8BD 9FF0       pop              {r4-r12, pc}
+   19 00000012         
+   20 00000012                 ENDP
+   21 00000012         
+   22 00000012         END
+   23 00000012         
+                       
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\ctxsw.d -o.\objects\ctxsw.o -IC:\Keil_v5\ARM\RV31\INC -I
+C:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x --predefine="_
+_EVAL SETA 1" --predefine="__UVISION_VERSION SETA 524" --list=.\listings\ctxsw.
+lst ctxsw.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 1 in file ctxsw.s
+   Uses
+      None
+Comment: .text unused
+END 00000012
+
+Symbol: END
+   Definitions
+      At line 22 in file ctxsw.s
+   Uses
+      None
+Comment: END unused
+ctxsw 00000006
+
+Symbol: ctxsw
+   Definitions
+      At line 11 in file ctxsw.s
+   Uses
+      At line 12 in file ctxsw.s
+Comment: ctxsw used once
+firstProc 00000000
+
+Symbol: firstProc
+   Definitions
+      At line 3 in file ctxsw.s
+   Uses
+      At line 4 in file ctxsw.s
+Comment: firstProc used once
+4 symbols
+336 symbols in table
