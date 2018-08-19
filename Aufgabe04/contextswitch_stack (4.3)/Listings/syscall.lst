@@ -1,0 +1,76 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             svchandler_s, CODE, READONLY
+    2 00000000                 PRESERVE8
+    3 00000000                 export           SVC_Handler
+    4 00000000                 import           SVCHandler_main
+    5 00000000                 import           update_cur_sp
+    6 00000000         
+    7 00000000         SVC_Handler
+                               proc
+    8 00000000 B500            push             {lr}
+    9 00000002 F01E 0F04       tst              lr, #4
+   10 00000006 BF0E F3EF 
+              8008             mrseq            r0, msp
+   11 0000000C F3EF 8009       mrsne            r0, psp
+   12 00000010 F7FF FFFE       blne             update_cur_sp
+   13 00000014 F85D EB04       pop              {lr}
+   14 00000018 F7FF BFFE       b                SVCHandler_main
+   15 0000001C                 endp
+   16 0000001C         
+   17 0000001C                 end
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\syscall_1.d -o.\objects\syscall_1.o -IC:\Keil_v5\ARM\RV3
+1\INC -IC:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x --pred
+efine="__UVISION_VERSION SETA 524" --list=.\listings\syscall.lst syscall.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+SVC_Handler 00000000
+
+Symbol: SVC_Handler
+   Definitions
+      At line 7 in file syscall.s
+   Uses
+      At line 3 in file syscall.s
+Comment: SVC_Handler used once
+svchandler_s 00000000
+
+Symbol: svchandler_s
+   Definitions
+      At line 1 in file syscall.s
+   Uses
+      None
+Comment: svchandler_s unused
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+SVCHandler_main 00000000
+
+Symbol: SVCHandler_main
+   Definitions
+      At line 4 in file syscall.s
+   Uses
+      At line 14 in file syscall.s
+Comment: SVCHandler_main used once
+update_cur_sp 00000000
+
+Symbol: update_cur_sp
+   Definitions
+      At line 5 in file syscall.s
+   Uses
+      At line 12 in file syscall.s
+Comment: update_cur_sp used once
+2 symbols
+335 symbols in table

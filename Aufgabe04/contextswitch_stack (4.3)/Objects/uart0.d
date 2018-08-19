@@ -1,0 +1,15 @@
+.\objects\uart0.o: uart0.c
+.\objects\uart0.o: ebsy.h
+.\objects\uart0.o: C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h
+.\objects\uart0.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\objects\uart0.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart0.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\uart0.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\uart0.o: C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h
+.\objects\uart0.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\uart0.o: ctxsw.h
+.\objects\uart0.o: fork.h
+.\objects\uart0.o: helpers.h
+.\objects\uart0.o: handlers.h
+.\objects\uart0.o: uart0.h
+.\objects\uart0.o: rbuf.h

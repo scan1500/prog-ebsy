@@ -1,0 +1,17 @@
+.\objects\handlers.o: handlers.c
+.\objects\handlers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\handlers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\handlers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\handlers.o: C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h
+.\objects\handlers.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\objects\handlers.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\handlers.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\handlers.o: C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h
+.\objects\handlers.o: ctxsw.h
+.\objects\handlers.o: ebsy.h
+.\objects\handlers.o: fork.h
+.\objects\handlers.o: helpers.h
+.\objects\handlers.o: handlers.h
+.\objects\handlers.o: uart0.h
+.\objects\handlers.o: rbuf.h
+.\objects\handlers.o: sched.h

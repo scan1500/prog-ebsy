@@ -1,0 +1,126 @@
+Dependencies for Project 'blink', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC177x_8x.s)(0x5A3375DF)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x--pd "__UVISION_VERSION SETA 524"--list .\listings\startup_lpc177x_8x.lst --xref -o .\objects\startup_lpc177x_8x.o --depend .\objects\startup_lpc177x_8x.d)
+F (.\core_cm3.c)(0x5A3375DF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+F (.\system_LPC177x_8x.c)(0x5A3CC21C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\system_lpc177x_8x.o --omf_browse .\objects\system_lpc177x_8x.crf --depend .\objects\system_lpc177x_8x.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (LPC177x_8x.h)(0x5A3CB1C7)
+I (core_cm3.h)(0x5A3375DF)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (system_LPC177x_8x.h)(0x5A3375DF)
+F (.\main.c)(0x5A586BE6)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h)(0x57866824)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x5703B072)
+I (ebsy.h)(0x5A3CB356)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
+I (ctxsw.h)(0x5A3375DF)
+I (fork.h)(0x5A585DC2)
+I (helpers.h)(0x5A337655)
+I (handlers.h)(0x5A3CB1C7)
+I (uart0.h)(0x5A586C19)
+I (rbuf.h)(0x5A3CB81D)
+F (.\ctxsw.s)(0x5A3375DF)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x--pd "__UVISION_VERSION SETA 524"--list .\listings\ctxsw.lst --xref -o .\objects\ctxsw.o --depend .\objects\ctxsw.d)
+F (.\ctxsw.h)(0x5A3375DF)()
+F (.\handlers.c)(0x5A586CC0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\handlers.o --omf_browse .\objects\handlers.crf --depend .\objects\handlers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h)(0x57866824)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x5703B072)
+I (ctxsw.h)(0x5A3375DF)
+I (ebsy.h)(0x5A3CB356)
+I (fork.h)(0x5A585DC2)
+I (helpers.h)(0x5A337655)
+I (handlers.h)(0x5A3CB1C7)
+I (uart0.h)(0x5A586C19)
+I (rbuf.h)(0x5A3CB81D)
+I (sched.h)(0x5A3375DF)
+F (.\handlers.h)(0x5A3CB1C7)()
+F (.\sched.c)(0x5A3CBB97)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\sched.o --omf_browse .\objects\sched.crf --depend .\objects\sched.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
+I (ebsy.h)(0x5A3CB356)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h)(0x57866824)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x5703B072)
+I (ctxsw.h)(0x5A3375DF)
+I (fork.h)(0x5A585DC2)
+I (helpers.h)(0x5A337655)
+I (handlers.h)(0x5A3CB1C7)
+F (.\sched.h)(0x5A3375DF)()
+F (.\ebsy.h)(0x5A3CB356)()
+F (.\pendsv.s)(0x5A3375DF)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x--pd "__UVISION_VERSION SETA 524"--list .\listings\pendsv.lst --xref -o .\objects\pendsv.o --depend .\objects\pendsv.d)
+F (.\fork.c)(0x5A585DC2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\fork.o --omf_browse .\objects\fork.crf --depend .\objects\fork.d)
+I (ebsy.h)(0x5A3CB356)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h)(0x57866824)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x5703B072)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
+I (ctxsw.h)(0x5A3375DF)
+I (fork.h)(0x5A585DC2)
+I (helpers.h)(0x5A337655)
+I (handlers.h)(0x5A3CB1C7)
+F (.\fork.h)(0x5A585DC2)()
+F (.\syscall.c)(0x5A585DC2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\syscall.o --omf_browse .\objects\syscall.crf --depend .\objects\syscall.d)
+I (ebsy.h)(0x5A3CB356)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h)(0x57866824)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x5703B072)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
+I (ctxsw.h)(0x5A3375DF)
+I (fork.h)(0x5A585DC2)
+I (helpers.h)(0x5A337655)
+I (handlers.h)(0x5A3CB1C7)
+I (syscall.h)(0x5A585DC2)
+F (.\syscall.s)(0x5A337655)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x--pd "__UVISION_VERSION SETA 524"--list .\listings\syscall.lst --xref -o .\objects\syscall_1.o --depend .\objects\syscall_1.d)
+F (.\syscall.h)(0x5A585DC2)()
+F (.\uart0.c)(0x5A586CE7)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\uart0.o --omf_browse .\objects\uart0.crf --depend .\objects\uart0.d)
+I (ebsy.h)(0x5A3CB356)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h)(0x57866824)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x5703B072)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
+I (ctxsw.h)(0x5A3375DF)
+I (fork.h)(0x5A585DC2)
+I (helpers.h)(0x5A337655)
+I (handlers.h)(0x5A3CB1C7)
+I (uart0.h)(0x5A586C19)
+I (rbuf.h)(0x5A3CB81D)
+F (.\rbuf.c)(0x5A585DC2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\rbuf.o --omf_browse .\objects\rbuf.crf --depend .\objects\rbuf.d)
+I (rbuf.h)(0x5A3CB81D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
+F (.\helpers.c)(0x5A3375DF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x-D__UVISION_VERSION="524"-o .\objects\helpers.o --omf_browse .\objects\helpers.crf --depend .\objects\helpers.d)
+I (ebsy.h)(0x5A3CB356)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h)(0x57866824)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x5703B072)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
+I (ctxsw.h)(0x5A3375DF)
+I (fork.h)(0x5A585DC2)
+I (helpers.h)(0x5A337655)
+I (handlers.h)(0x5A3CB1C7)
+F (.\helpers.s)(0x5A337655)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x--pd "__UVISION_VERSION SETA 524"--list .\listings\helpers.lst --xref -o .\objects\helpers_1.o --depend .\objects\helpers_1.d)
+F (.\helpers.h)(0x5A337655)()

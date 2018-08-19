@@ -1,0 +1,14 @@
+.\objects\syscall.o: syscall.c
+.\objects\syscall.o: ebsy.h
+.\objects\syscall.o: C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\LPC177x_8x.h
+.\objects\syscall.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\objects\syscall.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\syscall.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\syscall.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\syscall.o: C:\Keil_v5\ARM\INC\NXP\LPC177x_8x\system_LPC177x_8x.h
+.\objects\syscall.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\syscall.o: ctxsw.h
+.\objects\syscall.o: fork.h
+.\objects\syscall.o: helpers.h
+.\objects\syscall.o: handlers.h
+.\objects\syscall.o: syscall.h

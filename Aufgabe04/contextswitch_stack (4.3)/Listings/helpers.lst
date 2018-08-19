@@ -1,0 +1,73 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 area             helpers_s, code, readonly
+    2 00000000         
+    3 00000000                 export           interrupts_enable
+    4 00000000                 export           interrupts_disable
+    5 00000000                 export           get_r0
+    6 00000000         
+    7 00000000         interrupts_enable
+                               proc
+    8 00000000 B662            cpsie            i
+    9 00000002 4770            bx               lr
+   10 00000004                 endp
+   11 00000004         
+   12 00000004         interrupts_disable
+                               proc
+   13 00000004 B672            cpsid            i
+   14 00000006 4770            bx               lr
+   15 00000008                 endp
+   16 00000008         
+   17 00000008         get_r0  proc
+   18 00000008 4770            bx               lr
+   19 0000000A                 endp
+   20 0000000A         
+   21 0000000A                 end
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\helpers_1.d -o.\objects\helpers_1.o -IC:\Keil_v5\ARM\RV3
+1\INC -IC:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x --pred
+efine="__UVISION_VERSION SETA 524" --list=.\listings\helpers.lst helpers.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+get_r0 00000008
+
+Symbol: get_r0
+   Definitions
+      At line 17 in file helpers.s
+   Uses
+      At line 5 in file helpers.s
+Comment: get_r0 used once
+helpers_s 00000000
+
+Symbol: helpers_s
+   Definitions
+      At line 1 in file helpers.s
+   Uses
+      None
+Comment: helpers_s unused
+interrupts_disable 00000004
+
+Symbol: interrupts_disable
+   Definitions
+      At line 12 in file helpers.s
+   Uses
+      At line 4 in file helpers.s
+Comment: interrupts_disable used once
+interrupts_enable 00000000
+
+Symbol: interrupts_enable
+   Definitions
+      At line 7 in file helpers.s
+   Uses
+      At line 3 in file helpers.s
+Comment: interrupts_enable used once
+4 symbols
+335 symbols in table

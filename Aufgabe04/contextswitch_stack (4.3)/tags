@@ -1,0 +1,1945 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACPR	./core_cm3.h	/^  __IO uint32_t ACPR;                    \/*!< Offset: 0x010 (R\/W)  Asynchronous Clock Prescaler Register *\/$/;"	m	struct:__anon16
+ACR	./LPC177x_8x.h	/^	__IO uint32_t ACR;$/;"	m	struct:__anon26
+ACR	./LPC177x_8x.h	/^  __IO uint32_t  ACR;                   \/*!< Offset: 0x020 Auto-baud Control Register (R\/W) *\/$/;"	m	struct:__anon34
+ACR	./LPC177x_8x.h	/^  __IO uint32_t ACR;$/;"	m	struct:__anon30
+ACTLR	./core_cm3.h	/^  __IO uint32_t ACTLR;                   \/*!< Offset: 0x008 (R\/W)  Auxiliary Control Register      *\/$/;"	m	struct:__anon11
+ADC_IRQHandler	./startup_LPC177x_8x.s	/^ADC_IRQHandler$/;"	l
+ADC_IRQn	./LPC177x_8x.h	/^  ADC_IRQn                      = 22,       \/*!< A\/D Converter Interrupt                          *\/$/;"	e	enum:IRQn
+ADDR	./LPC177x_8x.h	/^  __IO uint32_t ADDR;$/;"	m	struct:__anon66
+ADR	./core_cm3.h	/^  __I  uint32_t ADR;                     \/*!< Offset: 0x04C (R\/ )  Auxiliary Feature Register                            *\/$/;"	m	struct:__anon10
+ADR0	./LPC177x_8x.h	/^  __IO uint32_t ADR0;                   \/*!< Offset: 0x00C I2C Slave Address Register 0 (R\/W) *\/$/;"	m	struct:__anon39
+ADR1	./LPC177x_8x.h	/^  __IO uint32_t ADR1;                   \/*!< Offset: 0x020 I2C Slave Address Register 1 (R\/W) *\/$/;"	m	struct:__anon39
+ADR2	./LPC177x_8x.h	/^  __IO uint32_t ADR2;                   \/*!< Offset: 0x024 I2C Slave Address Register 2 (R\/W) *\/$/;"	m	struct:__anon39
+ADR3	./LPC177x_8x.h	/^  __IO uint32_t ADR3;                   \/*!< Offset: 0x028 I2C Slave Address Register 3 (R\/W) *\/$/;"	m	struct:__anon39
+ADRMATCH	./LPC177x_8x.h	/^	__IO uint8_t  ADRMATCH;$/;"	m	struct:__anon26
+ADRMATCH	./LPC177x_8x.h	/^  __IO uint32_t  ADRMATCH;              \/*!< Offset: 0x050 RS-485\/EIA-485 address match Register (R\/W) *\/$/;"	m	struct:__anon34
+ADRMATCH	./LPC177x_8x.h	/^  __IO uint8_t  ADRMATCH;$/;"	m	struct:__anon30
+ADTRM	./LPC177x_8x.h	/^  __IO uint32_t ADTRM;$/;"	m	struct:__anon43
+AFMR	./LPC177x_8x.h	/^	__IO uint32_t AFMR;$/;"	m	struct:__anon49
+AFSR	./core_cm3.h	/^  __IO uint32_t AFSR;                    \/*!< Offset: 0x03C (R\/W)  Auxiliary Fault Status Register                       *\/$/;"	m	struct:__anon10
+AIRCR	./core_cm3.h	/^  __IO uint32_t AIRCR;                   \/*!< Offset: 0x00C (R\/W)  Application Interrupt and Reset Control Register      *\/$/;"	m	struct:__anon10
+ALDOM	./LPC177x_8x.h	/^  __IO uint8_t  ALDOM;$/;"	m	struct:__anon41
+ALDOW	./LPC177x_8x.h	/^  __IO uint8_t  ALDOW;$/;"	m	struct:__anon41
+ALDOY	./LPC177x_8x.h	/^  __IO uint16_t ALDOY;$/;"	m	struct:__anon41
+ALHOUR	./LPC177x_8x.h	/^  __IO uint8_t  ALHOUR;$/;"	m	struct:__anon41
+ALMIN	./LPC177x_8x.h	/^  __IO uint8_t  ALMIN;$/;"	m	struct:__anon41
+ALMON	./LPC177x_8x.h	/^  __IO uint8_t  ALMON;$/;"	m	struct:__anon41
+ALSEC	./LPC177x_8x.h	/^  __IO uint8_t  ALSEC;$/;"	m	struct:__anon41
+ALYEAR	./LPC177x_8x.h	/^  __IO uint16_t ALYEAR;$/;"	m	struct:__anon41
+AMR	./LPC177x_8x.h	/^  __IO uint8_t  AMR;$/;"	m	struct:__anon41
+APSR_Type	./core_cm3.h	/^} APSR_Type;$/;"	t	typeref:union:__anon1
+ARGUMENT	./LPC177x_8x.h	/^  __IO uint32_t ARGUMENT;$/;"	m	struct:__anon47
+BFAR	./core_cm3.h	/^  __IO uint32_t BFAR;                    \/*!< Offset: 0x038 (R\/W)  BusFault Address Register                             *\/$/;"	m	struct:__anon10
+BOD_IRQHandler	./startup_LPC177x_8x.s	/^BOD_IRQHandler$/;"	l
+BOD_IRQn	./LPC177x_8x.h	/^  BOD_IRQn                      = 23,       \/*!< Brown-Out Detect Interrupt                       *\/$/;"	e	enum:IRQn
+BTR	./LPC177x_8x.h	/^	__IO uint32_t BTR;$/;"	m	struct:__anon51
+BulkCurrentED	./LPC177x_8x.h	/^  __IO uint32_t BulkCurrentED;$/;"	m	struct:__anon54
+BulkHeadED	./LPC177x_8x.h	/^  __IO uint32_t BulkHeadED;$/;"	m	struct:__anon54
+BusFault_IRQn	./LPC177x_8x.h	/^  BusFault_IRQn                 = -11,      \/*!< 5 Cortex-M3 Bus Fault Interrupt                  *\/$/;"	e	enum:IRQn
+C	./core_cm3.h	/^    uint32_t C:1;                        \/*!< bit:     29  Carry condition code flag          *\/$/;"	m	struct:__anon1::__anon2
+C	./core_cm3.h	/^    uint32_t C:1;                        \/*!< bit:     29  Carry condition code flag          *\/$/;"	m	struct:__anon5::__anon6
+CALIB	./core_cm3.h	/^  __I  uint32_t CALIB;                   \/*!< Offset: 0x00C (R\/ )  SysTick Calibration Register        *\/$/;"	m	struct:__anon12
+CALIBRATION	./LPC177x_8x.h	/^  __IO uint32_t CALIBRATION;$/;"	m	struct:__anon41
+CANActivity_IRQHandler	./startup_LPC177x_8x.s	/^CANActivity_IRQHandler$/;"	l
+CANActivity_IRQn	./LPC177x_8x.h	/^  CANActivity_IRQn              = 34,       \/*!< CAN Activity interrupt                           *\/$/;"	e	enum:IRQn
+CANSLEEPCLR	./LPC177x_8x.h	/^  __IO uint32_t	CANSLEEPCLR;                \/*!< Offset: 0x110 (R\/W)  CAN Sleep Clear Register *\/$/;"	m	struct:__anon20
+CANWAKEFLAGS	./LPC177x_8x.h	/^  __IO uint32_t	CANWAKEFLAGS;               \/*!< Offset: 0x114 (R\/W)  CAN Wake-up Flags Register *\/$/;"	m	struct:__anon20
+CAN_IRQHandler	./startup_LPC177x_8x.s	/^CAN_IRQHandler$/;"	l
+CAN_IRQn	./LPC177x_8x.h	/^  CAN_IRQn                      = 25,       \/*!< CAN Interrupt                                    *\/$/;"	e	enum:IRQn
+CAP	./LPC177x_8x.h	/^  __I  uint32_t CAP;$/;"	m	struct:__anon46
+CAP0	./LPC177x_8x.h	/^  __IO uint32_t CAP0;$/;"	m	struct:__anon45
+CAP1	./LPC177x_8x.h	/^  __IO uint32_t CAP1;$/;"	m	struct:__anon45
+CAP2	./LPC177x_8x.h	/^  __IO uint32_t CAP2;$/;"	m	struct:__anon45
+CAPCON	./LPC177x_8x.h	/^  __I  uint32_t CAPCON;$/;"	m	struct:__anon45
+CAPCON_CLR	./LPC177x_8x.h	/^  __O  uint32_t CAPCON_CLR;$/;"	m	struct:__anon45
+CAPCON_SET	./LPC177x_8x.h	/^  __O  uint32_t CAPCON_SET;$/;"	m	struct:__anon45
+CAP_CLR	./LPC177x_8x.h	/^  __O  uint32_t CAP_CLR;$/;"	m	struct:__anon45
+CCLKSEL	./LPC177x_8x.h	/^  __IO uint32_t CCLKSEL;                    \/*!< Offset: 0x104 (R\/W)  CPU Clock Selection Register *\/$/;"	m	struct:__anon20
+CCLKSEL_Val	./system_LPC177x_8x.c	226;"	d	file:
+CCR	./LPC177x_8x.h	/^  __IO uint32_t CCR;                    \/*!< Offset: 0x028 Capture Control Register (R\/W) *\/$/;"	m	struct:__anon24
+CCR	./LPC177x_8x.h	/^  __IO uint32_t CCR;                    \/*!< Offset: 0x028 Capture Control Register (R\/W) *\/$/;"	m	struct:__anon25
+CCR	./LPC177x_8x.h	/^  __IO uint8_t  CCR;$/;"	m	struct:__anon41
+CCR	./core_cm3.h	/^  __IO uint32_t CCR;                     \/*!< Offset: 0x014 (R\/W)  Configuration Control Register                        *\/$/;"	m	struct:__anon10
+CConfig	./LPC177x_8x.h	/^  __IO uint32_t CConfig;$/;"	m	struct:__anon53
+CControl	./LPC177x_8x.h	/^  __IO uint32_t CControl;$/;"	m	struct:__anon53
+CDestAddr	./LPC177x_8x.h	/^  __IO uint32_t CDestAddr;$/;"	m	struct:__anon53
+CFG	./LPC177x_8x.h	/^  __I  uint32_t  CFG;                   \/*!< Offset: 0xFD4 Configuration Register (R) *\/$/;"	m	struct:__anon34
+CFSR	./core_cm3.h	/^  __IO uint32_t CFSR;                    \/*!< Offset: 0x028 (R\/W)  Configurable Fault Status Register                    *\/$/;"	m	struct:__anon10
+CHECK_RANGE	./system_LPC177x_8x.c	253;"	d	file:
+CHECK_RSVD	./system_LPC177x_8x.c	254;"	d	file:
+CID0	./core_cm3.h	/^  __I  uint32_t CID0;                    \/*!< Offset: 0xFF0 (R\/ )  ITM Component  Identification Register #0 *\/$/;"	m	struct:__anon13
+CID1	./core_cm3.h	/^  __I  uint32_t CID1;                    \/*!< Offset: 0xFF4 (R\/ )  ITM Component  Identification Register #1 *\/$/;"	m	struct:__anon13
+CID2	./core_cm3.h	/^  __I  uint32_t CID2;                    \/*!< Offset: 0xFF8 (R\/ )  ITM Component  Identification Register #2 *\/$/;"	m	struct:__anon13
+CID3	./core_cm3.h	/^  __I  uint32_t CID3;                    \/*!< Offset: 0xFFC (R\/ )  ITM Component  Identification Register #3 *\/$/;"	m	struct:__anon13
+CIIR	./LPC177x_8x.h	/^  __IO uint8_t  CIIR;$/;"	m	struct:__anon41
+CLAIMCLR	./core_cm3.h	/^  __IO uint32_t CLAIMCLR;                \/*!< Offset: 0xFA4 (R\/W)  Claim tag clear *\/$/;"	m	struct:__anon16
+CLAIMSET	./core_cm3.h	/^  __IO uint32_t CLAIMSET;                \/*!< Offset: 0xFA0 (R\/W)  Claim tag set *\/$/;"	m	struct:__anon16
+CLEAR	./LPC177x_8x.h	/^  __O  uint32_t CLEAR;$/;"	m	struct:__anon47
+CLKDIV	./LPC177x_8x.h	/^  __IO uint32_t CLKDIV;$/;"	m	struct:__anon66
+CLKOUTCFG	./LPC177x_8x.h	/^  __IO uint32_t CLKOUTCFG;                  \/*!< Offset: 0x1C8 (R\/W)  Clock Output Configuration Register *\/$/;"	m	struct:__anon20
+CLKOUTCFG_Val	./system_LPC177x_8x.c	231;"	d	file:
+CLKSRCSEL	./LPC177x_8x.h	/^  __IO uint32_t CLKSRCSEL;                  \/*!< Offset: 0x10C (R\/W)  Clock Source Select Register *\/$/;"	m	struct:__anon20
+CLKSRCSEL_Val	./system_LPC177x_8x.c	211;"	d	file:
+CLLI	./LPC177x_8x.h	/^  __IO uint32_t CLLI;$/;"	m	struct:__anon53
+CLOCK	./LPC177x_8x.h	/^  __IO uint32_t CLOCK;$/;"	m	struct:__anon47
+CLOCK_SETUP	./system_LPC177x_8x.c	209;"	d	file:
+CLR	./LPC177x_8x.h	/^  __O  uint32_t CLR;$/;"	m	struct:__anon22
+CLR	./LPC177x_8x.h	/^  __O  uint32_t CLR;$/;"	m	struct:__anon46
+CLRT	./LPC177x_8x.h	/^  __IO uint32_t CLRT;$/;"	m	struct:__anon58
+CMD	./LPC177x_8x.h	/^  __IO uint32_t CMD;			\/* 0x0080 *\/$/;"	m	struct:__anon66
+CMPOS0	./LPC177x_8x.h	/^  __IO uint32_t CMPOS0;$/;"	m	struct:__anon46
+CMPOS1	./LPC177x_8x.h	/^  __IO uint32_t CMPOS1;$/;"	m	struct:__anon46
+CMPOS2	./LPC177x_8x.h	/^  __IO uint32_t CMPOS2;$/;"	m	struct:__anon46
+CMR	./LPC177x_8x.h	/^	__O  uint32_t CMR;$/;"	m	struct:__anon51
+CNTCON	./LPC177x_8x.h	/^  __I  uint32_t CNTCON;$/;"	m	struct:__anon45
+CNTCON_CLR	./LPC177x_8x.h	/^  __O  uint32_t CNTCON_CLR;$/;"	m	struct:__anon45
+CNTCON_SET	./LPC177x_8x.h	/^  __O  uint32_t CNTCON_SET;$/;"	m	struct:__anon45
+CNTVAL	./LPC177x_8x.h	/^  __IO uint32_t CNTVAL;$/;"	m	struct:__anon44
+COMMAND	./LPC177x_8x.h	/^  __IO uint32_t COMMAND;$/;"	m	struct:__anon47
+COMP0	./core_cm3.h	/^  __IO uint32_t COMP0;                   \/*!< Offset: 0x020 (R\/W)  Comparator Register 0                     *\/$/;"	m	struct:__anon15
+COMP1	./core_cm3.h	/^  __IO uint32_t COMP1;                   \/*!< Offset: 0x030 (R\/W)  Comparator Register 1                     *\/$/;"	m	struct:__anon15
+COMP2	./core_cm3.h	/^  __IO uint32_t COMP2;                   \/*!< Offset: 0x040 (R\/W)  Comparator Register 2                     *\/$/;"	m	struct:__anon15
+COMP3	./core_cm3.h	/^  __IO uint32_t COMP3;                   \/*!< Offset: 0x050 (R\/W)  Comparator Register 3                     *\/$/;"	m	struct:__anon15
+CON	./LPC177x_8x.h	/^  __I  uint32_t CON;$/;"	m	struct:__anon45
+CON	./LPC177x_8x.h	/^  __O  uint32_t CON;$/;"	m	struct:__anon46
+CONCLR	./LPC177x_8x.h	/^  __O  uint32_t CONCLR;                 \/*!< Offset: 0x018 I2C Control Clear Register ( \/W) *\/$/;"	m	struct:__anon39
+CONF	./LPC177x_8x.h	/^  __IO uint32_t CONF;$/;"	m	struct:__anon46
+CONSET	./LPC177x_8x.h	/^  __IO uint32_t CONSET;                 \/*!< Offset: 0x000 I2C Control Set Register (R\/W) *\/$/;"	m	struct:__anon39
+CONTROL_Type	./core_cm3.h	/^} CONTROL_Type;$/;"	t	typeref:union:__anon7
+CON_CLR	./LPC177x_8x.h	/^  __O  uint32_t CON_CLR;$/;"	m	struct:__anon45
+CON_SET	./LPC177x_8x.h	/^  __O  uint32_t CON_SET;$/;"	m	struct:__anon45
+CP	./LPC177x_8x.h	/^  __IO uint32_t CP;$/;"	m	struct:__anon45
+CPACR	./core_cm3.h	/^  __IO uint32_t CPACR;                   \/*!< Offset: 0x088 (R\/W)  Coprocessor Access Control Register                   *\/$/;"	m	struct:__anon10
+CPICNT	./core_cm3.h	/^  __IO uint32_t CPICNT;                  \/*!< Offset: 0x008 (R\/W)  CPI Count Register                        *\/$/;"	m	struct:__anon15
+CPSR	./LPC177x_8x.h	/^  __IO uint32_t CPSR;                   \/*!< Offset: 0x010 Clock Prescale Register (R\/W) *\/$/;"	m	struct:__anon38
+CPUID	./core_cm3.h	/^  __I  uint32_t CPUID;                   \/*!< Offset: 0x000 (R\/ )  CPUID Base Register                                   *\/$/;"	m	struct:__anon10
+CR	./LPC177x_8x.h	/^  __IO uint32_t CR;                     \/*!< Offset: 0x000       A\/D Control Register (R\/W) *\/$/;"	m	struct:__anon43
+CR	./LPC177x_8x.h	/^  __IO uint32_t CR;$/;"	m	struct:__anon44
+CR0	./LPC177x_8x.h	/^  __I  uint32_t CR0;                    \/*!< Offset: 0x02C Capture Register 0 (R\/ ) *\/$/;"	m	struct:__anon24
+CR0	./LPC177x_8x.h	/^  __I  uint32_t CR0;                    \/*!< Offset: 0x02C Capture Register 0 (R\/ ) *\/$/;"	m	struct:__anon25
+CR0	./LPC177x_8x.h	/^  __IO uint32_t CR0;                    \/*!< Offset: 0x000 Control Register 0 (R\/W) *\/$/;"	m	struct:__anon38
+CR1	./LPC177x_8x.h	/^  __I  uint32_t CR1;					\/*!< Offset: 0x030 Capture Register 1 (R\/ ) *\/$/;"	m	struct:__anon24
+CR1	./LPC177x_8x.h	/^  __I  uint32_t CR1;					\/*!< Offset: 0x030 Capture Register 1 (R\/ ) *\/$/;"	m	struct:__anon25
+CR1	./LPC177x_8x.h	/^  __IO uint32_t CR1;                    \/*!< Offset: 0x004 Control Register 1 (R\/W) *\/$/;"	m	struct:__anon38
+CR2	./LPC177x_8x.h	/^  __I  uint32_t CR2;					\/*!< Offset: 0x034 Capture Register 2 (R\/ ) *\/$/;"	m	struct:__anon25
+CR3	./LPC177x_8x.h	/^  __I  uint32_t CR3;					\/*!< Offset: 0x038 Capture Register 3 (R\/ ) *\/$/;"	m	struct:__anon25
+CRP_Key	./startup_LPC177x_8x.s	/^CRP_Key         DCD     0xFFFFFFFF$/;"	l
+CRSR_CFG	./LPC177x_8x.h	/^  __IO uint32_t CRSR_CFG;$/;"	m	struct:__anon59
+CRSR_CLIP	./LPC177x_8x.h	/^  __IO uint32_t CRSR_CLIP;$/;"	m	struct:__anon59
+CRSR_CTRL	./LPC177x_8x.h	/^  __IO uint32_t CRSR_CTRL;$/;"	m	struct:__anon59
+CRSR_IMG	./LPC177x_8x.h	/^  __IO uint32_t CRSR_IMG[256];$/;"	m	struct:__anon59
+CRSR_INTCLR	./LPC177x_8x.h	/^  __O  uint32_t CRSR_INTCLR;$/;"	m	struct:__anon59
+CRSR_INTMSK	./LPC177x_8x.h	/^  __IO uint32_t CRSR_INTMSK;$/;"	m	struct:__anon59
+CRSR_INTRAW	./LPC177x_8x.h	/^  __I  uint32_t CRSR_INTRAW;$/;"	m	struct:__anon59
+CRSR_INTSTAT	./LPC177x_8x.h	/^  __I  uint32_t CRSR_INTSTAT;$/;"	m	struct:__anon59
+CRSR_PAL0	./LPC177x_8x.h	/^  __IO uint32_t CRSR_PAL0;$/;"	m	struct:__anon59
+CRSR_PAL1	./LPC177x_8x.h	/^  __IO uint32_t CRSR_PAL1;$/;"	m	struct:__anon59
+CRSR_XY	./LPC177x_8x.h	/^  __IO uint32_t CRSR_XY;$/;"	m	struct:__anon59
+CSPSR	./core_cm3.h	/^  __IO uint32_t CSPSR;                   \/*!< Offset: 0x004 (R\/W)  Current Parallel Port Size Register *\/$/;"	m	struct:__anon16
+CSrcAddr	./LPC177x_8x.h	/^  __IO uint32_t CSrcAddr;$/;"	m	struct:__anon53
+CTCR	./LPC177x_8x.h	/^  __IO uint32_t CTCR;					\/*!< Offset: 0x070 Counter Control Register (R\/W) *\/$/;"	m	struct:__anon25
+CTCR	./LPC177x_8x.h	/^  __IO uint32_t CTCR;                   \/*!< Offset: 0x070 Count Control Register (R\/W) *\/$/;"	m	struct:__anon24
+CTIME0	./LPC177x_8x.h	/^  __I  uint32_t CTIME0;$/;"	m	struct:__anon41
+CTIME1	./LPC177x_8x.h	/^  __I  uint32_t CTIME1;$/;"	m	struct:__anon41
+CTIME2	./LPC177x_8x.h	/^  __I  uint32_t CTIME2;$/;"	m	struct:__anon41
+CTRL	./LPC177x_8x.h	/^  __IO uint32_t CTRL;$/;"	m	struct:__anon44
+CTRL	./LPC177x_8x.h	/^  __IO uint32_t CTRL;$/;"	m	struct:__anon59
+CTRL	./core_cm3.h	/^  __IO uint32_t CTRL;                    \/*!< Offset: 0x000 (R\/W)  Control Register                          *\/$/;"	m	struct:__anon15
+CTRL	./core_cm3.h	/^  __IO uint32_t CTRL;                    \/*!< Offset: 0x000 (R\/W)  SysTick Control and Status Register *\/$/;"	m	struct:__anon12
+CTRL	./core_cm3.h	/^  __IO uint32_t CTRL;                    \/*!< Offset: 0x004 (R\/W)  MPU Control Register                           *\/$/;"	m	struct:__anon17
+CTXSW	./ctxsw.h	2;"	d
+CUST_EXCEPTIONS	./exceptions.h	1;"	d
+CUST_HANDLERS	./handlers.h	2;"	d
+CYCCNT	./core_cm3.h	/^  __IO uint32_t CYCCNT;                  \/*!< Offset: 0x004 (R\/W)  Cycle Count Register                      *\/$/;"	m	struct:__anon15
+CmdCode	./LPC177x_8x.h	/^  __O  uint32_t CmdCode;             \/* USB Device SIE Command Registers   *\/$/;"	m	struct:__anon54
+CmdData	./LPC177x_8x.h	/^  __I  uint32_t CmdData;$/;"	m	struct:__anon54
+Command	./LPC177x_8x.h	/^  __IO uint32_t Command;                \/* Control Registers                  *\/$/;"	m	struct:__anon58
+CommandStatus	./LPC177x_8x.h	/^  __IO uint32_t CommandStatus;$/;"	m	struct:__anon54
+Config	./LPC177x_8x.h	/^  __IO uint32_t Config;$/;"	m	struct:__anon52
+Config	./LPC177x_8x.h	/^  __IO uint32_t Config;$/;"	m	struct:__anon60
+Control	./LPC177x_8x.h	/^  __IO uint32_t Control;$/;"	m	struct:__anon54
+Control	./LPC177x_8x.h	/^  __IO uint32_t Control;$/;"	m	struct:__anon60
+ControlCurrentED	./LPC177x_8x.h	/^  __IO uint32_t ControlCurrentED;$/;"	m	struct:__anon54
+ControlHeadED	./LPC177x_8x.h	/^  __IO uint32_t ControlHeadED;$/;"	m	struct:__anon54
+CoreDebug	./core_cm3.h	1235;"	d
+CoreDebug_BASE	./core_cm3.h	1223;"	d
+CoreDebug_DCRSR_REGSEL_Msk	./core_cm3.h	1167;"	d
+CoreDebug_DCRSR_REGSEL_Pos	./core_cm3.h	1166;"	d
+CoreDebug_DCRSR_REGWnR_Msk	./core_cm3.h	1164;"	d
+CoreDebug_DCRSR_REGWnR_Pos	./core_cm3.h	1163;"	d
+CoreDebug_DEMCR_MON_EN_Msk	./core_cm3.h	1183;"	d
+CoreDebug_DEMCR_MON_EN_Pos	./core_cm3.h	1182;"	d
+CoreDebug_DEMCR_MON_PEND_Msk	./core_cm3.h	1180;"	d
+CoreDebug_DEMCR_MON_PEND_Pos	./core_cm3.h	1179;"	d
+CoreDebug_DEMCR_MON_REQ_Msk	./core_cm3.h	1174;"	d
+CoreDebug_DEMCR_MON_REQ_Pos	./core_cm3.h	1173;"	d
+CoreDebug_DEMCR_MON_STEP_Msk	./core_cm3.h	1177;"	d
+CoreDebug_DEMCR_MON_STEP_Pos	./core_cm3.h	1176;"	d
+CoreDebug_DEMCR_TRCENA_Msk	./core_cm3.h	1171;"	d
+CoreDebug_DEMCR_TRCENA_Pos	./core_cm3.h	1170;"	d
+CoreDebug_DEMCR_VC_BUSERR_Msk	./core_cm3.h	1192;"	d
+CoreDebug_DEMCR_VC_BUSERR_Pos	./core_cm3.h	1191;"	d
+CoreDebug_DEMCR_VC_CHKERR_Msk	./core_cm3.h	1198;"	d
+CoreDebug_DEMCR_VC_CHKERR_Pos	./core_cm3.h	1197;"	d
+CoreDebug_DEMCR_VC_CORERESET_Msk	./core_cm3.h	1207;"	d
+CoreDebug_DEMCR_VC_CORERESET_Pos	./core_cm3.h	1206;"	d
+CoreDebug_DEMCR_VC_HARDERR_Msk	./core_cm3.h	1186;"	d
+CoreDebug_DEMCR_VC_HARDERR_Pos	./core_cm3.h	1185;"	d
+CoreDebug_DEMCR_VC_INTERR_Msk	./core_cm3.h	1189;"	d
+CoreDebug_DEMCR_VC_INTERR_Pos	./core_cm3.h	1188;"	d
+CoreDebug_DEMCR_VC_MMERR_Msk	./core_cm3.h	1204;"	d
+CoreDebug_DEMCR_VC_MMERR_Pos	./core_cm3.h	1203;"	d
+CoreDebug_DEMCR_VC_NOCPERR_Msk	./core_cm3.h	1201;"	d
+CoreDebug_DEMCR_VC_NOCPERR_Pos	./core_cm3.h	1200;"	d
+CoreDebug_DEMCR_VC_STATERR_Msk	./core_cm3.h	1195;"	d
+CoreDebug_DEMCR_VC_STATERR_Pos	./core_cm3.h	1194;"	d
+CoreDebug_DHCSR_C_DEBUGEN_Msk	./core_cm3.h	1160;"	d
+CoreDebug_DHCSR_C_DEBUGEN_Pos	./core_cm3.h	1159;"	d
+CoreDebug_DHCSR_C_HALT_Msk	./core_cm3.h	1157;"	d
+CoreDebug_DHCSR_C_HALT_Pos	./core_cm3.h	1156;"	d
+CoreDebug_DHCSR_C_MASKINTS_Msk	./core_cm3.h	1151;"	d
+CoreDebug_DHCSR_C_MASKINTS_Pos	./core_cm3.h	1150;"	d
+CoreDebug_DHCSR_C_SNAPSTALL_Msk	./core_cm3.h	1148;"	d
+CoreDebug_DHCSR_C_SNAPSTALL_Pos	./core_cm3.h	1147;"	d
+CoreDebug_DHCSR_C_STEP_Msk	./core_cm3.h	1154;"	d
+CoreDebug_DHCSR_C_STEP_Pos	./core_cm3.h	1153;"	d
+CoreDebug_DHCSR_DBGKEY_Msk	./core_cm3.h	1127;"	d
+CoreDebug_DHCSR_DBGKEY_Pos	./core_cm3.h	1126;"	d
+CoreDebug_DHCSR_S_HALT_Msk	./core_cm3.h	1142;"	d
+CoreDebug_DHCSR_S_HALT_Pos	./core_cm3.h	1141;"	d
+CoreDebug_DHCSR_S_LOCKUP_Msk	./core_cm3.h	1136;"	d
+CoreDebug_DHCSR_S_LOCKUP_Pos	./core_cm3.h	1135;"	d
+CoreDebug_DHCSR_S_REGRDY_Msk	./core_cm3.h	1145;"	d
+CoreDebug_DHCSR_S_REGRDY_Pos	./core_cm3.h	1144;"	d
+CoreDebug_DHCSR_S_RESET_ST_Msk	./core_cm3.h	1130;"	d
+CoreDebug_DHCSR_S_RESET_ST_Pos	./core_cm3.h	1129;"	d
+CoreDebug_DHCSR_S_RETIRE_ST_Msk	./core_cm3.h	1133;"	d
+CoreDebug_DHCSR_S_RETIRE_ST_Pos	./core_cm3.h	1132;"	d
+CoreDebug_DHCSR_S_SLEEP_Msk	./core_cm3.h	1139;"	d
+CoreDebug_DHCSR_S_SLEEP_Pos	./core_cm3.h	1138;"	d
+CoreDebug_Type	./core_cm3.h	/^} CoreDebug_Type;$/;"	t	typeref:struct:__anon18
+Ctrl	./LPC177x_8x.h	/^  __IO uint32_t Ctrl;$/;"	m	struct:__anon54
+DAI	./LPC177x_8x.h	/^  __IO uint32_t DAI;$/;"	m	struct:__anon40
+DAO	./LPC177x_8x.h	/^  __IO uint32_t DAO;$/;"	m	struct:__anon40
+DAT	./LPC177x_8x.h	/^  __IO uint32_t DAT;                    \/*!< Offset: 0x008 I2C Data Register (R\/W) *\/$/;"	m	struct:__anon39
+DATA	./LPC177x_8x.h	/^  __O  uint16_t DATA;$/;"	m	struct:__anon61::__anon62::__anon64
+DATA	./LPC177x_8x.h	/^  __O  uint32_t DATA;$/;"	m	struct:__anon61::__anon62::__anon63
+DATA	./LPC177x_8x.h	/^  __O  uint8_t  DATA;$/;"	m	struct:__anon61::__anon62::__anon65
+DATACNT	./LPC177x_8x.h	/^  __I  uint32_t DATACNT;$/;"	m	struct:__anon47
+DATACTRL	./LPC177x_8x.h	/^  __IO uint32_t DATACTRL;$/;"	m	struct:__anon47
+DATALEN	./LPC177x_8x.h	/^  __IO uint32_t DATALEN;$/;"	m	struct:__anon47
+DATATMR	./LPC177x_8x.h	/^  __IO uint32_t DATATMR;$/;"	m	struct:__anon47
+DATA_BUFFER	./LPC177x_8x.h	/^  __I  uint32_t DATA_BUFFER;            \/*!< Offset: 0x02C Data buffer register ( \/W) *\/$/;"	m	struct:__anon39
+DCRDR	./core_cm3.h	/^  __IO uint32_t DCRDR;                   \/*!< Offset: 0x008 (R\/W)  Debug Core Register Data Register            *\/$/;"	m	struct:__anon18
+DCRSR	./core_cm3.h	/^  __O  uint32_t DCRSR;                   \/*!< Offset: 0x004 ( \/W)  Debug Core Register Selector Register        *\/$/;"	m	struct:__anon18
+DEMCR	./core_cm3.h	/^  __IO uint32_t DEMCR;                   \/*!< Offset: 0x00C (R\/W)  Debug Exception and Monitor Control Register *\/$/;"	m	struct:__anon18
+DEVID	./core_cm3.h	/^  __I  uint32_t DEVID;                   \/*!< Offset: 0xFC8 (R\/ )  TPIU_DEVID *\/$/;"	m	struct:__anon16
+DEVTYPE	./core_cm3.h	/^  __I  uint32_t DEVTYPE;                 \/*!< Offset: 0xFCC (R\/ )  TPIU_DEVTYPE *\/$/;"	m	struct:__anon16
+DFR	./core_cm3.h	/^  __I  uint32_t DFR;                     \/*!< Offset: 0x048 (R\/ )  Debug Feature Register                                *\/$/;"	m	struct:__anon10
+DFSR	./core_cm3.h	/^  __IO uint32_t DFSR;                    \/*!< Offset: 0x030 (R\/W)  Debug Fault Status Register                           *\/$/;"	m	struct:__anon10
+DHCSR	./core_cm3.h	/^  __IO uint32_t DHCSR;                   \/*!< Offset: 0x000 (R\/W)  Debug Halting Control and Status Register    *\/$/;"	m	struct:__anon18
+DIR	./LPC177x_8x.h	/^  __IO uint32_t DIR;$/;"	m	struct:__anon22
+DLL	./LPC177x_8x.h	/^		__IO uint8_t  DLL;$/;"	m	union:__anon26::__anon27
+DLL	./LPC177x_8x.h	/^  __IO uint32_t  DLL;                   \/*!< Offset: 0x000 Divisor Latch LSB (R\/W) *\/$/;"	m	union:__anon34::__anon35
+DLL	./LPC177x_8x.h	/^  __IO uint8_t  DLL;$/;"	m	union:__anon30::__anon31
+DLM	./LPC177x_8x.h	/^		__IO uint8_t  DLM;$/;"	m	union:__anon26::__anon28
+DLM	./LPC177x_8x.h	/^  __IO uint32_t  DLM;                   \/*!< Offset: 0x004 Divisor Latch MSB (R\/W) *\/$/;"	m	union:__anon34::__anon36
+DLM	./LPC177x_8x.h	/^  __IO uint8_t  DLM;$/;"	m	union:__anon30::__anon32
+DMA1	./LPC177x_8x.h	/^  __IO uint32_t DMA1;$/;"	m	struct:__anon40
+DMA2	./LPC177x_8x.h	/^  __IO uint32_t DMA2;$/;"	m	struct:__anon40
+DMACR	./LPC177x_8x.h	/^  __IO uint32_t DMACR;$/;"	m	struct:__anon38
+DMAIntEn	./LPC177x_8x.h	/^  __IO uint32_t DMAIntEn;$/;"	m	struct:__anon54
+DMAIntSt	./LPC177x_8x.h	/^  __I  uint32_t DMAIntSt;$/;"	m	struct:__anon54
+DMARClr	./LPC177x_8x.h	/^  __O  uint32_t DMARClr;$/;"	m	struct:__anon54
+DMAREQSEL	./LPC177x_8x.h	/^  __IO uint32_t DMAREQSEL;                  \/*!< Offset: 0x1C4 (R\/W)  DMA Request Select Register *\/$/;"	m	struct:__anon20
+DMARSet	./LPC177x_8x.h	/^  __O  uint32_t DMARSet;$/;"	m	struct:__anon54
+DMARSt	./LPC177x_8x.h	/^  __I  uint32_t DMARSt;              \/* USB Device DMA Registers           *\/$/;"	m	struct:__anon54
+DMA_IRQHandler	./startup_LPC177x_8x.s	/^DMA_IRQHandler$/;"	l
+DMA_IRQn	./LPC177x_8x.h	/^  DMA_IRQn                      = 26,       \/*!< General Purpose DMA Interrupt                    *\/$/;"	e	enum:IRQn
+DOM	./LPC177x_8x.h	/^  __IO uint8_t  DOM;$/;"	m	struct:__anon41
+DOW	./LPC177x_8x.h	/^  __IO uint8_t  DOW;$/;"	m	struct:__anon41
+DOY	./LPC177x_8x.h	/^  __IO uint16_t DOY;$/;"	m	struct:__anon41
+DR	./LPC177x_8x.h	/^  __IO uint32_t DR;                     \/*!< Offset: 0x008 Data Register (R\/W) *\/$/;"	m	struct:__anon38
+DR	./LPC177x_8x.h	/^  __IO uint32_t DR[8];                  \/*!< Offset: 0x010-0x02C A\/D Channel 0..7 Data Register (R\/W) *\/$/;"	m	struct:__anon43
+DT	./LPC177x_8x.h	/^  __IO uint32_t DT;$/;"	m	struct:__anon45
+DWT	./core_cm3.h	1233;"	d
+DWT_BASE	./core_cm3.h	1221;"	d
+DWT_CPICNT_CPICNT_Msk	./core_cm3.h	810;"	d
+DWT_CPICNT_CPICNT_Pos	./core_cm3.h	809;"	d
+DWT_CTRL_CPIEVTENA_Msk	./core_cm3.h	785;"	d
+DWT_CTRL_CPIEVTENA_Pos	./core_cm3.h	784;"	d
+DWT_CTRL_CYCCNTENA_Msk	./core_cm3.h	806;"	d
+DWT_CTRL_CYCCNTENA_Pos	./core_cm3.h	805;"	d
+DWT_CTRL_CYCEVTENA_Msk	./core_cm3.h	770;"	d
+DWT_CTRL_CYCEVTENA_Pos	./core_cm3.h	769;"	d
+DWT_CTRL_CYCTAP_Msk	./core_cm3.h	797;"	d
+DWT_CTRL_CYCTAP_Pos	./core_cm3.h	796;"	d
+DWT_CTRL_EXCEVTENA_Msk	./core_cm3.h	782;"	d
+DWT_CTRL_EXCEVTENA_Pos	./core_cm3.h	781;"	d
+DWT_CTRL_EXCTRCENA_Msk	./core_cm3.h	788;"	d
+DWT_CTRL_EXCTRCENA_Pos	./core_cm3.h	787;"	d
+DWT_CTRL_FOLDEVTENA_Msk	./core_cm3.h	773;"	d
+DWT_CTRL_FOLDEVTENA_Pos	./core_cm3.h	772;"	d
+DWT_CTRL_LSUEVTENA_Msk	./core_cm3.h	776;"	d
+DWT_CTRL_LSUEVTENA_Pos	./core_cm3.h	775;"	d
+DWT_CTRL_NOCYCCNT_Msk	./core_cm3.h	764;"	d
+DWT_CTRL_NOCYCCNT_Pos	./core_cm3.h	763;"	d
+DWT_CTRL_NOEXTTRIG_Msk	./core_cm3.h	761;"	d
+DWT_CTRL_NOEXTTRIG_Pos	./core_cm3.h	760;"	d
+DWT_CTRL_NOPRFCNT_Msk	./core_cm3.h	767;"	d
+DWT_CTRL_NOPRFCNT_Pos	./core_cm3.h	766;"	d
+DWT_CTRL_NOTRCPKT_Msk	./core_cm3.h	758;"	d
+DWT_CTRL_NOTRCPKT_Pos	./core_cm3.h	757;"	d
+DWT_CTRL_NUMCOMP_Msk	./core_cm3.h	755;"	d
+DWT_CTRL_NUMCOMP_Pos	./core_cm3.h	754;"	d
+DWT_CTRL_PCSAMPLENA_Msk	./core_cm3.h	791;"	d
+DWT_CTRL_PCSAMPLENA_Pos	./core_cm3.h	790;"	d
+DWT_CTRL_POSTINIT_Msk	./core_cm3.h	800;"	d
+DWT_CTRL_POSTINIT_Pos	./core_cm3.h	799;"	d
+DWT_CTRL_POSTPRESET_Msk	./core_cm3.h	803;"	d
+DWT_CTRL_POSTPRESET_Pos	./core_cm3.h	802;"	d
+DWT_CTRL_SLEEPEVTENA_Msk	./core_cm3.h	779;"	d
+DWT_CTRL_SLEEPEVTENA_Pos	./core_cm3.h	778;"	d
+DWT_CTRL_SYNCTAP_Msk	./core_cm3.h	794;"	d
+DWT_CTRL_SYNCTAP_Pos	./core_cm3.h	793;"	d
+DWT_EXCCNT_EXCCNT_Msk	./core_cm3.h	814;"	d
+DWT_EXCCNT_EXCCNT_Pos	./core_cm3.h	813;"	d
+DWT_FOLDCNT_FOLDCNT_Msk	./core_cm3.h	826;"	d
+DWT_FOLDCNT_FOLDCNT_Pos	./core_cm3.h	825;"	d
+DWT_FUNCTION_CYCMATCH_Msk	./core_cm3.h	852;"	d
+DWT_FUNCTION_CYCMATCH_Pos	./core_cm3.h	851;"	d
+DWT_FUNCTION_DATAVADDR0_Msk	./core_cm3.h	840;"	d
+DWT_FUNCTION_DATAVADDR0_Pos	./core_cm3.h	839;"	d
+DWT_FUNCTION_DATAVADDR1_Msk	./core_cm3.h	837;"	d
+DWT_FUNCTION_DATAVADDR1_Pos	./core_cm3.h	836;"	d
+DWT_FUNCTION_DATAVMATCH_Msk	./core_cm3.h	849;"	d
+DWT_FUNCTION_DATAVMATCH_Pos	./core_cm3.h	848;"	d
+DWT_FUNCTION_DATAVSIZE_Msk	./core_cm3.h	843;"	d
+DWT_FUNCTION_DATAVSIZE_Pos	./core_cm3.h	842;"	d
+DWT_FUNCTION_EMITRANGE_Msk	./core_cm3.h	855;"	d
+DWT_FUNCTION_EMITRANGE_Pos	./core_cm3.h	854;"	d
+DWT_FUNCTION_FUNCTION_Msk	./core_cm3.h	858;"	d
+DWT_FUNCTION_FUNCTION_Pos	./core_cm3.h	857;"	d
+DWT_FUNCTION_LNK1ENA_Msk	./core_cm3.h	846;"	d
+DWT_FUNCTION_LNK1ENA_Pos	./core_cm3.h	845;"	d
+DWT_FUNCTION_MATCHED_Msk	./core_cm3.h	834;"	d
+DWT_FUNCTION_MATCHED_Pos	./core_cm3.h	833;"	d
+DWT_LSUCNT_LSUCNT_Msk	./core_cm3.h	822;"	d
+DWT_LSUCNT_LSUCNT_Pos	./core_cm3.h	821;"	d
+DWT_MASK_MASK_Msk	./core_cm3.h	830;"	d
+DWT_MASK_MASK_Pos	./core_cm3.h	829;"	d
+DWT_SLEEPCNT_SLEEPCNT_Msk	./core_cm3.h	818;"	d
+DWT_SLEEPCNT_SLEEPCNT_Pos	./core_cm3.h	817;"	d
+DWT_Type	./core_cm3.h	/^} DWT_Type;$/;"	t	typeref:struct:__anon15
+DebugMonitor_IRQn	./LPC177x_8x.h	/^  DebugMonitor_IRQn             = -4,       \/*!< 12 Cortex-M3 Debug Monitor Interrupt             *\/$/;"	e	enum:IRQn
+Default_Handler	./startup_LPC177x_8x.s	/^Default_Handler PROC$/;"	l
+DevIntClr	./LPC177x_8x.h	/^  __O  uint32_t DevIntClr;$/;"	m	struct:__anon54
+DevIntEn	./LPC177x_8x.h	/^  __IO uint32_t DevIntEn;$/;"	m	struct:__anon54
+DevIntPri	./LPC177x_8x.h	/^  __O  uint32_t DevIntPri;$/;"	m	struct:__anon54
+DevIntSet	./LPC177x_8x.h	/^  __O  uint32_t DevIntSet;$/;"	m	struct:__anon54
+DevIntSt	./LPC177x_8x.h	/^  __I  uint32_t DevIntSt;            \/* USB Device Interrupt Registers     *\/$/;"	m	struct:__anon54
+DoneHead	./LPC177x_8x.h	/^  __I  uint32_t DoneHead;$/;"	m	struct:__anon54
+DynamicAPR	./LPC177x_8x.h	/^  __IO uint32_t DynamicAPR;$/;"	m	struct:__anon60
+DynamicConfig0	./LPC177x_8x.h	/^  __IO uint32_t DynamicConfig0;$/;"	m	struct:__anon60
+DynamicConfig1	./LPC177x_8x.h	/^  __IO uint32_t DynamicConfig1;$/;"	m	struct:__anon60
+DynamicConfig2	./LPC177x_8x.h	/^  __IO uint32_t DynamicConfig2;$/;"	m	struct:__anon60
+DynamicConfig3	./LPC177x_8x.h	/^  __IO uint32_t DynamicConfig3;$/;"	m	struct:__anon60
+DynamicControl	./LPC177x_8x.h	/^  __IO uint32_t DynamicControl;$/;"	m	struct:__anon60
+DynamicDAL	./LPC177x_8x.h	/^  __IO uint32_t DynamicDAL;$/;"	m	struct:__anon60
+DynamicMRD	./LPC177x_8x.h	/^  __IO uint32_t DynamicMRD;$/;"	m	struct:__anon60
+DynamicRAS	./LPC177x_8x.h	/^  __IO uint32_t DynamicRAS;$/;"	m	struct:__anon60
+DynamicRC	./LPC177x_8x.h	/^  __IO uint32_t DynamicRC;$/;"	m	struct:__anon60
+DynamicRFC	./LPC177x_8x.h	/^  __IO uint32_t DynamicRFC;$/;"	m	struct:__anon60
+DynamicRP	./LPC177x_8x.h	/^  __IO uint32_t DynamicRP;$/;"	m	struct:__anon60
+DynamicRRD	./LPC177x_8x.h	/^  __IO uint32_t DynamicRRD;$/;"	m	struct:__anon60
+DynamicRasCas0	./LPC177x_8x.h	/^  __IO uint32_t DynamicRasCas0;$/;"	m	struct:__anon60
+DynamicRasCas1	./LPC177x_8x.h	/^  __IO uint32_t DynamicRasCas1;$/;"	m	struct:__anon60
+DynamicRasCas2	./LPC177x_8x.h	/^  __IO uint32_t DynamicRasCas2;$/;"	m	struct:__anon60
+DynamicRasCas3	./LPC177x_8x.h	/^  __IO uint32_t DynamicRasCas3;$/;"	m	struct:__anon60
+DynamicReadConfig	./LPC177x_8x.h	/^  __IO uint32_t DynamicReadConfig;$/;"	m	struct:__anon60
+DynamicRefresh	./LPC177x_8x.h	/^  __IO uint32_t DynamicRefresh;$/;"	m	struct:__anon60
+DynamicSREX	./LPC177x_8x.h	/^  __IO uint32_t DynamicSREX;$/;"	m	struct:__anon60
+DynamicWR	./LPC177x_8x.h	/^  __IO uint32_t DynamicWR;$/;"	m	struct:__anon60
+DynamicXSR	./LPC177x_8x.h	/^  __IO uint32_t DynamicXSR;$/;"	m	struct:__anon60
+EBSY	./ebsy.h	9;"	d
+EEPROM_IRQHandler	./startup_LPC177x_8x.s	/^EEPROM_IRQHandler$/;"	l
+EEPROM_IRQn	./LPC177x_8x.h	/^  EEPROM_IRQn                   = 40,       \/*!< EEPROM Interrupt                           *\/$/;"	e	enum:IRQn
+EFF_GRP_sa	./LPC177x_8x.h	/^	__IO uint32_t EFF_GRP_sa;$/;"	m	struct:__anon49
+EFF_sa	./LPC177x_8x.h	/^	__IO uint32_t EFF_sa;$/;"	m	struct:__anon49
+EINT0_IRQHandler	./startup_LPC177x_8x.s	/^EINT0_IRQHandler$/;"	l
+EINT0_IRQn	./LPC177x_8x.h	/^  EINT0_IRQn                    = 18,       \/*!< External Interrupt 0 Interrupt                   *\/$/;"	e	enum:IRQn
+EINT1_IRQHandler	./startup_LPC177x_8x.s	/^EINT1_IRQHandler$/;"	l
+EINT1_IRQn	./LPC177x_8x.h	/^  EINT1_IRQn                    = 19,       \/*!< External Interrupt 1 Interrupt                   *\/$/;"	e	enum:IRQn
+EINT2_IRQHandler	./startup_LPC177x_8x.s	/^EINT2_IRQHandler$/;"	l
+EINT2_IRQn	./LPC177x_8x.h	/^  EINT2_IRQn                    = 20,       \/*!< External Interrupt 2 Interrupt                   *\/$/;"	e	enum:IRQn
+EINT3_IRQHandler	./startup_LPC177x_8x.s	/^EINT3_IRQHandler$/;"	l
+EINT3_IRQn	./LPC177x_8x.h	/^  EINT3_IRQn                    = 21,       \/*!< External Interrupt 3 Interrupt                   *\/$/;"	e	enum:IRQn
+EMCCAL	./LPC177x_8x.h	/^  __IO uint32_t EMCCAL;                     \/*!< Offset: 0x1E0 (R\/W) Calibration of programmable delays *\/$/;"	m	struct:__anon20
+EMCCLKSEL	./LPC177x_8x.h	/^  __IO uint32_t EMCCLKSEL;                  \/*!< Offset: 0x100 (R\/W)  External Memory Controller Clock Selection Register *\/$/;"	m	struct:__anon20
+EMCCLKSEL_Val	./system_LPC177x_8x.c	228;"	d	file:
+EMCClock	./system_LPC177x_8x.c	/^uint32_t EMCClock		 = __EMC_CLK; \/*!< EMC Clock Frequency 				  *\/$/;"	v
+EMCDLYCTL	./LPC177x_8x.h	/^  __IO uint32_t EMCDLYCTL;                  \/*!< Offset: 0x1DC (R\/W) SDRAM programmable delays          *\/$/;"	m	struct:__anon20
+EMR	./LPC177x_8x.h	/^  __IO uint32_t EMR;                    \/*!< Offset: 0x03C External Match Register (R\/W) *\/$/;"	m	struct:__anon24
+ENDofTable	./LPC177x_8x.h	/^	__IO uint32_t ENDofTable;$/;"	m	struct:__anon49
+ENET_IRQHandler	./startup_LPC177x_8x.s	/^ENET_IRQHandler$/;"	l
+ENET_IRQn	./LPC177x_8x.h	/^  ENET_IRQn                     = 28,       \/*!< Ethernet Interrupt                               *\/$/;"	e	enum:IRQn
+ERCONTROL	./LPC177x_8x.h	/^  __IO uint32_t ERCONTROL;$/;"	m	struct:__anon41
+ERCOUNTERS	./LPC177x_8x.h	/^  __IO uint32_t ERCOUNTERS;$/;"	m	struct:__anon41
+ERFIRSTSTAMP0	./LPC177x_8x.h	/^  __IO uint32_t ERFIRSTSTAMP0;$/;"	m	struct:__anon41
+ERFIRSTSTAMP1	./LPC177x_8x.h	/^  __IO uint32_t ERFIRSTSTAMP1;$/;"	m	struct:__anon41
+ERFIRSTSTAMP2	./LPC177x_8x.h	/^  __IO uint32_t ERFIRSTSTAMP2;$/;"	m	struct:__anon41
+ERLASTSTAMP0	./LPC177x_8x.h	/^  __IO uint32_t ERLASTSTAMP0;$/;"	m	struct:__anon41
+ERLASTSTAMP1	./LPC177x_8x.h	/^  __IO uint32_t ERLASTSTAMP1;$/;"	m	struct:__anon41
+ERLASTSTAMP2	./LPC177x_8x.h	/^  __IO uint32_t ERLASTSTAMP2;$/;"	m	struct:__anon41
+ERSTATUS	./LPC177x_8x.h	/^  __IO uint32_t ERSTATUS;$/;"	m	struct:__anon41
+EWL	./LPC177x_8x.h	/^	__IO uint32_t EWL;$/;"	m	struct:__anon51
+EXCCNT	./core_cm3.h	/^  __IO uint32_t EXCCNT;                  \/*!< Offset: 0x00C (R\/W)  Exception Overhead Count Register         *\/$/;"	m	struct:__anon15
+EXTINT	./LPC177x_8x.h	/^  __IO uint32_t EXTINT;                     \/*!< Offset: 0x140 (R\/W)  External Interrupt Flag Register *\/$/;"	m	struct:__anon20
+EXTMODE	./LPC177x_8x.h	/^  __IO uint32_t EXTMODE;                    \/*!< Offset: 0x148 (R\/W)  External Interrupt Mode Register *\/$/;"	m	struct:__anon20
+EXTPOLAR	./LPC177x_8x.h	/^  __IO uint32_t EXTPOLAR;                   \/*!< Offset: 0x14C (R\/W)  External Interrupt Polarity Register *\/$/;"	m	struct:__anon20
+EnbldChns	./LPC177x_8x.h	/^  __I  uint32_t EnbldChns;$/;"	m	struct:__anon52
+EoTIntClr	./LPC177x_8x.h	/^  __O  uint32_t EoTIntClr;$/;"	m	struct:__anon54
+EoTIntSet	./LPC177x_8x.h	/^  __O  uint32_t EoTIntSet;$/;"	m	struct:__anon54
+EoTIntSt	./LPC177x_8x.h	/^  __I  uint32_t EoTIntSt;$/;"	m	struct:__anon54
+EpDMADis	./LPC177x_8x.h	/^  __O  uint32_t EpDMADis;$/;"	m	struct:__anon54
+EpDMAEn	./LPC177x_8x.h	/^  __O  uint32_t EpDMAEn;$/;"	m	struct:__anon54
+EpDMASt	./LPC177x_8x.h	/^  __I  uint32_t EpDMASt;$/;"	m	struct:__anon54
+EpInd	./LPC177x_8x.h	/^  __O  uint32_t EpInd;$/;"	m	struct:__anon54
+EpIntClr	./LPC177x_8x.h	/^  __O  uint32_t EpIntClr;$/;"	m	struct:__anon54
+EpIntEn	./LPC177x_8x.h	/^  __IO uint32_t EpIntEn;$/;"	m	struct:__anon54
+EpIntPri	./LPC177x_8x.h	/^  __O  uint32_t EpIntPri;$/;"	m	struct:__anon54
+EpIntSet	./LPC177x_8x.h	/^  __O  uint32_t EpIntSet;$/;"	m	struct:__anon54
+EpIntSt	./LPC177x_8x.h	/^  __I  uint32_t EpIntSt;             \/* USB Device Endpoint Interrupt Regs *\/$/;"	m	struct:__anon54
+FCANIC0	./LPC177x_8x.h	/^	__IO uint32_t FCANIC0;$/;"	m	struct:__anon49
+FCANIC1	./LPC177x_8x.h	/^	__IO uint32_t FCANIC1;$/;"	m	struct:__anon49
+FCANIE	./LPC177x_8x.h	/^	__IO uint32_t FCANIE;$/;"	m	struct:__anon49
+FCR	./LPC177x_8x.h	/^		__O  uint8_t  FCR;$/;"	m	union:__anon26::__anon29
+FCR	./LPC177x_8x.h	/^  __O  uint32_t  FCR;                   \/*!< Offset: 0x008 FIFO Control Register ( \/W) *\/$/;"	m	union:__anon34::__anon37
+FCR	./LPC177x_8x.h	/^  __O  uint8_t  FCR;$/;"	m	union:__anon30::__anon33
+FDR	./LPC177x_8x.h	/^	__IO uint8_t  FDR;$/;"	m	struct:__anon26
+FDR	./LPC177x_8x.h	/^  __IO uint32_t  FDR;                   \/*!< Offset: 0x028 Fractional Divider Register (R\/W) *\/$/;"	m	struct:__anon34
+FDR	./LPC177x_8x.h	/^  __IO uint32_t FDR;$/;"	m	struct:__anon30
+FEED	./LPC177x_8x.h	/^  __O  uint8_t  FEED;$/;"	m	struct:__anon42
+FFCR	./core_cm3.h	/^  __IO uint32_t FFCR;                    \/*!< Offset: 0x304 (R\/W)  Formatter and Flush Control Register *\/$/;"	m	struct:__anon16
+FFSR	./core_cm3.h	/^  __I  uint32_t FFSR;                    \/*!< Offset: 0x300 (R\/ )  Formatter and Flush Status Register *\/$/;"	m	struct:__anon16
+FIFO	./LPC177x_8x.h	/^  __IO uint32_t FIFO;$/;"	m	struct:__anon47
+FIFO0	./core_cm3.h	/^  __I  uint32_t FIFO0;                   \/*!< Offset: 0xEEC (R\/ )  Integration ETM Data *\/$/;"	m	struct:__anon16
+FIFO1	./core_cm3.h	/^  __I  uint32_t FIFO1;                   \/*!< Offset: 0xEFC (R\/ )  Integration ITM Data *\/$/;"	m	struct:__anon16
+FIFOCNT	./LPC177x_8x.h	/^  __I  uint32_t FIFOCNT;$/;"	m	struct:__anon47
+FIFOLVL	./LPC177x_8x.h	/^	__I  uint8_t  FIFOLVL;$/;"	m	struct:__anon26
+FIFOLVL	./LPC177x_8x.h	/^  __I  uint8_t  FIFOLVL;$/;"	m	struct:__anon30
+FILTERINX	./LPC177x_8x.h	/^  __IO uint32_t FILTERINX;$/;"	m	struct:__anon46
+FILTERPHA	./LPC177x_8x.h	/^  __IO uint32_t FILTERPHA;$/;"	m	struct:__anon46
+FILTERPHB	./LPC177x_8x.h	/^  __IO uint32_t FILTERPHB;$/;"	m	struct:__anon46
+FLASHCFG	./LPC177x_8x.h	/^  __IO uint32_t FLASHCFG;                   \/*!< Offset: 0x000 (R\/W)  Flash Accelerator Configuration Register *\/$/;"	m	struct:__anon20
+FLASHCFG_Val	./system_LPC177x_8x.c	248;"	d	file:
+FLASH_SETUP	./system_LPC177x_8x.c	247;"	d	file:
+FOLDCNT	./core_cm3.h	/^  __IO uint32_t FOLDCNT;                 \/*!< Offset: 0x018 (R\/W)  Folded-instruction Count Register         *\/$/;"	m	struct:__anon15
+FORK	./fork.h	2;"	d
+FPCA	./core_cm3.h	/^    uint32_t FPCA:1;                     \/*!< bit:      2  FP extension active flag           *\/$/;"	m	struct:__anon7::__anon8
+FSCR	./core_cm3.h	/^  __I  uint32_t FSCR;                    \/*!< Offset: 0x308 (R\/ )  Formatter Synchronization Counter Register *\/$/;"	m	struct:__anon16
+FUNCTION0	./core_cm3.h	/^  __IO uint32_t FUNCTION0;               \/*!< Offset: 0x028 (R\/W)  Function Register 0                       *\/$/;"	m	struct:__anon15
+FUNCTION1	./core_cm3.h	/^  __IO uint32_t FUNCTION1;               \/*!< Offset: 0x038 (R\/W)  Function Register 1                       *\/$/;"	m	struct:__anon15
+FUNCTION2	./core_cm3.h	/^  __IO uint32_t FUNCTION2;               \/*!< Offset: 0x048 (R\/W)  Function Register 2                       *\/$/;"	m	struct:__anon15
+FUNCTION3	./core_cm3.h	/^  __IO uint32_t FUNCTION3;               \/*!< Offset: 0x058 (R\/W)  Function Register 3                       *\/$/;"	m	struct:__anon15
+FlowControlCounter	./LPC177x_8x.h	/^  __IO uint32_t FlowControlCounter;$/;"	m	struct:__anon58
+FlowControlStatus	./LPC177x_8x.h	/^  __I  uint32_t FlowControlStatus;$/;"	m	struct:__anon58
+FmInterval	./LPC177x_8x.h	/^  __IO uint32_t FmInterval;$/;"	m	struct:__anon54
+FmNumber	./LPC177x_8x.h	/^  __I  uint32_t FmNumber;$/;"	m	struct:__anon54
+FmRemaining	./LPC177x_8x.h	/^  __I  uint32_t FmRemaining;$/;"	m	struct:__anon54
+Func	./ebsy.h	/^		void (*Func)(void);$/;"	m	struct:__anon19
+GDR	./LPC177x_8x.h	/^  __IO uint32_t GDR;                    \/*!< Offset: 0x004       A\/D Global Data Register (R\/W) *\/$/;"	m	struct:__anon43
+GE	./core_cm3.h	/^    uint32_t GE:4;                       \/*!< bit: 16..19  Greater than or Equal flags        *\/$/;"	m	struct:__anon5::__anon6
+GPIO_IRQHandler	./startup_LPC177x_8x.s	/^GPIO_IRQHandler$/;"	l
+GPIO_IRQn	./LPC177x_8x.h	/^  GPIO_IRQn                     = 38,       \/*!< GPIO Interrupt                                   *\/$/;"	e	enum:IRQn
+GPREG0	./LPC177x_8x.h	/^  __IO uint32_t GPREG0;$/;"	m	struct:__anon41
+GPREG1	./LPC177x_8x.h	/^  __IO uint32_t GPREG1;$/;"	m	struct:__anon41
+GPREG2	./LPC177x_8x.h	/^  __IO uint32_t GPREG2;$/;"	m	struct:__anon41
+GPREG3	./LPC177x_8x.h	/^  __IO uint32_t GPREG3;$/;"	m	struct:__anon41
+GPREG4	./LPC177x_8x.h	/^  __IO uint32_t GPREG4;$/;"	m	struct:__anon41
+GSR	./LPC177x_8x.h	/^	__IO uint32_t GSR;$/;"	m	struct:__anon51
+HCCA	./LPC177x_8x.h	/^  __IO uint32_t HCCA;$/;"	m	struct:__anon54
+HDEN	./LPC177x_8x.h	/^  __IO uint32_t  HDEN;                  \/*!< Offset: 0x040 Half duplex Enable Register (R\/W) *\/$/;"	m	struct:__anon34
+HELPERS	./helpers.h	2;"	d
+HFSR	./core_cm3.h	/^  __IO uint32_t HFSR;                    \/*!< Offset: 0x02C (R\/W)  HardFault Status Register                             *\/$/;"	m	struct:__anon10
+HOUR	./LPC177x_8x.h	/^  __IO uint8_t  HOUR;$/;"	m	struct:__anon41
+HardFault_Handler	./exceptions.c	/^void HardFault_Handler(void) {$/;"	f
+HardFault_Handler	./handlers.c	/^void HardFault_Handler(void) {$/;"	f
+HardFault_IRQn	./LPC177x_8x.h	/^  HardFault_IRQn                = -13,      \/*!< 3  Hard Fault, all classes of Fault              *\/$/;"	e	enum:IRQn
+HashFilterH	./LPC177x_8x.h	/^  __IO uint32_t HashFilterH;$/;"	m	struct:__anon58
+HashFilterL	./LPC177x_8x.h	/^  __IO uint32_t HashFilterL;$/;"	m	struct:__anon58
+Heap_Mem	./startup_LPC177x_8x.s	/^Heap_Mem        SPACE   Heap_Size$/;"	l
+Heap_Size	./startup_LPC177x_8x.s	/^Heap_Size       EQU     0x00000400$/;"	d
+I2C0_IRQHandler	./startup_LPC177x_8x.s	/^I2C0_IRQHandler$/;"	l
+I2C0_IRQn	./LPC177x_8x.h	/^  I2C0_IRQn                     = 10,       \/*!< I2C0 Interrupt                                   *\/$/;"	e	enum:IRQn
+I2C1_IRQHandler	./startup_LPC177x_8x.s	/^I2C1_IRQHandler$/;"	l
+I2C1_IRQn	./LPC177x_8x.h	/^  I2C1_IRQn                     = 11,       \/*!< I2C1 Interrupt                                   *\/$/;"	e	enum:IRQn
+I2C2_IRQHandler	./startup_LPC177x_8x.s	/^I2C2_IRQHandler$/;"	l
+I2C2_IRQn	./LPC177x_8x.h	/^  I2C2_IRQn                     = 12,       \/*!< I2C2 Interrupt                                   *\/$/;"	e	enum:IRQn
+I2C_CLKHI	./LPC177x_8x.h	/^  __IO uint32_t I2C_CLKHI;$/;"	m	struct:__anon54
+I2C_CLKLO	./LPC177x_8x.h	/^  __O  uint32_t I2C_CLKLO;$/;"	m	struct:__anon54
+I2C_CTL	./LPC177x_8x.h	/^  __IO uint32_t I2C_CTL;$/;"	m	struct:__anon54
+I2C_RX	./LPC177x_8x.h	/^  __I  uint32_t I2C_RX;                 \/* USB OTG I2C Registers              *\/$/;"	m	union:__anon54::__anon55
+I2C_STS	./LPC177x_8x.h	/^  __IO  uint32_t I2C_STS;$/;"	m	struct:__anon54
+I2C_TX	./LPC177x_8x.h	/^  __O  uint32_t I2C_TX;$/;"	m	union:__anon54::__anon55
+I2S_IRQHandler	./startup_LPC177x_8x.s	/^I2S_IRQHandler$/;"	l
+I2S_IRQn	./LPC177x_8x.h	/^  I2S_IRQn                      = 27,       \/*!< I2S Interrupt                                    *\/$/;"	e	enum:IRQn
+IABR	./core_cm3.h	/^  __IO uint32_t IABR[8];                 \/*!< Offset: 0x200 (R\/W)  Interrupt Active bit Register           *\/$/;"	m	struct:__anon9
+ICER	./core_cm3.h	/^  __IO uint32_t ICER[8];                 \/*!< Offset: 0x080 (R\/W)  Interrupt Clear Enable Register         *\/$/;"	m	struct:__anon9
+ICPR	./core_cm3.h	/^  __IO uint32_t ICPR[8];                 \/*!< Offset: 0x180 (R\/W)  Interrupt Clear Pending Register        *\/$/;"	m	struct:__anon9
+ICR	./LPC177x_8x.h	/^	__I  uint32_t ICR;$/;"	m	struct:__anon51
+ICR	./LPC177x_8x.h	/^	__IO uint8_t  ICR;$/;"	m	struct:__anon26
+ICR	./LPC177x_8x.h	/^  __IO uint32_t  ICR;                   \/*!< Offset: 0x024 irDA Control Register (R\/W) *\/$/;"	m	struct:__anon34
+ICR	./LPC177x_8x.h	/^  __IO uint32_t ICR;                    \/*!< Offset: 0x020 SSPICR Interrupt Clear Register (R\/W) *\/$/;"	m	struct:__anon38
+ICSR	./core_cm3.h	/^  __IO uint32_t ICSR;                    \/*!< Offset: 0x004 (R\/W)  Interrupt Control and State Register                  *\/$/;"	m	struct:__anon10
+ICTR	./core_cm3.h	/^  __I  uint32_t ICTR;                    \/*!< Offset: 0x004 (R\/ )  Interrupt Controller Type Register      *\/$/;"	m	struct:__anon11
+IE	./LPC177x_8x.h	/^  __I  uint32_t IE;$/;"	m	struct:__anon46
+IEC	./LPC177x_8x.h	/^  __O  uint32_t IEC;$/;"	m	struct:__anon46
+IER	./LPC177x_8x.h	/^		__IO uint32_t IER;$/;"	m	union:__anon26::__anon28
+IER	./LPC177x_8x.h	/^	__IO uint32_t IER;$/;"	m	struct:__anon51
+IER	./LPC177x_8x.h	/^  __IO uint32_t  IER;                   \/*!< Offset: 0x000 Interrupt Enable Register (R\/W) *\/$/;"	m	union:__anon34::__anon36
+IER	./LPC177x_8x.h	/^  __IO uint32_t IER;$/;"	m	union:__anon30::__anon32
+IES	./LPC177x_8x.h	/^  __O  uint32_t IES;$/;"	m	struct:__anon46
+IIR	./LPC177x_8x.h	/^		__I  uint32_t IIR;$/;"	m	union:__anon26::__anon29
+IIR	./LPC177x_8x.h	/^  __I  uint32_t  IIR;                   \/*!< Offset: 0x008 Interrupt ID Register (R\/ ) *\/$/;"	m	union:__anon34::__anon37
+IIR	./LPC177x_8x.h	/^  __I  uint32_t IIR;$/;"	m	union:__anon30::__anon33
+ILR	./LPC177x_8x.h	/^  __IO uint8_t  ILR;$/;"	m	struct:__anon41
+IMCR	./core_cm3.h	/^  __IO uint32_t IMCR;                    \/*!< Offset: 0xF00 (R\/W)  ITM Integration Mode Control Register     *\/$/;"	m	struct:__anon13
+IMSC	./LPC177x_8x.h	/^  __IO uint32_t IMSC;                   \/*!< Offset: 0x014 Interrupt Mask Set and Clear Register (R\/W) *\/$/;"	m	struct:__anon38
+INTCE	./LPC177x_8x.h	/^  __O  uint32_t  INTCE;                 \/*!< Offset: 0xFD8 Interrupt Clear Enable Register (W) *\/$/;"	m	struct:__anon34
+INTCLR	./LPC177x_8x.h	/^  __O  uint32_t INTCLR;$/;"	m	struct:__anon59
+INTCS	./LPC177x_8x.h	/^  __O  uint32_t  INTCS;                 \/*!< Offset: 0xFE8 Interrupt Clear Status Register (W) *\/$/;"	m	struct:__anon34
+INTE	./LPC177x_8x.h	/^  __I  uint32_t  INTE;                  \/*!< Offset: 0xFE4 Interrupt Enable Register (R) *\/$/;"	m	struct:__anon34
+INTEN	./LPC177x_8x.h	/^  __I  uint32_t INTEN;$/;"	m	struct:__anon45
+INTEN	./LPC177x_8x.h	/^  __IO uint32_t INTEN;                  \/*!< Offset: 0x00C       A\/D Interrupt Enable Register (R\/W) *\/$/;"	m	struct:__anon43
+INTEN_CLR	./LPC177x_8x.h	/^  __O  uint32_t INTEN_CLR;$/;"	m	struct:__anon45
+INTEN_SET	./LPC177x_8x.h	/^  __O  uint32_t INTEN_SET;$/;"	m	struct:__anon45
+INTF	./LPC177x_8x.h	/^  __I  uint32_t INTF;$/;"	m	struct:__anon45
+INTF_CLR	./LPC177x_8x.h	/^  __O  uint32_t INTF_CLR;$/;"	m	struct:__anon45
+INTF_SET	./LPC177x_8x.h	/^  __O  uint32_t INTF_SET;$/;"	m	struct:__anon45
+INTMSK	./LPC177x_8x.h	/^  __IO uint32_t INTMSK;$/;"	m	struct:__anon59
+INTRAW	./LPC177x_8x.h	/^  __I  uint32_t INTRAW;$/;"	m	struct:__anon59
+INTS	./LPC177x_8x.h	/^  __I  uint32_t  INTS;                  \/*!< Offset: 0xFE0 Interrupt Status Register (R) *\/$/;"	m	struct:__anon34
+INTSE	./LPC177x_8x.h	/^  __O  uint32_t  INTSE;                 \/*!< Offset: 0xFDC Interrupt Set Enable Register (W) *\/$/;"	m	struct:__anon34
+INTSS	./LPC177x_8x.h	/^  __O  uint32_t  INTSS;                 \/*!< Offset: 0xFEC Interrupt Set Status Register (W) *\/$/;"	m	struct:__anon34
+INTSTAT	./LPC177x_8x.h	/^  __I  uint32_t INTSTAT;$/;"	m	struct:__anon46
+INTSTAT	./LPC177x_8x.h	/^  __I  uint32_t INTSTAT;$/;"	m	struct:__anon59
+INT_CLR_ENABLE	./LPC177x_8x.h	/^  __IO uint32_t INT_CLR_ENABLE;	\/* 0x0FD8 *\/$/;"	m	struct:__anon66
+INT_CLR_STATUS	./LPC177x_8x.h	/^  __IO uint32_t INT_CLR_STATUS;$/;"	m	struct:__anon66
+INT_ENABLE	./LPC177x_8x.h	/^  __IO uint32_t INT_ENABLE;$/;"	m	struct:__anon66
+INT_SET_ENABLE	./LPC177x_8x.h	/^  __IO uint32_t INT_SET_ENABLE;$/;"	m	struct:__anon66
+INT_SET_STATUS	./LPC177x_8x.h	/^  __IO uint32_t INT_SET_STATUS;$/;"	m	struct:__anon66
+INT_STATUS	./LPC177x_8x.h	/^  __IO uint32_t INT_STATUS;		\/* 0x0FE0 *\/$/;"	m	struct:__anon66
+INXCMP0	./LPC177x_8x.h	/^  __IO uint32_t INXCMP0;$/;"	m	struct:__anon46
+INXCMP1	./LPC177x_8x.h	/^  __IO uint32_t INXCMP1;$/;"	m	struct:__anon46
+INXCMP2	./LPC177x_8x.h	/^  __IO uint32_t INXCMP2;$/;"	m	struct:__anon46
+INXCNT	./LPC177x_8x.h	/^  __I  uint32_t INXCNT;$/;"	m	struct:__anon46
+IO0IntClr	./LPC177x_8x.h	/^  __O  uint32_t IO0IntClr;$/;"	m	struct:__anon23
+IO0IntEnF	./LPC177x_8x.h	/^  __IO uint32_t IO0IntEnF;$/;"	m	struct:__anon23
+IO0IntEnR	./LPC177x_8x.h	/^  __IO uint32_t IO0IntEnR;$/;"	m	struct:__anon23
+IO0IntStatF	./LPC177x_8x.h	/^  __I  uint32_t IO0IntStatF;$/;"	m	struct:__anon23
+IO0IntStatR	./LPC177x_8x.h	/^  __I  uint32_t IO0IntStatR;$/;"	m	struct:__anon23
+IO2IntClr	./LPC177x_8x.h	/^  __O  uint32_t IO2IntClr;$/;"	m	struct:__anon23
+IO2IntEnF	./LPC177x_8x.h	/^  __IO uint32_t IO2IntEnF;$/;"	m	struct:__anon23
+IO2IntEnR	./LPC177x_8x.h	/^  __IO uint32_t IO2IntEnR;$/;"	m	struct:__anon23
+IO2IntStatF	./LPC177x_8x.h	/^  __I  uint32_t IO2IntStatF;$/;"	m	struct:__anon23
+IO2IntStatR	./LPC177x_8x.h	/^  __I  uint32_t IO2IntStatR;$/;"	m	struct:__anon23
+IP	./core_cm3.h	/^  __IO uint8_t  IP[240];                 \/*!< Offset: 0x300 (R\/W)  Interrupt Priority Register (8Bit wide) *\/$/;"	m	struct:__anon9
+IPGR	./LPC177x_8x.h	/^  __IO uint32_t IPGR;$/;"	m	struct:__anon58
+IPGT	./LPC177x_8x.h	/^  __IO uint32_t IPGT;$/;"	m	struct:__anon58
+IPSR_Type	./core_cm3.h	/^} IPSR_Type;$/;"	t	typeref:union:__anon3
+IR	./LPC177x_8x.h	/^  __IO uint32_t IR;                     \/*!< Offset: 0x000 Interrupt Register (R\/W) *\/$/;"	m	struct:__anon24
+IR	./LPC177x_8x.h	/^  __IO uint32_t IR;                     \/*!< Offset: 0x000 Interrupt Register (R\/W) *\/$/;"	m	struct:__anon25
+IRCTRIM	./LPC177x_8x.h	/^  __IO uint32_t IRCTRIM;                    \/*!< Offset: 0x1A4 (R\/W) Clock Dividers                     *\/$/;"	m	struct:__anon20
+IRC_OSC	./system_LPC177x_8x.h	70;"	d
+IRQ	./LPC177x_8x.h	/^  __IO uint32_t IRQ;$/;"	m	struct:__anon40
+IRQn	./LPC177x_8x.h	/^typedef enum IRQn$/;"	g
+IRQn_Type	./LPC177x_8x.h	/^} IRQn_Type;$/;"	t	typeref:enum:IRQn
+IRR	./core_cm3.h	/^  __I  uint32_t IRR;                     \/*!< Offset: 0xEFC (R\/ )  ITM Integration Read Register             *\/$/;"	m	struct:__anon13
+ISAR	./core_cm3.h	/^  __I  uint32_t ISAR[5];                 \/*!< Offset: 0x060 (R\/ )  Instruction Set Attributes Register                   *\/$/;"	m	struct:__anon10
+ISER	./core_cm3.h	/^  __IO uint32_t ISER[8];                 \/*!< Offset: 0x000 (R\/W)  Interrupt Set Enable Register           *\/$/;"	m	struct:__anon9
+ISPR	./core_cm3.h	/^  __IO uint32_t ISPR[8];                 \/*!< Offset: 0x100 (R\/W)  Interrupt Set Pending Register          *\/$/;"	m	struct:__anon9
+ISR	./core_cm3.h	/^    uint32_t ISR:9;                      \/*!< bit:  0.. 8  Exception number                   *\/$/;"	m	struct:__anon3::__anon4
+ISR	./core_cm3.h	/^    uint32_t ISR:9;                      \/*!< bit:  0.. 8  Exception number                   *\/$/;"	m	struct:__anon5::__anon6
+IT	./core_cm3.h	/^    uint32_t IT:2;                       \/*!< bit: 25..26  saved IT state   (read 0)          *\/$/;"	m	struct:__anon5::__anon6
+ITATBCTR0	./core_cm3.h	/^  __I  uint32_t ITATBCTR0;               \/*!< Offset: 0xEF8 (R\/ )  ITATBCTR0 *\/$/;"	m	struct:__anon16
+ITATBCTR2	./core_cm3.h	/^  __I  uint32_t ITATBCTR2;               \/*!< Offset: 0xEF0 (R\/ )  ITATBCTR2 *\/$/;"	m	struct:__anon16
+ITCTRL	./core_cm3.h	/^  __IO uint32_t ITCTRL;                  \/*!< Offset: 0xF00 (R\/W)  Integration Mode Control *\/$/;"	m	struct:__anon16
+ITM	./core_cm3.h	1232;"	d
+ITM_BASE	./core_cm3.h	1220;"	d
+ITM_CheckChar	./core_cm3.h	/^__STATIC_INLINE int32_t ITM_CheckChar (void) {$/;"	f
+ITM_IMCR_INTEGRATION_Msk	./core_cm3.h	703;"	d
+ITM_IMCR_INTEGRATION_Pos	./core_cm3.h	702;"	d
+ITM_IRR_ATREADYM_Msk	./core_cm3.h	699;"	d
+ITM_IRR_ATREADYM_Pos	./core_cm3.h	698;"	d
+ITM_IWR_ATVALIDM_Msk	./core_cm3.h	695;"	d
+ITM_IWR_ATVALIDM_Pos	./core_cm3.h	694;"	d
+ITM_LSR_Access_Msk	./core_cm3.h	710;"	d
+ITM_LSR_Access_Pos	./core_cm3.h	709;"	d
+ITM_LSR_ByteAcc_Msk	./core_cm3.h	707;"	d
+ITM_LSR_ByteAcc_Pos	./core_cm3.h	706;"	d
+ITM_LSR_Present_Msk	./core_cm3.h	713;"	d
+ITM_LSR_Present_Pos	./core_cm3.h	712;"	d
+ITM_RXBUFFER_EMPTY	./core_cm3.h	1544;"	d
+ITM_ReceiveChar	./core_cm3.h	/^__STATIC_INLINE int32_t ITM_ReceiveChar (void) {$/;"	f
+ITM_SendChar	./core_cm3.h	/^__STATIC_INLINE uint32_t ITM_SendChar (uint32_t ch)$/;"	f
+ITM_TCR_BUSY_Msk	./core_cm3.h	667;"	d
+ITM_TCR_BUSY_Pos	./core_cm3.h	666;"	d
+ITM_TCR_DWTENA_Msk	./core_cm3.h	682;"	d
+ITM_TCR_DWTENA_Pos	./core_cm3.h	681;"	d
+ITM_TCR_GTSFREQ_Msk	./core_cm3.h	673;"	d
+ITM_TCR_GTSFREQ_Pos	./core_cm3.h	672;"	d
+ITM_TCR_ITMENA_Msk	./core_cm3.h	691;"	d
+ITM_TCR_ITMENA_Pos	./core_cm3.h	690;"	d
+ITM_TCR_SWOENA_Msk	./core_cm3.h	679;"	d
+ITM_TCR_SWOENA_Pos	./core_cm3.h	678;"	d
+ITM_TCR_SYNCENA_Msk	./core_cm3.h	685;"	d
+ITM_TCR_SYNCENA_Pos	./core_cm3.h	684;"	d
+ITM_TCR_TSENA_Msk	./core_cm3.h	688;"	d
+ITM_TCR_TSENA_Pos	./core_cm3.h	687;"	d
+ITM_TCR_TSPrescale_Msk	./core_cm3.h	676;"	d
+ITM_TCR_TSPrescale_Pos	./core_cm3.h	675;"	d
+ITM_TCR_TraceBusID_Msk	./core_cm3.h	670;"	d
+ITM_TCR_TraceBusID_Pos	./core_cm3.h	669;"	d
+ITM_TPR_PRIVMASK_Msk	./core_cm3.h	663;"	d
+ITM_TPR_PRIVMASK_Pos	./core_cm3.h	662;"	d
+ITM_Type	./core_cm3.h	/^} ITM_Type;$/;"	t	typeref:struct:__anon13
+IWR	./core_cm3.h	/^  __O  uint32_t IWR;                     \/*!< Offset: 0xEF8 ( \/W)  ITM Integration Write Register            *\/$/;"	m	struct:__anon13
+IntClear	./LPC177x_8x.h	/^  __O  uint32_t IntClear;$/;"	m	struct:__anon58
+IntClr	./LPC177x_8x.h	/^  __O  uint32_t IntClr;$/;"	m	struct:__anon54
+IntEn	./LPC177x_8x.h	/^  __IO uint32_t IntEn;$/;"	m	struct:__anon54
+IntEnable	./LPC177x_8x.h	/^  __IO uint32_t IntEnable;$/;"	m	struct:__anon58
+IntErrClr	./LPC177x_8x.h	/^  __O  uint32_t IntErrClr;$/;"	m	struct:__anon52
+IntErrStat	./LPC177x_8x.h	/^  __I  uint32_t IntErrStat;$/;"	m	struct:__anon52
+IntSet	./LPC177x_8x.h	/^  __O  uint32_t IntSet;$/;"	m	struct:__anon54
+IntSet	./LPC177x_8x.h	/^  __O  uint32_t IntSet;$/;"	m	struct:__anon58
+IntSt	./LPC177x_8x.h	/^  __I  uint32_t IntSt;               \/* USB On-The-Go Registers            *\/$/;"	m	struct:__anon54
+IntStat	./LPC177x_8x.h	/^  __I  uint32_t IntStat;$/;"	m	struct:__anon52
+IntStatus	./LPC177x_8x.h	/^  __I  uint32_t IntStatus;              \/* Module Control Registers           *\/$/;"	m	struct:__anon58
+IntStatus	./LPC177x_8x.h	/^  __I  uint32_t IntStatus;$/;"	m	struct:__anon23
+IntTCClear	./LPC177x_8x.h	/^  __O  uint32_t IntTCClear;$/;"	m	struct:__anon52
+IntTCStat	./LPC177x_8x.h	/^  __I  uint32_t IntTCStat;$/;"	m	struct:__anon52
+InterruptDisable	./LPC177x_8x.h	/^  __IO uint32_t InterruptDisable;$/;"	m	struct:__anon54
+InterruptEnable	./LPC177x_8x.h	/^  __IO uint32_t InterruptEnable;$/;"	m	struct:__anon54
+InterruptStatus	./LPC177x_8x.h	/^  __IO uint32_t InterruptStatus;$/;"	m	struct:__anon54
+Interval	./ebsy.h	/^		uint32_t Interval;$/;"	m	struct:__anon19
+LAR	./core_cm3.h	/^  __O  uint32_t LAR;                     \/*!< Offset: 0xFB0 ( \/W)  ITM Lock Access Register                  *\/$/;"	m	struct:__anon13
+LCD_CFG	./LPC177x_8x.h	/^  __IO uint32_t LCD_CFG;                    \/*!< Offset: 0x1B8 (R\/W)  LCD Configuration and clocking control Register *\/$/;"	m	struct:__anon20
+LCD_IRQHandler	./startup_LPC177x_8x.s	/^LCD_IRQHandler$/;"	l
+LCD_IRQn	./LPC177x_8x.h	/^  LCD_IRQn                      = 37,       \/*!< LCD Interrupt                                    *\/$/;"	e	enum:IRQn
+LCR	./LPC177x_8x.h	/^	__IO uint8_t  LCR;$/;"	m	struct:__anon26
+LCR	./LPC177x_8x.h	/^  __IO uint32_t  LCR;                   \/*!< Offset: 0x00C Line Control Register (R\/W) *\/$/;"	m	struct:__anon34
+LCR	./LPC177x_8x.h	/^  __IO uint8_t  LCR;$/;"	m	struct:__anon30
+LE	./LPC177x_8x.h	/^  __IO uint32_t LE;$/;"	m	struct:__anon59
+LER	./LPC177x_8x.h	/^  __IO uint32_t LER;					\/*!< Offset: 0x050 Load Enable Register (R\/W) *\/$/;"	m	struct:__anon25
+LIM0	./LPC177x_8x.h	/^  __IO uint32_t LIM0;$/;"	m	struct:__anon45
+LIM1	./LPC177x_8x.h	/^  __IO uint32_t LIM1;$/;"	m	struct:__anon45
+LIM2	./LPC177x_8x.h	/^  __IO uint32_t LIM2;$/;"	m	struct:__anon45
+LOAD	./LPC177x_8x.h	/^  __IO uint32_t LOAD;$/;"	m	struct:__anon46
+LOAD	./core_cm3.h	/^  __IO uint32_t LOAD;                    \/*!< Offset: 0x004 (R\/W)  SysTick Reload Value Register       *\/$/;"	m	struct:__anon12
+LPBASE	./LPC177x_8x.h	/^  __IO uint32_t LPBASE;$/;"	m	struct:__anon59
+LPCURR	./LPC177x_8x.h	/^  __I  uint32_t LPCURR;$/;"	m	struct:__anon59
+LPC_ADC	./LPC177x_8x.h	1426;"	d
+LPC_ADC_BASE	./LPC177x_8x.h	1351;"	d
+LPC_ADC_TypeDef	./LPC177x_8x.h	/^} LPC_ADC_TypeDef;$/;"	t	typeref:struct:__anon43
+LPC_AHBRAM1_BASE	./LPC177x_8x.h	1334;"	d
+LPC_AHB_BASE	./LPC177x_8x.h	1335;"	d
+LPC_APB0_BASE	./LPC177x_8x.h	1332;"	d
+LPC_APB1_BASE	./LPC177x_8x.h	1333;"	d
+LPC_CAN1	./LPC177x_8x.h	1431;"	d
+LPC_CAN1_BASE	./LPC177x_8x.h	1355;"	d
+LPC_CAN2	./LPC177x_8x.h	1432;"	d
+LPC_CAN2_BASE	./LPC177x_8x.h	1356;"	d
+LPC_CANAF	./LPC177x_8x.h	1429;"	d
+LPC_CANAF_BASE	./LPC177x_8x.h	1353;"	d
+LPC_CANAF_RAM	./LPC177x_8x.h	1428;"	d
+LPC_CANAF_RAM_BASE	./LPC177x_8x.h	1352;"	d
+LPC_CANAF_RAM_TypeDef	./LPC177x_8x.h	/^} LPC_CANAF_RAM_TypeDef;$/;"	t	typeref:struct:__anon48
+LPC_CANAF_TypeDef	./LPC177x_8x.h	/^} LPC_CANAF_TypeDef;$/;"	t	typeref:struct:__anon49
+LPC_CANCR	./LPC177x_8x.h	1430;"	d
+LPC_CANCR_BASE	./LPC177x_8x.h	1354;"	d
+LPC_CANCR_TypeDef	./LPC177x_8x.h	/^} LPC_CANCR_TypeDef;$/;"	t	typeref:struct:__anon50
+LPC_CAN_TypeDef	./LPC177x_8x.h	/^} LPC_CAN_TypeDef;$/;"	t	typeref:struct:__anon51
+LPC_CM3_BASE	./LPC177x_8x.h	1336;"	d
+LPC_CRC	./LPC177x_8x.h	1455;"	d
+LPC_CRC_BASE	./LPC177x_8x.h	1388;"	d
+LPC_CRC_TypeDef	./LPC177x_8x.h	/^} LPC_CRC_TypeDef;$/;"	t	typeref:struct:__anon61
+LPC_DAC	./LPC177x_8x.h	1427;"	d
+LPC_DAC_BASE	./LPC177x_8x.h	1361;"	d
+LPC_DAC_TypeDef	./LPC177x_8x.h	/^} LPC_DAC_TypeDef;$/;"	t	typeref:struct:__anon44
+LPC_EEPROM	./LPC177x_8x.h	1456;"	d
+LPC_EEPROM_BASE	./LPC177x_8x.h	1397;"	d
+LPC_EEPROM_TypeDef	./LPC177x_8x.h	/^} LPC_EEPROM_TypeDef;$/;"	t	typeref:struct:__anon66
+LPC_EMAC	./LPC177x_8x.h	1445;"	d
+LPC_EMAC_BASE	./LPC177x_8x.h	1385;"	d
+LPC_EMAC_TypeDef	./LPC177x_8x.h	/^} LPC_EMAC_TypeDef;$/;"	t	typeref:struct:__anon58
+LPC_EMC	./LPC177x_8x.h	1454;"	d
+LPC_EMC_BASE	./LPC177x_8x.h	1395;"	d
+LPC_EMC_TypeDef	./LPC177x_8x.h	/^} LPC_EMC_TypeDef;$/;"	t	typeref:struct:__anon60
+LPC_FLASH_BASE	./LPC177x_8x.h	1329;"	d
+LPC_GPDMA	./LPC177x_8x.h	1436;"	d
+LPC_GPDMACH0	./LPC177x_8x.h	1437;"	d
+LPC_GPDMACH0_BASE	./LPC177x_8x.h	1377;"	d
+LPC_GPDMACH1	./LPC177x_8x.h	1438;"	d
+LPC_GPDMACH1_BASE	./LPC177x_8x.h	1378;"	d
+LPC_GPDMACH2	./LPC177x_8x.h	1439;"	d
+LPC_GPDMACH2_BASE	./LPC177x_8x.h	1379;"	d
+LPC_GPDMACH3	./LPC177x_8x.h	1440;"	d
+LPC_GPDMACH3_BASE	./LPC177x_8x.h	1380;"	d
+LPC_GPDMACH4	./LPC177x_8x.h	1441;"	d
+LPC_GPDMACH4_BASE	./LPC177x_8x.h	1381;"	d
+LPC_GPDMACH5	./LPC177x_8x.h	1442;"	d
+LPC_GPDMACH5_BASE	./LPC177x_8x.h	1382;"	d
+LPC_GPDMACH6	./LPC177x_8x.h	1443;"	d
+LPC_GPDMACH6_BASE	./LPC177x_8x.h	1383;"	d
+LPC_GPDMACH7	./LPC177x_8x.h	1444;"	d
+LPC_GPDMACH7_BASE	./LPC177x_8x.h	1384;"	d
+LPC_GPDMACH_TypeDef	./LPC177x_8x.h	/^} LPC_GPDMACH_TypeDef;$/;"	t	typeref:struct:__anon53
+LPC_GPDMA_BASE	./LPC177x_8x.h	1376;"	d
+LPC_GPDMA_TypeDef	./LPC177x_8x.h	/^} LPC_GPDMA_TypeDef;$/;"	t	typeref:struct:__anon52
+LPC_GPIO0	./LPC177x_8x.h	1448;"	d
+LPC_GPIO0_BASE	./LPC177x_8x.h	1389;"	d
+LPC_GPIO1	./LPC177x_8x.h	1449;"	d
+LPC_GPIO1_BASE	./LPC177x_8x.h	1390;"	d
+LPC_GPIO2	./LPC177x_8x.h	1450;"	d
+LPC_GPIO2_BASE	./LPC177x_8x.h	1391;"	d
+LPC_GPIO3	./LPC177x_8x.h	1451;"	d
+LPC_GPIO3_BASE	./LPC177x_8x.h	1392;"	d
+LPC_GPIO4	./LPC177x_8x.h	1452;"	d
+LPC_GPIO4_BASE	./LPC177x_8x.h	1393;"	d
+LPC_GPIO5	./LPC177x_8x.h	1453;"	d
+LPC_GPIO5_BASE	./LPC177x_8x.h	1394;"	d
+LPC_GPIOINT	./LPC177x_8x.h	1421;"	d
+LPC_GPIOINT_BASE	./LPC177x_8x.h	1348;"	d
+LPC_GPIOINT_TypeDef	./LPC177x_8x.h	/^} LPC_GPIOINT_TypeDef;$/;"	t	typeref:struct:__anon23
+LPC_GPIO_TypeDef	./LPC177x_8x.h	/^} LPC_GPIO_TypeDef;$/;"	t	typeref:struct:__anon22
+LPC_I2C0	./LPC177x_8x.h	1416;"	d
+LPC_I2C0_BASE	./LPC177x_8x.h	1346;"	d
+LPC_I2C1	./LPC177x_8x.h	1417;"	d
+LPC_I2C1_BASE	./LPC177x_8x.h	1357;"	d
+LPC_I2C2	./LPC177x_8x.h	1418;"	d
+LPC_I2C2_BASE	./LPC177x_8x.h	1366;"	d
+LPC_I2C_TypeDef	./LPC177x_8x.h	/^} LPC_I2C_TypeDef;$/;"	t	typeref:struct:__anon39
+LPC_I2S	./LPC177x_8x.h	1419;"	d
+LPC_I2S_BASE	./LPC177x_8x.h	1368;"	d
+LPC_I2S_TypeDef	./LPC177x_8x.h	/^} LPC_I2S_TypeDef;$/;"	t	typeref:struct:__anon40
+LPC_IOCON	./LPC177x_8x.h	1422;"	d
+LPC_IOCON_BASE	./LPC177x_8x.h	1349;"	d
+LPC_IOCON_TypeDef	./LPC177x_8x.h	/^} LPC_IOCON_TypeDef;$/;"	t	typeref:struct:__anon21
+LPC_LCD	./LPC177x_8x.h	1446;"	d
+LPC_LCD_BASE	./LPC177x_8x.h	1386;"	d
+LPC_LCD_TypeDef	./LPC177x_8x.h	/^} LPC_LCD_TypeDef;$/;"	t	typeref:struct:__anon59
+LPC_MCI	./LPC177x_8x.h	1435;"	d
+LPC_MCI_BASE	./LPC177x_8x.h	1372;"	d
+LPC_MCI_TypeDef	./LPC177x_8x.h	/^} LPC_MCI_TypeDef;$/;"	t	typeref:struct:__anon47
+LPC_MCPWM	./LPC177x_8x.h	1433;"	d
+LPC_MCPWM_BASE	./LPC177x_8x.h	1370;"	d
+LPC_MCPWM_TypeDef	./LPC177x_8x.h	/^} LPC_MCPWM_TypeDef;$/;"	t	typeref:struct:__anon45
+LPC_PERI_RAM_BASE	./LPC177x_8x.h	1331;"	d
+LPC_PWM0	./LPC177x_8x.h	1414;"	d
+LPC_PWM0_BASE	./LPC177x_8x.h	1344;"	d
+LPC_PWM1	./LPC177x_8x.h	1415;"	d
+LPC_PWM1_BASE	./LPC177x_8x.h	1345;"	d
+LPC_PWM_TypeDef	./LPC177x_8x.h	/^} LPC_PWM_TypeDef;$/;"	t	typeref:struct:__anon25
+LPC_QEI	./LPC177x_8x.h	1434;"	d
+LPC_QEI_BASE	./LPC177x_8x.h	1371;"	d
+LPC_QEI_TypeDef	./LPC177x_8x.h	/^} LPC_QEI_TypeDef;$/;"	t	typeref:struct:__anon46
+LPC_RAM_BASE	./LPC177x_8x.h	1330;"	d
+LPC_RTC	./LPC177x_8x.h	1420;"	d
+LPC_RTC_BASE	./LPC177x_8x.h	1347;"	d
+LPC_RTC_TypeDef	./LPC177x_8x.h	/^} LPC_RTC_TypeDef;$/;"	t	typeref:struct:__anon41
+LPC_SC	./LPC177x_8x.h	1403;"	d
+LPC_SC_BASE	./LPC177x_8x.h	1373;"	d
+LPC_SC_TypeDef	./LPC177x_8x.h	/^ } LPC_SC_TypeDef;$/;"	t	typeref:struct:__anon20
+LPC_SSP0	./LPC177x_8x.h	1423;"	d
+LPC_SSP0_BASE	./LPC177x_8x.h	1360;"	d
+LPC_SSP1	./LPC177x_8x.h	1424;"	d
+LPC_SSP1_BASE	./LPC177x_8x.h	1350;"	d
+LPC_SSP2	./LPC177x_8x.h	1425;"	d
+LPC_SSP2_BASE	./LPC177x_8x.h	1369;"	d
+LPC_SSP_TypeDef	./LPC177x_8x.h	/^} LPC_SSP_TypeDef;$/;"	t	typeref:struct:__anon38
+LPC_TIM0	./LPC177x_8x.h	1405;"	d
+LPC_TIM0_BASE	./LPC177x_8x.h	1340;"	d
+LPC_TIM1	./LPC177x_8x.h	1406;"	d
+LPC_TIM1_BASE	./LPC177x_8x.h	1341;"	d
+LPC_TIM2	./LPC177x_8x.h	1407;"	d
+LPC_TIM2_BASE	./LPC177x_8x.h	1362;"	d
+LPC_TIM3	./LPC177x_8x.h	1408;"	d
+LPC_TIM3_BASE	./LPC177x_8x.h	1363;"	d
+LPC_TIM_TypeDef	./LPC177x_8x.h	/^} LPC_TIM_TypeDef;$/;"	t	typeref:struct:__anon24
+LPC_UART0	./LPC177x_8x.h	1409;"	d
+LPC_UART0_BASE	./LPC177x_8x.h	1342;"	d
+LPC_UART1	./LPC177x_8x.h	1410;"	d
+LPC_UART1_BASE	./LPC177x_8x.h	1343;"	d
+LPC_UART1_TypeDef	./LPC177x_8x.h	/^} LPC_UART1_TypeDef;$/;"	t	typeref:struct:__anon30
+LPC_UART2	./LPC177x_8x.h	1411;"	d
+LPC_UART2_BASE	./LPC177x_8x.h	1364;"	d
+LPC_UART3	./LPC177x_8x.h	1412;"	d
+LPC_UART3_BASE	./LPC177x_8x.h	1365;"	d
+LPC_UART4	./LPC177x_8x.h	1413;"	d
+LPC_UART4_BASE	./LPC177x_8x.h	1367;"	d
+LPC_UART4_TypeDef	./LPC177x_8x.h	/^} LPC_UART4_TypeDef;$/;"	t	typeref:struct:__anon34
+LPC_UART_TypeDef	./LPC177x_8x.h	/^}LPC_UART_TypeDef;$/;"	t	typeref:struct:__anon26
+LPC_USB	./LPC177x_8x.h	1447;"	d
+LPC_USB_BASE	./LPC177x_8x.h	1387;"	d
+LPC_USB_TypeDef	./LPC177x_8x.h	/^} LPC_USB_TypeDef;$/;"	t	typeref:struct:__anon54
+LPC_WDT	./LPC177x_8x.h	1404;"	d
+LPC_WDT_BASE	./LPC177x_8x.h	1339;"	d
+LPC_WDT_TypeDef	./LPC177x_8x.h	/^} LPC_WDT_TypeDef;$/;"	t	typeref:struct:__anon42
+LSR	./LPC177x_8x.h	/^	__I  uint8_t  LSR;$/;"	m	struct:__anon26
+LSR	./LPC177x_8x.h	/^  __I  uint32_t  LSR;                   \/*!< Offset: 0x014 Line Status Register (R\/ ) *\/$/;"	m	struct:__anon34
+LSR	./LPC177x_8x.h	/^  __I  uint8_t  LSR;$/;"	m	struct:__anon30
+LSR	./core_cm3.h	/^  __I  uint32_t LSR;                     \/*!< Offset: 0xFB4 (R\/ )  ITM Lock Status Register                  *\/$/;"	m	struct:__anon13
+LSTreshold	./LPC177x_8x.h	/^  __IO uint32_t LSTreshold;$/;"	m	struct:__anon54
+LSUCNT	./core_cm3.h	/^  __IO uint32_t LSUCNT;                  \/*!< Offset: 0x014 (R\/W)  LSU Count Register                        *\/$/;"	m	struct:__anon15
+LUTerr	./LPC177x_8x.h	/^	__I  uint32_t LUTerr;$/;"	m	struct:__anon49
+LUTerrAd	./LPC177x_8x.h	/^	__I  uint32_t LUTerrAd;$/;"	m	struct:__anon49
+LastTick	./ebsy.h	/^		uint32_t LastTick;$/;"	m	struct:__anon19
+MAC1	./LPC177x_8x.h	/^  __IO uint32_t MAC1;                   \/* MAC Registers                      *\/$/;"	m	struct:__anon58
+MAC2	./LPC177x_8x.h	/^  __IO uint32_t MAC2;$/;"	m	struct:__anon58
+MADR	./LPC177x_8x.h	/^  __IO uint32_t MADR;$/;"	m	struct:__anon58
+MASK	./LPC177x_8x.h	/^  __IO uint32_t MASK;$/;"	m	struct:__anon22
+MASK0	./LPC177x_8x.h	/^  __IO uint32_t MASK0;                  \/*!< Offset: 0x030 I2C Slave address mask register 0 (R\/W) *\/$/;"	m	struct:__anon39
+MASK0	./LPC177x_8x.h	/^  __IO uint32_t MASK0;$/;"	m	struct:__anon47
+MASK0	./core_cm3.h	/^  __IO uint32_t MASK0;                   \/*!< Offset: 0x024 (R\/W)  Mask Register 0                           *\/$/;"	m	struct:__anon15
+MASK1	./LPC177x_8x.h	/^  __IO uint32_t MASK1;                  \/*!< Offset: 0x034 I2C Slave address mask register 1 (R\/W) *\/$/;"	m	struct:__anon39
+MASK1	./core_cm3.h	/^  __IO uint32_t MASK1;                   \/*!< Offset: 0x034 (R\/W)  Mask Register 1                           *\/$/;"	m	struct:__anon15
+MASK2	./LPC177x_8x.h	/^  __IO uint32_t MASK2;                  \/*!< Offset: 0x038 I2C Slave address mask register 2 (R\/W) *\/$/;"	m	struct:__anon39
+MASK2	./core_cm3.h	/^  __IO uint32_t MASK2;                   \/*!< Offset: 0x044 (R\/W)  Mask Register 2                           *\/$/;"	m	struct:__anon15
+MASK3	./LPC177x_8x.h	/^  __IO uint32_t MASK3;                  \/*!< Offset: 0x03C I2C Slave address mask register 3 (R\/W) *\/$/;"	m	struct:__anon39
+MASK3	./core_cm3.h	/^  __IO uint32_t MASK3;                   \/*!< Offset: 0x054 (R\/W)  Mask Register 3                           *\/$/;"	m	struct:__anon15
+MAT0	./LPC177x_8x.h	/^  __IO uint32_t MAT0;$/;"	m	struct:__anon45
+MAT1	./LPC177x_8x.h	/^  __IO uint32_t MAT1;$/;"	m	struct:__anon45
+MAT2	./LPC177x_8x.h	/^  __IO uint32_t MAT2;$/;"	m	struct:__anon45
+MATRIXARB	./LPC177x_8x.h	/^  __IO uint32_t MATRIXARB;                  \/*!< Offset: 9x188 (R\/W)  Matrix arbitration Register *\/$/;"	m	struct:__anon20
+MAXF	./LPC177x_8x.h	/^  __IO uint32_t MAXF;$/;"	m	struct:__anon58
+MAXPOS	./LPC177x_8x.h	/^  __IO uint32_t MAXPOS;$/;"	m	struct:__anon46
+MAXPROCS	./ebsy.h	11;"	d
+MCFG	./LPC177x_8x.h	/^  __IO uint32_t MCFG;$/;"	m	struct:__anon58
+MCI_IRQHandler	./startup_LPC177x_8x.s	/^MCI_IRQHandler          $/;"	l
+MCI_IRQn	./LPC177x_8x.h	/^  MCI_IRQn                      = 29,       \/*!< SD\/MMC card I\/F Interrupt                        *\/$/;"	e	enum:IRQn
+MCMD	./LPC177x_8x.h	/^  __IO uint32_t MCMD;$/;"	m	struct:__anon58
+MCPWM_IRQHandler	./startup_LPC177x_8x.s	/^MCPWM_IRQHandler$/;"	l
+MCPWM_IRQn	./LPC177x_8x.h	/^  MCPWM_IRQn                    = 30,       \/*!< Motor Control PWM Interrupt                      *\/$/;"	e	enum:IRQn
+MCR	./LPC177x_8x.h	/^  __IO uint32_t  MCR;                   \/*!< Offset: 0x010 Modem control Register (R\/W) *\/$/;"	m	struct:__anon34
+MCR	./LPC177x_8x.h	/^  __IO uint32_t MCR;                    \/*!< Offset: 0x014 Match Control Register (R\/W) *\/$/;"	m	struct:__anon24
+MCR	./LPC177x_8x.h	/^  __IO uint32_t MCR;                    \/*!< Offset: 0x014 Match Control Register (R\/W) *\/$/;"	m	struct:__anon25
+MCR	./LPC177x_8x.h	/^  __IO uint8_t  MCR;$/;"	m	struct:__anon30
+MID	./LPC177x_8x.h	/^  __I  uint32_t  MID;                   \/*!< Offset: 0xFFC Module Identification Register (R) *\/$/;"	m	struct:__anon34
+MIN	./LPC177x_8x.h	/^  __IO uint8_t  MIN;$/;"	m	struct:__anon41
+MIND	./LPC177x_8x.h	/^  __I  uint32_t MIND;$/;"	m	struct:__anon58
+MIS	./LPC177x_8x.h	/^  __IO uint32_t MIS;                    \/*!< Offset: 0x01C Masked Interrupt Status Register (R\/W) *\/$/;"	m	struct:__anon38
+MMCTRL	./LPC177x_8x.h	/^  __IO uint32_t MMCTRL;                 \/*!< Offset: 0x01C Monitor mode control register (R\/W) *\/$/;"	m	struct:__anon39
+MMFAR	./core_cm3.h	/^  __IO uint32_t MMFAR;                   \/*!< Offset: 0x034 (R\/W)  MemManage Fault Address Register                      *\/$/;"	m	struct:__anon10
+MMFR	./core_cm3.h	/^  __I  uint32_t MMFR[4];                 \/*!< Offset: 0x050 (R\/ )  Memory Model Feature Register                         *\/$/;"	m	struct:__anon10
+MOD	./LPC177x_8x.h	/^	__IO uint32_t MOD;$/;"	m	struct:__anon51
+MOD	./LPC177x_8x.h	/^  __IO uint8_t  MOD;$/;"	m	struct:__anon42
+MODE	./LPC177x_8x.h	/^  __IO uint32_t  MODE;                  \/*!< Offset: 0x034 NHP Mode selection Register (W) *\/$/;"	m	struct:__anon34
+MODE	./LPC177x_8x.h	/^  __IO uint32_t MODE;$/;"	m	struct:__anon61
+MONTH	./LPC177x_8x.h	/^  __IO uint8_t  MONTH;$/;"	m	struct:__anon41
+MPU	./core_cm3.h	1239;"	d
+MPU_BASE	./core_cm3.h	1238;"	d
+MPU_CTRL_ENABLE_Msk	./core_cm3.h	1058;"	d
+MPU_CTRL_ENABLE_Pos	./core_cm3.h	1057;"	d
+MPU_CTRL_HFNMIENA_Msk	./core_cm3.h	1055;"	d
+MPU_CTRL_HFNMIENA_Pos	./core_cm3.h	1054;"	d
+MPU_CTRL_PRIVDEFENA_Msk	./core_cm3.h	1052;"	d
+MPU_CTRL_PRIVDEFENA_Pos	./core_cm3.h	1051;"	d
+MPU_RASR_AP_Msk	./core_cm3.h	1082;"	d
+MPU_RASR_AP_Pos	./core_cm3.h	1081;"	d
+MPU_RASR_ATTRS_Msk	./core_cm3.h	1076;"	d
+MPU_RASR_ATTRS_Pos	./core_cm3.h	1075;"	d
+MPU_RASR_B_Msk	./core_cm3.h	1094;"	d
+MPU_RASR_B_Pos	./core_cm3.h	1093;"	d
+MPU_RASR_C_Msk	./core_cm3.h	1091;"	d
+MPU_RASR_C_Pos	./core_cm3.h	1090;"	d
+MPU_RASR_ENABLE_Msk	./core_cm3.h	1103;"	d
+MPU_RASR_ENABLE_Pos	./core_cm3.h	1102;"	d
+MPU_RASR_SIZE_Msk	./core_cm3.h	1100;"	d
+MPU_RASR_SIZE_Pos	./core_cm3.h	1099;"	d
+MPU_RASR_SRD_Msk	./core_cm3.h	1097;"	d
+MPU_RASR_SRD_Pos	./core_cm3.h	1096;"	d
+MPU_RASR_S_Msk	./core_cm3.h	1088;"	d
+MPU_RASR_S_Pos	./core_cm3.h	1087;"	d
+MPU_RASR_TEX_Msk	./core_cm3.h	1085;"	d
+MPU_RASR_TEX_Pos	./core_cm3.h	1084;"	d
+MPU_RASR_XN_Msk	./core_cm3.h	1079;"	d
+MPU_RASR_XN_Pos	./core_cm3.h	1078;"	d
+MPU_RBAR_ADDR_Msk	./core_cm3.h	1066;"	d
+MPU_RBAR_ADDR_Pos	./core_cm3.h	1065;"	d
+MPU_RBAR_REGION_Msk	./core_cm3.h	1072;"	d
+MPU_RBAR_REGION_Pos	./core_cm3.h	1071;"	d
+MPU_RBAR_VALID_Msk	./core_cm3.h	1069;"	d
+MPU_RBAR_VALID_Pos	./core_cm3.h	1068;"	d
+MPU_RNR_REGION_Msk	./core_cm3.h	1062;"	d
+MPU_RNR_REGION_Pos	./core_cm3.h	1061;"	d
+MPU_TYPE_DREGION_Msk	./core_cm3.h	1045;"	d
+MPU_TYPE_DREGION_Pos	./core_cm3.h	1044;"	d
+MPU_TYPE_IREGION_Msk	./core_cm3.h	1042;"	d
+MPU_TYPE_IREGION_Pos	./core_cm3.h	1041;"	d
+MPU_TYPE_SEPARATE_Msk	./core_cm3.h	1048;"	d
+MPU_TYPE_SEPARATE_Pos	./core_cm3.h	1047;"	d
+MPU_Type	./core_cm3.h	/^} MPU_Type;$/;"	t	typeref:struct:__anon17
+MR0	./LPC177x_8x.h	/^  __IO uint32_t MR0;                    \/*!< Offset: 0x018 Match Register 0 (R\/W) *\/$/;"	m	struct:__anon24
+MR0	./LPC177x_8x.h	/^  __IO uint32_t MR0;                    \/*!< Offset: 0x018 Match Register 0 (R\/W) *\/$/;"	m	struct:__anon25
+MR1	./LPC177x_8x.h	/^  __IO uint32_t MR1;                    \/*!< Offset: 0x01C Match Register 1 (R\/W) *\/$/;"	m	struct:__anon24
+MR1	./LPC177x_8x.h	/^  __IO uint32_t MR1;                    \/*!< Offset: 0x01C Match Register 1 (R\/W) *\/$/;"	m	struct:__anon25
+MR2	./LPC177x_8x.h	/^  __IO uint32_t MR2;                    \/*!< Offset: 0x020 Match Register 2 (R\/W) *\/$/;"	m	struct:__anon24
+MR2	./LPC177x_8x.h	/^  __IO uint32_t MR2;                    \/*!< Offset: 0x020 Match Register 2 (R\/W) *\/$/;"	m	struct:__anon25
+MR3	./LPC177x_8x.h	/^  __IO uint32_t MR3;                    \/*!< Offset: 0x024 Match Register 3 (R\/W) *\/$/;"	m	struct:__anon24
+MR3	./LPC177x_8x.h	/^  __IO uint32_t MR3;                    \/*!< Offset: 0x024 Match Register 3 (R\/W) *\/$/;"	m	struct:__anon25
+MR4	./LPC177x_8x.h	/^  __IO uint32_t MR4;					\/*!< Offset: 0x040 Match Register 4 (R\/W) *\/$/;"	m	struct:__anon25
+MR5	./LPC177x_8x.h	/^  __IO uint32_t MR5;					\/*!< Offset: 0x044 Match Register 5 (R\/W) *\/$/;"	m	struct:__anon25
+MR6	./LPC177x_8x.h	/^  __IO uint32_t MR6;					\/*!< Offset: 0x048 Match Register 6 (R\/W) *\/$/;"	m	struct:__anon25
+MRDD	./LPC177x_8x.h	/^  __I  uint32_t MRDD;$/;"	m	struct:__anon58
+MSR	./LPC177x_8x.h	/^  __I  uint32_t  MSR;                   \/*!< Offset: 0x018 Modem status Register (R\/ ) *\/$/;"	m	struct:__anon34
+MSR	./LPC177x_8x.h	/^  __I  uint32_t MSR;$/;"	m	struct:__anon50
+MSR	./LPC177x_8x.h	/^  __I  uint8_t  MSR;$/;"	m	struct:__anon30
+MWTD	./LPC177x_8x.h	/^  __O  uint32_t MWTD;$/;"	m	struct:__anon58
+MaxPSize	./LPC177x_8x.h	/^  __IO uint32_t MaxPSize;$/;"	m	struct:__anon54
+MemManage_Handler	./exceptions.c	/^void MemManage_Handler(void) {$/;"	f
+MemManage_Handler	./handlers.c	/^void MemManage_Handler(void) {$/;"	f
+MemoryManagement_IRQn	./LPC177x_8x.h	/^  MemoryManagement_IRQn         = -12,      \/*!< 4 Cortex-M3 Memory Management Interrupt          *\/$/;"	e	enum:IRQn
+Module_ID	./LPC177x_8x.h	/^  __I  uint32_t Module_ID;$/;"	m	struct:__anon54
+Module_ID	./LPC177x_8x.h	/^  __IO uint32_t Module_ID;$/;"	m	struct:__anon58
+N	./core_cm3.h	/^    uint32_t N:1;                        \/*!< bit:     31  Negative condition code flag       *\/$/;"	m	struct:__anon1::__anon2
+N	./core_cm3.h	/^    uint32_t N:1;                        \/*!< bit:     31  Negative condition code flag       *\/$/;"	m	struct:__anon5::__anon6
+NDDRIntClr	./LPC177x_8x.h	/^  __O  uint32_t NDDRIntClr;$/;"	m	struct:__anon54
+NDDRIntSet	./LPC177x_8x.h	/^  __O  uint32_t NDDRIntSet;$/;"	m	struct:__anon54
+NDDRIntSt	./LPC177x_8x.h	/^  __I  uint32_t NDDRIntSt;$/;"	m	struct:__anon54
+NMI_Handler	./startup_LPC177x_8x.s	/^NMI_Handler     PROC$/;"	l
+NVIC	./core_cm3.h	1231;"	d
+NVIC_BASE	./core_cm3.h	1225;"	d
+NVIC_ClearPendingIRQ	./core_cm3.h	/^__STATIC_INLINE void NVIC_ClearPendingIRQ(IRQn_Type IRQn)$/;"	f
+NVIC_DecodePriority	./core_cm3.h	/^__STATIC_INLINE void NVIC_DecodePriority (uint32_t Priority, uint32_t PriorityGroup, uint32_t* pPreemptPriority, uint32_t* pSubPriority)$/;"	f
+NVIC_DisableIRQ	./core_cm3.h	/^__STATIC_INLINE void NVIC_DisableIRQ(IRQn_Type IRQn)$/;"	f
+NVIC_EnableIRQ	./core_cm3.h	/^__STATIC_INLINE void NVIC_EnableIRQ(IRQn_Type IRQn)$/;"	f
+NVIC_EncodePriority	./core_cm3.h	/^__STATIC_INLINE uint32_t NVIC_EncodePriority (uint32_t PriorityGroup, uint32_t PreemptPriority, uint32_t SubPriority)$/;"	f
+NVIC_GetActive	./core_cm3.h	/^__STATIC_INLINE uint32_t NVIC_GetActive(IRQn_Type IRQn)$/;"	f
+NVIC_GetPendingIRQ	./core_cm3.h	/^__STATIC_INLINE uint32_t NVIC_GetPendingIRQ(IRQn_Type IRQn)$/;"	f
+NVIC_GetPriority	./core_cm3.h	/^__STATIC_INLINE uint32_t NVIC_GetPriority(IRQn_Type IRQn)$/;"	f
+NVIC_GetPriorityGrouping	./core_cm3.h	/^__STATIC_INLINE uint32_t NVIC_GetPriorityGrouping(void)$/;"	f
+NVIC_STIR_INTID_Msk	./core_cm3.h	300;"	d
+NVIC_STIR_INTID_Pos	./core_cm3.h	299;"	d
+NVIC_SetPendingIRQ	./core_cm3.h	/^__STATIC_INLINE void NVIC_SetPendingIRQ(IRQn_Type IRQn)$/;"	f
+NVIC_SetPriority	./core_cm3.h	/^__STATIC_INLINE void NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)$/;"	f
+NVIC_SetPriorityGrouping	./core_cm3.h	/^__STATIC_INLINE void NVIC_SetPriorityGrouping(uint32_t PriorityGroup)$/;"	f
+NVIC_SystemReset	./core_cm3.h	/^__STATIC_INLINE void NVIC_SystemReset(void)$/;"	f
+NVIC_Type	./core_cm3.h	/^}  NVIC_Type;$/;"	t	typeref:struct:__anon9
+NonMaskableInt_IRQn	./LPC177x_8x.h	/^  NonMaskableInt_IRQn           = -14,      \/*!< 2 Non Maskable Interrupt                         *\/$/;"	e	enum:IRQn
+OSC_CLK	./system_LPC177x_8x.h	68;"	d
+OSR	./LPC177x_8x.h	/^  __IO uint32_t  OSR;                   \/*!< Offset: 0x02C Over sampling Register (R\/W) *\/$/;"	m	struct:__anon34
+OTGClkCtrl	./LPC177x_8x.h	/^  __IO uint32_t OTGClkCtrl;$/;"	m	union:__anon54::__anon56
+OTGClkSt	./LPC177x_8x.h	/^  __I  uint32_t OTGClkSt;$/;"	m	union:__anon54::__anon57
+P0_0	./LPC177x_8x.h	/^  __IO uint32_t P0_0;				\/* 0x000 *\/$/;"	m	struct:__anon21
+P0_1	./LPC177x_8x.h	/^  __IO uint32_t P0_1;$/;"	m	struct:__anon21
+P0_10	./LPC177x_8x.h	/^  __IO uint32_t P0_10;$/;"	m	struct:__anon21
+P0_11	./LPC177x_8x.h	/^  __IO uint32_t P0_11;$/;"	m	struct:__anon21
+P0_12	./LPC177x_8x.h	/^  __IO uint32_t P0_12;$/;"	m	struct:__anon21
+P0_13	./LPC177x_8x.h	/^  __IO uint32_t P0_13;$/;"	m	struct:__anon21
+P0_14	./LPC177x_8x.h	/^  __IO uint32_t P0_14;$/;"	m	struct:__anon21
+P0_15	./LPC177x_8x.h	/^  __IO uint32_t P0_15;$/;"	m	struct:__anon21
+P0_16	./LPC177x_8x.h	/^  __IO uint32_t P0_16;				\/* 0x040 *\/$/;"	m	struct:__anon21
+P0_17	./LPC177x_8x.h	/^  __IO uint32_t P0_17;$/;"	m	struct:__anon21
+P0_18	./LPC177x_8x.h	/^  __IO uint32_t P0_18;$/;"	m	struct:__anon21
+P0_19	./LPC177x_8x.h	/^  __IO uint32_t P0_19;$/;"	m	struct:__anon21
+P0_2	./LPC177x_8x.h	/^  __IO uint32_t P0_2;$/;"	m	struct:__anon21
+P0_20	./LPC177x_8x.h	/^  __IO uint32_t P0_20;$/;"	m	struct:__anon21
+P0_21	./LPC177x_8x.h	/^  __IO uint32_t P0_21;$/;"	m	struct:__anon21
+P0_22	./LPC177x_8x.h	/^  __IO uint32_t P0_22;$/;"	m	struct:__anon21
+P0_23	./LPC177x_8x.h	/^  __IO uint32_t P0_23;$/;"	m	struct:__anon21
+P0_24	./LPC177x_8x.h	/^  __IO uint32_t P0_24;				\/* 0x060 *\/$/;"	m	struct:__anon21
+P0_25	./LPC177x_8x.h	/^  __IO uint32_t P0_25;$/;"	m	struct:__anon21
+P0_26	./LPC177x_8x.h	/^  __IO uint32_t P0_26;$/;"	m	struct:__anon21
+P0_27	./LPC177x_8x.h	/^  __IO uint32_t P0_27;$/;"	m	struct:__anon21
+P0_28	./LPC177x_8x.h	/^  __IO uint32_t P0_28;$/;"	m	struct:__anon21
+P0_29	./LPC177x_8x.h	/^  __IO uint32_t P0_29;$/;"	m	struct:__anon21
+P0_3	./LPC177x_8x.h	/^  __IO uint32_t P0_3;$/;"	m	struct:__anon21
+P0_30	./LPC177x_8x.h	/^  __IO uint32_t P0_30;$/;"	m	struct:__anon21
+P0_31	./LPC177x_8x.h	/^  __IO uint32_t P0_31;$/;"	m	struct:__anon21
+P0_4	./LPC177x_8x.h	/^  __IO uint32_t P0_4;$/;"	m	struct:__anon21
+P0_5	./LPC177x_8x.h	/^  __IO uint32_t P0_5;$/;"	m	struct:__anon21
+P0_6	./LPC177x_8x.h	/^  __IO uint32_t P0_6;$/;"	m	struct:__anon21
+P0_7	./LPC177x_8x.h	/^  __IO uint32_t P0_7;$/;"	m	struct:__anon21
+P0_8	./LPC177x_8x.h	/^  __IO uint32_t P0_8;				\/* 0x020 *\/$/;"	m	struct:__anon21
+P0_9	./LPC177x_8x.h	/^  __IO uint32_t P0_9;$/;"	m	struct:__anon21
+P1_0	./LPC177x_8x.h	/^  __IO uint32_t P1_0;				\/* 0x080 *\/$/;"	m	struct:__anon21
+P1_1	./LPC177x_8x.h	/^  __IO uint32_t P1_1;$/;"	m	struct:__anon21
+P1_10	./LPC177x_8x.h	/^  __IO uint32_t P1_10;$/;"	m	struct:__anon21
+P1_11	./LPC177x_8x.h	/^  __IO uint32_t P1_11;$/;"	m	struct:__anon21
+P1_12	./LPC177x_8x.h	/^  __IO uint32_t P1_12;$/;"	m	struct:__anon21
+P1_13	./LPC177x_8x.h	/^  __IO uint32_t P1_13;$/;"	m	struct:__anon21
+P1_14	./LPC177x_8x.h	/^  __IO uint32_t P1_14;$/;"	m	struct:__anon21
+P1_15	./LPC177x_8x.h	/^  __IO uint32_t P1_15;$/;"	m	struct:__anon21
+P1_16	./LPC177x_8x.h	/^  __IO uint32_t P1_16;				\/* 0x0C0 *\/$/;"	m	struct:__anon21
+P1_17	./LPC177x_8x.h	/^  __IO uint32_t P1_17;$/;"	m	struct:__anon21
+P1_18	./LPC177x_8x.h	/^  __IO uint32_t P1_18;$/;"	m	struct:__anon21
+P1_19	./LPC177x_8x.h	/^  __IO uint32_t P1_19;$/;"	m	struct:__anon21
+P1_2	./LPC177x_8x.h	/^  __IO uint32_t P1_2;$/;"	m	struct:__anon21
+P1_20	./LPC177x_8x.h	/^  __IO uint32_t P1_20;$/;"	m	struct:__anon21
+P1_21	./LPC177x_8x.h	/^  __IO uint32_t P1_21;$/;"	m	struct:__anon21
+P1_22	./LPC177x_8x.h	/^  __IO uint32_t P1_22;$/;"	m	struct:__anon21
+P1_23	./LPC177x_8x.h	/^  __IO uint32_t P1_23;$/;"	m	struct:__anon21
+P1_24	./LPC177x_8x.h	/^  __IO uint32_t P1_24;				\/* 0x0E0 *\/$/;"	m	struct:__anon21
+P1_25	./LPC177x_8x.h	/^  __IO uint32_t P1_25;$/;"	m	struct:__anon21
+P1_26	./LPC177x_8x.h	/^  __IO uint32_t P1_26;$/;"	m	struct:__anon21
+P1_27	./LPC177x_8x.h	/^  __IO uint32_t P1_27;$/;"	m	struct:__anon21
+P1_28	./LPC177x_8x.h	/^  __IO uint32_t P1_28;$/;"	m	struct:__anon21
+P1_29	./LPC177x_8x.h	/^  __IO uint32_t P1_29;$/;"	m	struct:__anon21
+P1_3	./LPC177x_8x.h	/^  __IO uint32_t P1_3;$/;"	m	struct:__anon21
+P1_30	./LPC177x_8x.h	/^  __IO uint32_t P1_30;$/;"	m	struct:__anon21
+P1_31	./LPC177x_8x.h	/^  __IO uint32_t P1_31;$/;"	m	struct:__anon21
+P1_4	./LPC177x_8x.h	/^  __IO uint32_t P1_4;$/;"	m	struct:__anon21
+P1_5	./LPC177x_8x.h	/^  __IO uint32_t P1_5;$/;"	m	struct:__anon21
+P1_6	./LPC177x_8x.h	/^  __IO uint32_t P1_6;$/;"	m	struct:__anon21
+P1_7	./LPC177x_8x.h	/^  __IO uint32_t P1_7;$/;"	m	struct:__anon21
+P1_8	./LPC177x_8x.h	/^  __IO uint32_t P1_8;				\/* 0x0A0 *\/$/;"	m	struct:__anon21
+P1_9	./LPC177x_8x.h	/^  __IO uint32_t P1_9;$/;"	m	struct:__anon21
+P2_0	./LPC177x_8x.h	/^  __IO uint32_t P2_0;				\/* 0x100 *\/$/;"	m	struct:__anon21
+P2_1	./LPC177x_8x.h	/^  __IO uint32_t P2_1;$/;"	m	struct:__anon21
+P2_10	./LPC177x_8x.h	/^  __IO uint32_t P2_10;$/;"	m	struct:__anon21
+P2_11	./LPC177x_8x.h	/^  __IO uint32_t P2_11;$/;"	m	struct:__anon21
+P2_12	./LPC177x_8x.h	/^  __IO uint32_t P2_12;$/;"	m	struct:__anon21
+P2_13	./LPC177x_8x.h	/^  __IO uint32_t P2_13;$/;"	m	struct:__anon21
+P2_14	./LPC177x_8x.h	/^  __IO uint32_t P2_14;$/;"	m	struct:__anon21
+P2_15	./LPC177x_8x.h	/^  __IO uint32_t P2_15;$/;"	m	struct:__anon21
+P2_16	./LPC177x_8x.h	/^  __IO uint32_t P2_16;				\/* 0x140 *\/$/;"	m	struct:__anon21
+P2_17	./LPC177x_8x.h	/^  __IO uint32_t P2_17;$/;"	m	struct:__anon21
+P2_18	./LPC177x_8x.h	/^  __IO uint32_t P2_18;$/;"	m	struct:__anon21
+P2_19	./LPC177x_8x.h	/^  __IO uint32_t P2_19;$/;"	m	struct:__anon21
+P2_2	./LPC177x_8x.h	/^  __IO uint32_t P2_2;$/;"	m	struct:__anon21
+P2_20	./LPC177x_8x.h	/^  __IO uint32_t P2_20;$/;"	m	struct:__anon21
+P2_21	./LPC177x_8x.h	/^  __IO uint32_t P2_21;$/;"	m	struct:__anon21
+P2_22	./LPC177x_8x.h	/^  __IO uint32_t P2_22;$/;"	m	struct:__anon21
+P2_23	./LPC177x_8x.h	/^  __IO uint32_t P2_23;$/;"	m	struct:__anon21
+P2_24	./LPC177x_8x.h	/^  __IO uint32_t P2_24;				\/* 0x160 *\/$/;"	m	struct:__anon21
+P2_25	./LPC177x_8x.h	/^  __IO uint32_t P2_25;$/;"	m	struct:__anon21
+P2_26	./LPC177x_8x.h	/^  __IO uint32_t P2_26;$/;"	m	struct:__anon21
+P2_27	./LPC177x_8x.h	/^  __IO uint32_t P2_27;$/;"	m	struct:__anon21
+P2_28	./LPC177x_8x.h	/^  __IO uint32_t P2_28;$/;"	m	struct:__anon21
+P2_29	./LPC177x_8x.h	/^  __IO uint32_t P2_29;$/;"	m	struct:__anon21
+P2_3	./LPC177x_8x.h	/^  __IO uint32_t P2_3;$/;"	m	struct:__anon21
+P2_30	./LPC177x_8x.h	/^  __IO uint32_t P2_30;$/;"	m	struct:__anon21
+P2_31	./LPC177x_8x.h	/^  __IO uint32_t P2_31;$/;"	m	struct:__anon21
+P2_4	./LPC177x_8x.h	/^  __IO uint32_t P2_4;$/;"	m	struct:__anon21
+P2_5	./LPC177x_8x.h	/^  __IO uint32_t P2_5;$/;"	m	struct:__anon21
+P2_6	./LPC177x_8x.h	/^  __IO uint32_t P2_6;$/;"	m	struct:__anon21
+P2_7	./LPC177x_8x.h	/^  __IO uint32_t P2_7;$/;"	m	struct:__anon21
+P2_8	./LPC177x_8x.h	/^  __IO uint32_t P2_8;				\/* 0x120 *\/$/;"	m	struct:__anon21
+P2_9	./LPC177x_8x.h	/^  __IO uint32_t P2_9;$/;"	m	struct:__anon21
+P3_0	./LPC177x_8x.h	/^  __IO uint32_t P3_0;				\/* 0x180 *\/$/;"	m	struct:__anon21
+P3_1	./LPC177x_8x.h	/^  __IO uint32_t P3_1;$/;"	m	struct:__anon21
+P3_10	./LPC177x_8x.h	/^  __IO uint32_t P3_10;$/;"	m	struct:__anon21
+P3_11	./LPC177x_8x.h	/^  __IO uint32_t P3_11;$/;"	m	struct:__anon21
+P3_12	./LPC177x_8x.h	/^  __IO uint32_t P3_12;$/;"	m	struct:__anon21
+P3_13	./LPC177x_8x.h	/^  __IO uint32_t P3_13;$/;"	m	struct:__anon21
+P3_14	./LPC177x_8x.h	/^  __IO uint32_t P3_14;$/;"	m	struct:__anon21
+P3_15	./LPC177x_8x.h	/^  __IO uint32_t P3_15;$/;"	m	struct:__anon21
+P3_16	./LPC177x_8x.h	/^  __IO uint32_t P3_16;				\/* 0x1C0 *\/$/;"	m	struct:__anon21
+P3_17	./LPC177x_8x.h	/^  __IO uint32_t P3_17;$/;"	m	struct:__anon21
+P3_18	./LPC177x_8x.h	/^  __IO uint32_t P3_18;$/;"	m	struct:__anon21
+P3_19	./LPC177x_8x.h	/^  __IO uint32_t P3_19;$/;"	m	struct:__anon21
+P3_2	./LPC177x_8x.h	/^  __IO uint32_t P3_2;$/;"	m	struct:__anon21
+P3_20	./LPC177x_8x.h	/^  __IO uint32_t P3_20;$/;"	m	struct:__anon21
+P3_21	./LPC177x_8x.h	/^  __IO uint32_t P3_21;$/;"	m	struct:__anon21
+P3_22	./LPC177x_8x.h	/^  __IO uint32_t P3_22;$/;"	m	struct:__anon21
+P3_23	./LPC177x_8x.h	/^  __IO uint32_t P3_23;$/;"	m	struct:__anon21
+P3_24	./LPC177x_8x.h	/^  __IO uint32_t P3_24;				\/* 0x1E0 *\/$/;"	m	struct:__anon21
+P3_25	./LPC177x_8x.h	/^  __IO uint32_t P3_25;$/;"	m	struct:__anon21
+P3_26	./LPC177x_8x.h	/^  __IO uint32_t P3_26;$/;"	m	struct:__anon21
+P3_27	./LPC177x_8x.h	/^  __IO uint32_t P3_27;$/;"	m	struct:__anon21
+P3_28	./LPC177x_8x.h	/^  __IO uint32_t P3_28;$/;"	m	struct:__anon21
+P3_29	./LPC177x_8x.h	/^  __IO uint32_t P3_29;$/;"	m	struct:__anon21
+P3_3	./LPC177x_8x.h	/^  __IO uint32_t P3_3;$/;"	m	struct:__anon21
+P3_30	./LPC177x_8x.h	/^  __IO uint32_t P3_30;$/;"	m	struct:__anon21
+P3_31	./LPC177x_8x.h	/^  __IO uint32_t P3_31;$/;"	m	struct:__anon21
+P3_4	./LPC177x_8x.h	/^  __IO uint32_t P3_4;$/;"	m	struct:__anon21
+P3_5	./LPC177x_8x.h	/^  __IO uint32_t P3_5;$/;"	m	struct:__anon21
+P3_6	./LPC177x_8x.h	/^  __IO uint32_t P3_6;$/;"	m	struct:__anon21
+P3_7	./LPC177x_8x.h	/^  __IO uint32_t P3_7;$/;"	m	struct:__anon21
+P3_8	./LPC177x_8x.h	/^  __IO uint32_t P3_8;				\/* 0x1A0 *\/$/;"	m	struct:__anon21
+P3_9	./LPC177x_8x.h	/^  __IO uint32_t P3_9;$/;"	m	struct:__anon21
+P4_0	./LPC177x_8x.h	/^  __IO uint32_t P4_0;				\/* 0x200 *\/$/;"	m	struct:__anon21
+P4_1	./LPC177x_8x.h	/^  __IO uint32_t P4_1;$/;"	m	struct:__anon21
+P4_10	./LPC177x_8x.h	/^  __IO uint32_t P4_10;$/;"	m	struct:__anon21
+P4_11	./LPC177x_8x.h	/^  __IO uint32_t P4_11;$/;"	m	struct:__anon21
+P4_12	./LPC177x_8x.h	/^  __IO uint32_t P4_12;$/;"	m	struct:__anon21
+P4_13	./LPC177x_8x.h	/^  __IO uint32_t P4_13;$/;"	m	struct:__anon21
+P4_14	./LPC177x_8x.h	/^  __IO uint32_t P4_14;$/;"	m	struct:__anon21
+P4_15	./LPC177x_8x.h	/^  __IO uint32_t P4_15;$/;"	m	struct:__anon21
+P4_16	./LPC177x_8x.h	/^  __IO uint32_t P4_16;				\/* 0x240 *\/$/;"	m	struct:__anon21
+P4_17	./LPC177x_8x.h	/^  __IO uint32_t P4_17;$/;"	m	struct:__anon21
+P4_18	./LPC177x_8x.h	/^  __IO uint32_t P4_18;$/;"	m	struct:__anon21
+P4_19	./LPC177x_8x.h	/^  __IO uint32_t P4_19;$/;"	m	struct:__anon21
+P4_2	./LPC177x_8x.h	/^  __IO uint32_t P4_2;$/;"	m	struct:__anon21
+P4_20	./LPC177x_8x.h	/^  __IO uint32_t P4_20;$/;"	m	struct:__anon21
+P4_21	./LPC177x_8x.h	/^  __IO uint32_t P4_21;$/;"	m	struct:__anon21
+P4_22	./LPC177x_8x.h	/^  __IO uint32_t P4_22;$/;"	m	struct:__anon21
+P4_23	./LPC177x_8x.h	/^  __IO uint32_t P4_23;$/;"	m	struct:__anon21
+P4_24	./LPC177x_8x.h	/^  __IO uint32_t P4_24;				\/* 0x260 *\/$/;"	m	struct:__anon21
+P4_25	./LPC177x_8x.h	/^  __IO uint32_t P4_25;$/;"	m	struct:__anon21
+P4_26	./LPC177x_8x.h	/^  __IO uint32_t P4_26;$/;"	m	struct:__anon21
+P4_27	./LPC177x_8x.h	/^  __IO uint32_t P4_27;$/;"	m	struct:__anon21
+P4_28	./LPC177x_8x.h	/^  __IO uint32_t P4_28;$/;"	m	struct:__anon21
+P4_29	./LPC177x_8x.h	/^  __IO uint32_t P4_29;$/;"	m	struct:__anon21
+P4_3	./LPC177x_8x.h	/^  __IO uint32_t P4_3;$/;"	m	struct:__anon21
+P4_30	./LPC177x_8x.h	/^  __IO uint32_t P4_30;$/;"	m	struct:__anon21
+P4_31	./LPC177x_8x.h	/^  __IO uint32_t P4_31;$/;"	m	struct:__anon21
+P4_4	./LPC177x_8x.h	/^  __IO uint32_t P4_4;$/;"	m	struct:__anon21
+P4_5	./LPC177x_8x.h	/^  __IO uint32_t P4_5;$/;"	m	struct:__anon21
+P4_6	./LPC177x_8x.h	/^  __IO uint32_t P4_6;$/;"	m	struct:__anon21
+P4_7	./LPC177x_8x.h	/^  __IO uint32_t P4_7;$/;"	m	struct:__anon21
+P4_8	./LPC177x_8x.h	/^  __IO uint32_t P4_8;				\/* 0x220 *\/$/;"	m	struct:__anon21
+P4_9	./LPC177x_8x.h	/^  __IO uint32_t P4_9;$/;"	m	struct:__anon21
+P5_0	./LPC177x_8x.h	/^  __IO uint32_t P5_0;				\/* 0x280 *\/$/;"	m	struct:__anon21
+P5_1	./LPC177x_8x.h	/^  __IO uint32_t P5_1;$/;"	m	struct:__anon21
+P5_2	./LPC177x_8x.h	/^  __IO uint32_t P5_2;$/;"	m	struct:__anon21
+P5_3	./LPC177x_8x.h	/^  __IO uint32_t P5_3;$/;"	m	struct:__anon21
+P5_4	./LPC177x_8x.h	/^  __IO uint32_t P5_4;				\/* 0x290 *\/$/;"	m	struct:__anon21
+PAL	./LPC177x_8x.h	/^  __IO uint32_t PAL[128];$/;"	m	struct:__anon59
+PBOOST	./LPC177x_8x.h	/^  __IO uint32_t PBOOST;						\/*!< Offset: 0x1B0 (R\/W)  Power Boost control register *\/	   $/;"	m	struct:__anon20
+PC	./LPC177x_8x.h	/^  __IO uint32_t PC;                     \/*!< Offset: 0x010 Prescale Counter Register (R\/W) *\/$/;"	m	struct:__anon24
+PC	./LPC177x_8x.h	/^  __IO uint32_t PC;                     \/*!< Offset: 0x010 Prescale Counter Register (R\/W) *\/$/;"	m	struct:__anon25
+PCLKSEL	./LPC177x_8x.h	/^  __IO uint32_t PCLKSEL;                    \/*!< Offset: 0x1A8 (R\/W)  Peripheral Clock Selection Register *\/$/;"	m	struct:__anon20
+PCLKSEL_Val	./system_LPC177x_8x.c	229;"	d	file:
+PCON	./LPC177x_8x.h	/^  __IO uint32_t PCON;                       \/*!< Offset: 0x0C0 (R\/W)  Power Control Register *\/$/;"	m	struct:__anon20
+PCONP	./LPC177x_8x.h	/^  __IO uint32_t PCONP;                      \/*!< Offset: 0x0C4 (R\/W)  Power Control for Peripherals Register *\/$/;"	m	struct:__anon20
+PCONP_Val	./system_LPC177x_8x.c	230;"	d	file:
+PCR	./LPC177x_8x.h	/^  __IO uint32_t PCR;					\/*!< Offset: 0x04C PWM Control Register (R\/W) *\/$/;"	m	struct:__anon25
+PCSR	./core_cm3.h	/^  __I  uint32_t PCSR;                    \/*!< Offset: 0x01C (R\/ )  Program Counter Sample Register           *\/$/;"	m	struct:__anon15
+PFR	./core_cm3.h	/^  __I  uint32_t PFR[2];                  \/*!< Offset: 0x040 (R\/ )  Processor Feature Register                            *\/$/;"	m	struct:__anon10
+PID0	./core_cm3.h	/^  __I  uint32_t PID0;                    \/*!< Offset: 0xFE0 (R\/ )  ITM Peripheral Identification Register #0 *\/$/;"	m	struct:__anon13
+PID1	./core_cm3.h	/^  __I  uint32_t PID1;                    \/*!< Offset: 0xFE4 (R\/ )  ITM Peripheral Identification Register #1 *\/$/;"	m	struct:__anon13
+PID2	./core_cm3.h	/^  __I  uint32_t PID2;                    \/*!< Offset: 0xFE8 (R\/ )  ITM Peripheral Identification Register #2 *\/$/;"	m	struct:__anon13
+PID3	./core_cm3.h	/^  __I  uint32_t PID3;                    \/*!< Offset: 0xFEC (R\/ )  ITM Peripheral Identification Register #3 *\/$/;"	m	struct:__anon13
+PID4	./core_cm3.h	/^  __I  uint32_t PID4;                    \/*!< Offset: 0xFD0 (R\/ )  ITM Peripheral Identification Register #4 *\/$/;"	m	struct:__anon13
+PID5	./core_cm3.h	/^  __I  uint32_t PID5;                    \/*!< Offset: 0xFD4 (R\/ )  ITM Peripheral Identification Register #5 *\/$/;"	m	struct:__anon13
+PID6	./core_cm3.h	/^  __I  uint32_t PID6;                    \/*!< Offset: 0xFD8 (R\/ )  ITM Peripheral Identification Register #6 *\/$/;"	m	struct:__anon13
+PID7	./core_cm3.h	/^  __I  uint32_t PID7;                    \/*!< Offset: 0xFDC (R\/ )  ITM Peripheral Identification Register #7 *\/$/;"	m	struct:__anon13
+PIN	./LPC177x_8x.h	/^  __IO uint32_t PIN;$/;"	m	struct:__anon22
+PLL0CFG	./LPC177x_8x.h	/^  __IO uint32_t PLL0CFG;                    \/*!< Offset: 0x084 (R\/W)  PLL0 Configuration Register *\/$/;"	m	struct:__anon20
+PLL0CFG_Val	./system_LPC177x_8x.c	221;"	d	file:
+PLL0CON	./LPC177x_8x.h	/^  __IO uint32_t PLL0CON;                    \/*!< Offset: 0x080 (R\/W)  PLL0 Control Register *\/$/;"	m	struct:__anon20
+PLL0FEED	./LPC177x_8x.h	/^  __O  uint32_t PLL0FEED;                   \/*!< Offset: 0x08C ( \/W)  PLL0 Feed Register *\/$/;"	m	struct:__anon20
+PLL0STAT	./LPC177x_8x.h	/^  __I  uint32_t PLL0STAT;                   \/*!< Offset: 0x088 (R\/ )  PLL0 Status Register *\/$/;"	m	struct:__anon20
+PLL0_IRQHandler	./startup_LPC177x_8x.s	/^PLL0_IRQHandler$/;"	l
+PLL0_IRQn	./LPC177x_8x.h	/^  PLL0_IRQn                     = 16,       \/*!< PLL0 Lock (Main PLL) Interrupt                   *\/$/;"	e	enum:IRQn
+PLL0_SETUP	./system_LPC177x_8x.c	212;"	d	file:
+PLL1CFG	./LPC177x_8x.h	/^  __IO uint32_t PLL1CFG;                    \/*!< Offset: 0x0A4 (R\/W)  PLL1 Configuration Register *\/$/;"	m	struct:__anon20
+PLL1CFG_Val	./system_LPC177x_8x.c	225;"	d	file:
+PLL1CON	./LPC177x_8x.h	/^  __IO uint32_t PLL1CON;                    \/*!< Offset: 0x0A0 (R\/W)  PLL1 Control Register *\/$/;"	m	struct:__anon20
+PLL1FEED	./LPC177x_8x.h	/^  __O  uint32_t PLL1FEED;                   \/*!< Offset: 0x0AC ( \/W)  PLL1 Feed Register *\/$/;"	m	struct:__anon20
+PLL1STAT	./LPC177x_8x.h	/^  __I  uint32_t PLL1STAT;                   \/*!< Offset: 0x0A8 (R\/ )  PLL1 Status Register *\/$/;"	m	struct:__anon20
+PLL1_IRQHandler	./startup_LPC177x_8x.s	/^PLL1_IRQHandler$/;"	l
+PLL1_IRQn	./LPC177x_8x.h	/^  PLL1_IRQn                     = 32,       \/*!< PLL1 Lock (USB PLL) Interrupt                    *\/$/;"	e	enum:IRQn
+PLL1_SETUP	./system_LPC177x_8x.c	224;"	d	file:
+POL	./LPC177x_8x.h	/^  __IO uint32_t POL;$/;"	m	struct:__anon59
+POP	./LPC177x_8x.h	/^  __O  uint32_t  POP;                   \/*!< Offset: 0x030 NHP Pop Register (W) *\/$/;"	m	struct:__anon34
+PORT	./core_cm3.h	/^  }  PORT [32];                          \/*!< Offset: 0x000 ( \/W)  ITM Stimulus Port Registers               *\/$/;"	m	struct:__anon13	typeref:union:__anon13::__anon14
+POS	./LPC177x_8x.h	/^  __I  uint32_t POS;$/;"	m	struct:__anon46
+POWER	./LPC177x_8x.h	/^  __IO uint32_t POWER;$/;"	m	struct:__anon47
+PR	./LPC177x_8x.h	/^  __IO uint32_t PR;                     \/*!< Offset: 0x00C Prescale Register (R\/W) *\/$/;"	m	struct:__anon24
+PR	./LPC177x_8x.h	/^  __IO uint32_t PR;                     \/*!< Offset: 0x00C Prescale Register (R\/W) *\/$/;"	m	struct:__anon25
+PWM0_IRQHandler	./startup_LPC177x_8x.s	/^PWM0_IRQHandler$/;"	l
+PWM0_IRQn	./LPC177x_8x.h	/^  PWM0_IRQn                     = 39,       \/*!< PWM0 Interrupt                                   *\/$/;"	e	enum:IRQn
+PWM1_IRQHandler	./startup_LPC177x_8x.s	/^PWM1_IRQHandler$/;"	l
+PWM1_IRQn	./LPC177x_8x.h	/^  PWM1_IRQn                     = 9,        \/*!< PWM1 Interrupt                                   *\/$/;"	e	enum:IRQn
+PWRDWN	./LPC177x_8x.h	/^  __IO uint32_t PWRDWN;			\/* 0x0098 *\/$/;"	m	struct:__anon66
+PendSV_Handler	./pendsv.s	/^PendSV_Handler PROC$/;"	l
+PendSV_Handler	./startup_LPC177x_8x.s	/^PendSV_Handler  PROC$/;"	l
+PendSV_IRQn	./LPC177x_8x.h	/^  PendSV_IRQn                   = -2,       \/*!< 14 Cortex-M3 Pend SV Interrupt                   *\/$/;"	e	enum:IRQn
+PeriodCurrentED	./LPC177x_8x.h	/^  __I  uint32_t PeriodCurrentED;$/;"	m	struct:__anon54
+PeriodicStart	./LPC177x_8x.h	/^  __IO uint32_t PeriodicStart;$/;"	m	struct:__anon54
+PeripheralClock	./system_LPC177x_8x.c	/^uint32_t PeripheralClock = __PER_CLK; \/*!< Peripheral Clock Frequency (Pclk)  *\/$/;"	v
+PowerDown	./LPC177x_8x.h	/^  __IO uint32_t PowerDown;$/;"	m	struct:__anon58
+Q	./core_cm3.h	/^    uint32_t Q:1;                        \/*!< bit:     27  Saturation condition flag          *\/$/;"	m	struct:__anon1::__anon2
+Q	./core_cm3.h	/^    uint32_t Q:1;                        \/*!< bit:     27  Saturation condition flag          *\/$/;"	m	struct:__anon5::__anon6
+QEI_IRQHandler	./startup_LPC177x_8x.s	/^QEI_IRQHandler$/;"	l
+QEI_IRQn	./LPC177x_8x.h	/^  QEI_IRQn                      = 31,       \/*!< Quadrature Encoder Interface Interrupt           *\/$/;"	e	enum:IRQn
+RASR	./core_cm3.h	/^  __IO uint32_t RASR;                    \/*!< Offset: 0x010 (R\/W)  MPU Region Attribute and Size Register         *\/$/;"	m	struct:__anon17
+RASR_A1	./core_cm3.h	/^  __IO uint32_t RASR_A1;                 \/*!< Offset: 0x018 (R\/W)  MPU Alias 1 Region Attribute and Size Register *\/$/;"	m	struct:__anon17
+RASR_A2	./core_cm3.h	/^  __IO uint32_t RASR_A2;                 \/*!< Offset: 0x020 (R\/W)  MPU Alias 2 Region Attribute and Size Register *\/$/;"	m	struct:__anon17
+RASR_A3	./core_cm3.h	/^  __IO uint32_t RASR_A3;                 \/*!< Offset: 0x028 (R\/W)  MPU Alias 3 Region Attribute and Size Register *\/$/;"	m	struct:__anon17
+RBAR	./core_cm3.h	/^  __IO uint32_t RBAR;                    \/*!< Offset: 0x00C (R\/W)  MPU Region Base Address Register               *\/$/;"	m	struct:__anon17
+RBAR_A1	./core_cm3.h	/^  __IO uint32_t RBAR_A1;                 \/*!< Offset: 0x014 (R\/W)  MPU Alias 1 Region Base Address Register       *\/$/;"	m	struct:__anon17
+RBAR_A2	./core_cm3.h	/^  __IO uint32_t RBAR_A2;                 \/*!< Offset: 0x01C (R\/W)  MPU Alias 2 Region Base Address Register       *\/$/;"	m	struct:__anon17
+RBAR_A3	./core_cm3.h	/^  __IO uint32_t RBAR_A3;                 \/*!< Offset: 0x024 (R\/W)  MPU Alias 3 Region Base Address Register       *\/$/;"	m	struct:__anon17
+RBR	./LPC177x_8x.h	/^		__I  uint8_t  RBR;$/;"	m	union:__anon26::__anon27
+RBR	./LPC177x_8x.h	/^  __I  uint32_t  RBR;                   \/*!< Offset: 0x000 Receiver Buffer  Register (R\/ ) *\/$/;"	m	union:__anon34::__anon35
+RBR	./LPC177x_8x.h	/^  __I  uint8_t  RBR;$/;"	m	union:__anon30::__anon31
+RBUF_SIZE	./rbuf.h	4;"	d
+RDA	./LPC177x_8x.h	/^	__IO uint32_t RDA;$/;"	m	struct:__anon51
+RDATA	./LPC177x_8x.h	/^  __IO uint32_t RDATA;$/;"	m	struct:__anon66
+RDB	./LPC177x_8x.h	/^	__IO uint32_t RDB;$/;"	m	struct:__anon51
+RESERVED	./LPC177x_8x.h	/^       uint16_t RESERVED;$/;"	m	struct:__anon61::__anon62::__anon64
+RESERVED	./LPC177x_8x.h	/^       uint8_t  RESERVED[3];$/;"	m	struct:__anon61::__anon62::__anon65
+RESERVED0	./LPC177x_8x.h	/^		uint32_t RESERVED0;$/;"	m	union:__anon26::__anon27
+RESERVED0	./LPC177x_8x.h	/^       uint32_t  RESERVED0[2];$/;"	m	struct:__anon34
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0;$/;"	m	struct:__anon25
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0;$/;"	m	struct:__anon43
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0;$/;"	m	union:__anon30::__anon31
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[115];$/;"	m	struct:__anon59
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[2];$/;"	m	struct:__anon24
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[2];$/;"	m	struct:__anon47
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[2];$/;"	m	struct:__anon58
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[31];$/;"	m	struct:__anon20
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[3];$/;"	m	struct:__anon22
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[3];$/;"	m	struct:__anon23
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[40];$/;"	m	struct:__anon54
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[5];$/;"	m	struct:__anon60
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[975];$/;"	m	struct:__anon66
+RESERVED0	./LPC177x_8x.h	/^       uint32_t RESERVED0[993];$/;"	m	struct:__anon46
+RESERVED0	./LPC177x_8x.h	/^       uint8_t  RESERVED0[3];$/;"	m	struct:__anon42
+RESERVED0	./LPC177x_8x.h	/^       uint8_t  RESERVED0[7];$/;"	m	struct:__anon41
+RESERVED0	./core_cm3.h	/^       uint32_t RESERVED0[1];$/;"	m	struct:__anon11
+RESERVED0	./core_cm3.h	/^       uint32_t RESERVED0[1];$/;"	m	struct:__anon15
+RESERVED0	./core_cm3.h	/^       uint32_t RESERVED0[24];$/;"	m	struct:__anon9
+RESERVED0	./core_cm3.h	/^       uint32_t RESERVED0[2];$/;"	m	struct:__anon16
+RESERVED0	./core_cm3.h	/^       uint32_t RESERVED0[5];$/;"	m	struct:__anon10
+RESERVED0	./core_cm3.h	/^       uint32_t RESERVED0[864];$/;"	m	struct:__anon13
+RESERVED1	./LPC177x_8x.h	/^	uint8_t  RESERVED1[7];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED1	./LPC177x_8x.h	/^       uint32_t  RESERVED1;$/;"	m	struct:__anon34
+RESERVED1	./LPC177x_8x.h	/^       uint32_t RESERVED1[12];$/;"	m	struct:__anon24
+RESERVED1	./LPC177x_8x.h	/^       uint32_t RESERVED1[13];$/;"	m	struct:__anon47
+RESERVED1	./LPC177x_8x.h	/^       uint32_t RESERVED1[1];$/;"	m	struct:__anon60
+RESERVED1	./LPC177x_8x.h	/^       uint32_t RESERVED1[256];$/;"	m	struct:__anon59
+RESERVED1	./LPC177x_8x.h	/^       uint32_t RESERVED1[45];$/;"	m	struct:__anon58
+RESERVED1	./LPC177x_8x.h	/^       uint32_t RESERVED1[4];$/;"	m	struct:__anon20
+RESERVED1	./LPC177x_8x.h	/^       uint32_t RESERVED1[58];$/;"	m	struct:__anon54
+RESERVED1	./LPC177x_8x.h	/^       uint32_t RESERVED1[7];$/;"	m	struct:__anon25
+RESERVED1	./LPC177x_8x.h	/^       uint8_t  RESERVED1[3];$/;"	m	struct:__anon30
+RESERVED1	./LPC177x_8x.h	/^       uint8_t  RESERVED1[3];$/;"	m	struct:__anon41
+RESERVED1	./LPC177x_8x.h	/^       uint8_t  RESERVED1[3];$/;"	m	struct:__anon42
+RESERVED1	./core_cm3.h	/^       uint32_t RESERVED1[15];$/;"	m	struct:__anon13
+RESERVED1	./core_cm3.h	/^       uint32_t RESERVED1[1];$/;"	m	struct:__anon11
+RESERVED1	./core_cm3.h	/^       uint32_t RESERVED1[1];$/;"	m	struct:__anon15
+RESERVED1	./core_cm3.h	/^       uint32_t RESERVED1[55];$/;"	m	struct:__anon16
+RESERVED10	./LPC177x_8x.h	/^	uint8_t  RESERVED10[3];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED10	./LPC177x_8x.h	/^       uint32_t RESERVED10;					$/;"	m	struct:__anon20
+RESERVED10	./LPC177x_8x.h	/^       uint32_t RESERVED10[1];$/;"	m	struct:__anon60
+RESERVED10	./LPC177x_8x.h	/^       uint8_t  RESERVED10[3];$/;"	m	struct:__anon30
+RESERVED10	./LPC177x_8x.h	/^       uint8_t  RESERVED10[3];$/;"	m	struct:__anon41
+RESERVED11	./LPC177x_8x.h	/^	uint8_t  RESERVED11[3];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED11	./LPC177x_8x.h	/^       uint16_t RESERVED11;$/;"	m	struct:__anon41
+RESERVED11	./LPC177x_8x.h	/^       uint32_t RESERVED11;$/;"	m	struct:__anon20
+RESERVED11	./LPC177x_8x.h	/^       uint8_t  RESERVED11[3];$/;"	m	struct:__anon30
+RESERVED12	./LPC177x_8x.h	/^       uint32_t RESERVED12[2];$/;"	m	struct:__anon20
+RESERVED12	./LPC177x_8x.h	/^       uint8_t  RESERVED12[3];$/;"	m	struct:__anon41
+RESERVED13	./LPC177x_8x.h	/^       uint8_t  RESERVED13[3];$/;"	m	struct:__anon41
+RESERVED14	./LPC177x_8x.h	/^       uint8_t  RESERVED14[3];$/;"	m	struct:__anon41
+RESERVED15	./LPC177x_8x.h	/^       uint8_t  RESERVED15[3];$/;"	m	struct:__anon41
+RESERVED16	./LPC177x_8x.h	/^       uint8_t  RESERVED16[3];$/;"	m	struct:__anon41
+RESERVED17	./LPC177x_8x.h	/^       uint8_t  RESERVED17[3];$/;"	m	struct:__anon41
+RESERVED18	./LPC177x_8x.h	/^       uint8_t  RESERVED18[3];$/;"	m	struct:__anon41
+RESERVED19	./LPC177x_8x.h	/^       uint16_t RESERVED19;$/;"	m	struct:__anon41
+RESERVED2	./LPC177x_8x.h	/^	uint8_t  RESERVED2[7];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED2	./LPC177x_8x.h	/^       uint32_t  RESERVED2[989];$/;"	m	struct:__anon34
+RESERVED2	./LPC177x_8x.h	/^       uint32_t RESERVED2;$/;"	m	struct:__anon42
+RESERVED2	./LPC177x_8x.h	/^       uint32_t RESERVED2[10];$/;"	m	struct:__anon58
+RESERVED2	./LPC177x_8x.h	/^       uint32_t RESERVED2[2];$/;"	m	struct:__anon59
+RESERVED2	./LPC177x_8x.h	/^       uint32_t RESERVED2[4];$/;"	m	struct:__anon20
+RESERVED2	./LPC177x_8x.h	/^       uint32_t RESERVED2[9];$/;"	m	struct:__anon54
+RESERVED2	./LPC177x_8x.h	/^       uint32_t RESERVED2[9];$/;"	m	struct:__anon60
+RESERVED2	./LPC177x_8x.h	/^       uint8_t  RESERVED2[3];$/;"	m	struct:__anon30
+RESERVED2	./LPC177x_8x.h	/^       uint8_t  RESERVED2[3];$/;"	m	struct:__anon41
+RESERVED2	./core_cm3.h	/^       uint32_t RESERVED2[131];$/;"	m	struct:__anon16
+RESERVED2	./core_cm3.h	/^       uint32_t RESERVED2[15];$/;"	m	struct:__anon13
+RESERVED2	./core_cm3.h	/^       uint32_t RESERVED2[1];$/;"	m	struct:__anon15
+RESERVED2	./core_cm3.h	/^       uint32_t RESERVED2[24];$/;"	m	struct:__anon9
+RESERVED20	./LPC177x_8x.h	/^       uint8_t  RESERVED20[3];$/;"	m	struct:__anon41
+RESERVED21	./LPC177x_8x.h	/^       uint16_t RESERVED21;$/;"	m	struct:__anon41
+RESERVED22	./LPC177x_8x.h	/^       uint32_t RESERVED22;$/;"	m	struct:__anon41
+RESERVED23	./LPC177x_8x.h	/^       uint32_t RESERVED23;$/;"	m	struct:__anon41
+RESERVED3	./LPC177x_8x.h	/^	uint8_t  RESERVED3[3];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED3	./LPC177x_8x.h	/^       uint32_t  RESERVED3[3];$/;"	m	struct:__anon34
+RESERVED3	./LPC177x_8x.h	/^       uint32_t RESERVED3[14];$/;"	m	struct:__anon20
+RESERVED3	./LPC177x_8x.h	/^       uint32_t RESERVED3[2];$/;"	m	struct:__anon54
+RESERVED3	./LPC177x_8x.h	/^       uint32_t RESERVED3[31];$/;"	m	struct:__anon60
+RESERVED3	./LPC177x_8x.h	/^       uint32_t RESERVED3[3];$/;"	m	struct:__anon58
+RESERVED3	./LPC177x_8x.h	/^       uint8_t  RESERVED3[3];$/;"	m	struct:__anon30
+RESERVED3	./LPC177x_8x.h	/^       uint8_t  RESERVED3[3];$/;"	m	struct:__anon41
+RESERVED3	./core_cm3.h	/^       uint32_t RESERVED3[24];$/;"	m	struct:__anon9
+RESERVED3	./core_cm3.h	/^       uint32_t RESERVED3[29];                                  $/;"	m	struct:__anon13
+RESERVED3	./core_cm3.h	/^       uint32_t RESERVED3[759];$/;"	m	struct:__anon16
+RESERVED4	./LPC177x_8x.h	/^	uint8_t  RESERVED4[3];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED4	./LPC177x_8x.h	/^       uint32_t RESERVED4[10];$/;"	m	struct:__anon20
+RESERVED4	./LPC177x_8x.h	/^       uint32_t RESERVED4[15];$/;"	m	struct:__anon54
+RESERVED4	./LPC177x_8x.h	/^       uint32_t RESERVED4[34];$/;"	m	struct:__anon58
+RESERVED4	./LPC177x_8x.h	/^       uint32_t RESERVED4[6];$/;"	m	struct:__anon60
+RESERVED4	./LPC177x_8x.h	/^       uint8_t  RESERVED4[3];$/;"	m	struct:__anon30
+RESERVED4	./LPC177x_8x.h	/^       uint8_t  RESERVED4[3];$/;"	m	struct:__anon41
+RESERVED4	./core_cm3.h	/^       uint32_t RESERVED4[1];$/;"	m	struct:__anon16
+RESERVED4	./core_cm3.h	/^       uint32_t RESERVED4[43];                                  $/;"	m	struct:__anon13
+RESERVED4	./core_cm3.h	/^       uint32_t RESERVED4[56];$/;"	m	struct:__anon9
+RESERVED5	./LPC177x_8x.h	/^	uint8_t  RESERVED5[7];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED5	./LPC177x_8x.h	/^       uint32_t RESERVED5;$/;"	m	struct:__anon58
+RESERVED5	./LPC177x_8x.h	/^       uint32_t RESERVED5[1];$/;"	m	struct:__anon20
+RESERVED5	./LPC177x_8x.h	/^       uint32_t RESERVED5[6];$/;"	m	struct:__anon60
+RESERVED5	./LPC177x_8x.h	/^       uint32_t RESERVED5[824];$/;"	m	struct:__anon54
+RESERVED5	./LPC177x_8x.h	/^       uint8_t  RESERVED5[3];$/;"	m	struct:__anon30
+RESERVED5	./LPC177x_8x.h	/^       uint8_t  RESERVED5[3];$/;"	m	struct:__anon41
+RESERVED5	./core_cm3.h	/^       uint32_t RESERVED5[39];$/;"	m	struct:__anon16
+RESERVED5	./core_cm3.h	/^       uint32_t RESERVED5[644];$/;"	m	struct:__anon9
+RESERVED5	./core_cm3.h	/^       uint32_t RESERVED5[6];                                   $/;"	m	struct:__anon13
+RESERVED6	./LPC177x_8x.h	/^       uint32_t RESERVED6;$/;"	m	struct:__anon30
+RESERVED6	./LPC177x_8x.h	/^       uint32_t RESERVED6[12];$/;"	m	struct:__anon20
+RESERVED6	./LPC177x_8x.h	/^       uint32_t RESERVED6[6];$/;"	m	struct:__anon60
+RESERVED6	./LPC177x_8x.h	/^       uint32_t RESERVED6[882];$/;"	m	struct:__anon58
+RESERVED6	./LPC177x_8x.h	/^       uint8_t  RESERVED6[3];$/;"	m	struct:__anon41
+RESERVED7	./LPC177x_8x.h	/^       uint32_t RESERVED7;$/;"	m	struct:__anon20
+RESERVED7	./LPC177x_8x.h	/^       uint32_t RESERVED7;$/;"	m	struct:__anon30
+RESERVED7	./LPC177x_8x.h	/^       uint32_t RESERVED7;$/;"	m	struct:__anon58
+RESERVED7	./LPC177x_8x.h	/^       uint32_t RESERVED7[38];$/;"	m	struct:__anon60
+RESERVED7	./LPC177x_8x.h	/^       uint8_t  RESERVED7[3];$/;"	m	struct:__anon41
+RESERVED7	./core_cm3.h	/^       uint32_t RESERVED7[8];$/;"	m	struct:__anon16
+RESERVED8	./LPC177x_8x.h	/^	uint8_t  RESERVED8[27];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED8	./LPC177x_8x.h	/^       uint32_t RESERVED8;$/;"	m	struct:__anon58
+RESERVED8	./LPC177x_8x.h	/^       uint32_t RESERVED8[1];$/;"	m	struct:__anon60
+RESERVED8	./LPC177x_8x.h	/^       uint32_t RESERVED8[5];$/;"	m	struct:__anon20
+RESERVED8	./LPC177x_8x.h	/^       uint8_t  RESERVED8[27];$/;"	m	struct:__anon30
+RESERVED8	./LPC177x_8x.h	/^       uint8_t  RESERVED8[3];$/;"	m	struct:__anon41
+RESERVED9	./LPC177x_8x.h	/^	uint8_t  RESERVED9[3];\/\/Reserved$/;"	m	struct:__anon26
+RESERVED9	./LPC177x_8x.h	/^       uint16_t RESERVED9;$/;"	m	struct:__anon41
+RESERVED9	./LPC177x_8x.h	/^       uint32_t RESERVED9;					$/;"	m	struct:__anon20
+RESERVED9	./LPC177x_8x.h	/^       uint32_t RESERVED9[1];$/;"	m	struct:__anon60
+RESERVED9	./LPC177x_8x.h	/^       uint8_t  RESERVED9[3];$/;"	m	struct:__anon30
+RESP0	./LPC177x_8x.h	/^  __I  uint32_t RESP0;$/;"	m	struct:__anon47
+RESP1	./LPC177x_8x.h	/^  __I  uint32_t RESP1;$/;"	m	struct:__anon47
+RESP2	./LPC177x_8x.h	/^  __I  uint32_t RESP2;$/;"	m	struct:__anon47
+RESP3	./LPC177x_8x.h	/^  __I  uint32_t RESP3;$/;"	m	struct:__anon47
+RESP_CMD	./LPC177x_8x.h	/^  __I  uint32_t RESP_CMD;$/;"	m	struct:__anon47
+RFS	./LPC177x_8x.h	/^	__IO uint32_t RFS;$/;"	m	struct:__anon51
+RID	./LPC177x_8x.h	/^	__IO uint32_t RID;$/;"	m	struct:__anon51
+RIS	./LPC177x_8x.h	/^  __IO uint32_t RIS;                    \/*!< Offset: 0x018 Raw Interrupt Status Register (R\/W) *\/$/;"	m	struct:__anon38
+RNR	./core_cm3.h	/^  __IO uint32_t RNR;                     \/*!< Offset: 0x008 (R\/W)  MPU Region RNRber Register                     *\/$/;"	m	struct:__anon17
+RS485CTRL	./LPC177x_8x.h	/^	__IO uint8_t  RS485CTRL;$/;"	m	struct:__anon26
+RS485CTRL	./LPC177x_8x.h	/^  __IO uint32_t  RS485CTRL;             \/*!< Offset: 0x04C RS-485\/EIA-485 Control Register (R\/W) *\/$/;"	m	struct:__anon34
+RS485CTRL	./LPC177x_8x.h	/^  __IO uint8_t  RS485CTRL;$/;"	m	struct:__anon30
+RS485DLY	./LPC177x_8x.h	/^	__IO uint8_t  RS485DLY;$/;"	m	struct:__anon26
+RS485DLY	./LPC177x_8x.h	/^  __IO uint32_t  RS485DLY;              \/*!< Offset: 0x054 RS-485\/EIA-485 direction control delay Register (R\/W) *\/$/;"	m	struct:__anon34
+RS485DLY	./LPC177x_8x.h	/^  __IO uint8_t  RS485DLY;$/;"	m	struct:__anon30
+RSERVED1	./core_cm3.h	/^       uint32_t RSERVED1[24];$/;"	m	struct:__anon9
+RSID	./LPC177x_8x.h	/^  __IO uint32_t RSID;                       \/*!< Offset: 0x180 (R\/W)  Reset Source Identification Register *\/$/;"	m	struct:__anon20
+RSTCON0	./LPC177x_8x.h	/^  __IO uint32_t RSTCON0;                    \/*!< Offset: 0x1CC (R\/W)  RESET Control0 Register *\/$/;"	m	struct:__anon20
+RSTCON1	./LPC177x_8x.h	/^  __IO uint32_t RSTCON1;                    \/*!< Offset: 0x1D0 (R\/W)  RESET Control1 Register *\/$/;"	m	struct:__anon20
+RSV	./LPC177x_8x.h	/^  __I  uint32_t RSV;$/;"	m	struct:__anon58
+RTC_AUX	./LPC177x_8x.h	/^  __IO uint8_t  RTC_AUX;$/;"	m	struct:__anon41
+RTC_AUXEN	./LPC177x_8x.h	/^  __IO uint8_t  RTC_AUXEN;$/;"	m	struct:__anon41
+RTC_CLK	./system_LPC177x_8x.h	69;"	d
+RTC_IRQHandler	./startup_LPC177x_8x.s	/^RTC_IRQHandler$/;"	l
+RTC_IRQn	./LPC177x_8x.h	/^  RTC_IRQn                      = 17,       \/*!< Real Time Clock Interrupt                        *\/$/;"	e	enum:IRQn
+RXBITRATE	./LPC177x_8x.h	/^  __IO uint32_t RXBITRATE;$/;"	m	struct:__anon40
+RXFIFO	./LPC177x_8x.h	/^  __I  uint32_t RXFIFO;$/;"	m	struct:__anon40
+RXMODE	./LPC177x_8x.h	/^  __IO uint32_t RXMODE;$/;"	m	struct:__anon40
+RXRATE	./LPC177x_8x.h	/^  __IO uint32_t RXRATE;$/;"	m	struct:__anon40
+RawIntErrStat	./LPC177x_8x.h	/^  __I  uint32_t RawIntErrStat;$/;"	m	struct:__anon52
+RawIntTCStat	./LPC177x_8x.h	/^  __I  uint32_t RawIntTCStat;$/;"	m	struct:__anon52
+ReEp	./LPC177x_8x.h	/^  __IO uint32_t ReEp;                \/* USB Device Endpoint Realization Reg*\/$/;"	m	struct:__anon54
+Reserved0_IRQn	./LPC177x_8x.h	/^  Reserved0_IRQn                = 13,       \/*!< Reserved                                         *\/$/;"	e	enum:IRQn
+Reset_Handler	./startup_LPC177x_8x.s	/^Reset_Handler   PROC$/;"	l
+Reset_IRQn	./LPC177x_8x.h	/^  Reset_IRQn                    = -15,      \/*!< 1 Reset Vector, invoked on PowerUp and warm reset*\/$/;"	e	enum:IRQn
+Revision	./LPC177x_8x.h	/^  __I  uint32_t Revision;             \/* USB Host Registers                 *\/$/;"	m	struct:__anon54
+RhDescriptorA	./LPC177x_8x.h	/^  __IO uint32_t RhDescriptorA;$/;"	m	struct:__anon54
+RhDescriptorB	./LPC177x_8x.h	/^  __IO uint32_t RhDescriptorB;$/;"	m	struct:__anon54
+RhPortStatus1	./LPC177x_8x.h	/^  __IO uint32_t RhPortStatus1;$/;"	m	struct:__anon54
+RhPortStatus2	./LPC177x_8x.h	/^  __IO uint32_t RhPortStatus2;$/;"	m	struct:__anon54
+RhStatus	./LPC177x_8x.h	/^  __IO uint32_t RhStatus;$/;"	m	struct:__anon54
+RxConsumeIndex	./LPC177x_8x.h	/^  __IO uint32_t RxConsumeIndex;$/;"	m	struct:__anon58
+RxData	./LPC177x_8x.h	/^  __I  uint32_t RxData;              \/* USB Device Transfer Registers      *\/$/;"	m	struct:__anon54
+RxDescriptor	./LPC177x_8x.h	/^  __IO uint32_t RxDescriptor;$/;"	m	struct:__anon58
+RxDescriptorNumber	./LPC177x_8x.h	/^  __IO uint32_t RxDescriptorNumber;$/;"	m	struct:__anon58
+RxFilterCtrl	./LPC177x_8x.h	/^  __IO uint32_t RxFilterCtrl;           \/* Rx Filter Registers                *\/$/;"	m	struct:__anon58
+RxFilterWoLClear	./LPC177x_8x.h	/^  __O  uint32_t RxFilterWoLClear;$/;"	m	struct:__anon58
+RxFilterWoLStatus	./LPC177x_8x.h	/^  __I  uint32_t RxFilterWoLStatus;$/;"	m	struct:__anon58
+RxPLen	./LPC177x_8x.h	/^  __I  uint32_t RxPLen;$/;"	m	struct:__anon54
+RxProduceIndex	./LPC177x_8x.h	/^  __I  uint32_t RxProduceIndex;$/;"	m	struct:__anon58
+RxSR	./LPC177x_8x.h	/^  __I  uint32_t RxSR;$/;"	m	struct:__anon50
+RxStatus	./LPC177x_8x.h	/^  __IO uint32_t RxStatus;$/;"	m	struct:__anon58
+SA0	./LPC177x_8x.h	/^  __IO uint32_t SA0;$/;"	m	struct:__anon58
+SA1	./LPC177x_8x.h	/^  __IO uint32_t SA1;$/;"	m	struct:__anon58
+SA2	./LPC177x_8x.h	/^  __IO uint32_t SA2;$/;"	m	struct:__anon58
+SCB	./core_cm3.h	1229;"	d
+SCB_AIRCR_ENDIANESS_Msk	./core_cm3.h	405;"	d
+SCB_AIRCR_ENDIANESS_Pos	./core_cm3.h	404;"	d
+SCB_AIRCR_PRIGROUP_Msk	./core_cm3.h	408;"	d
+SCB_AIRCR_PRIGROUP_Pos	./core_cm3.h	407;"	d
+SCB_AIRCR_SYSRESETREQ_Msk	./core_cm3.h	411;"	d
+SCB_AIRCR_SYSRESETREQ_Pos	./core_cm3.h	410;"	d
+SCB_AIRCR_VECTCLRACTIVE_Msk	./core_cm3.h	414;"	d
+SCB_AIRCR_VECTCLRACTIVE_Pos	./core_cm3.h	413;"	d
+SCB_AIRCR_VECTKEYSTAT_Msk	./core_cm3.h	402;"	d
+SCB_AIRCR_VECTKEYSTAT_Pos	./core_cm3.h	401;"	d
+SCB_AIRCR_VECTKEY_Msk	./core_cm3.h	399;"	d
+SCB_AIRCR_VECTKEY_Pos	./core_cm3.h	398;"	d
+SCB_AIRCR_VECTRESET_Msk	./core_cm3.h	417;"	d
+SCB_AIRCR_VECTRESET_Pos	./core_cm3.h	416;"	d
+SCB_BASE	./core_cm3.h	1226;"	d
+SCB_CCR_BFHFNMIGN_Msk	./core_cm3.h	434;"	d
+SCB_CCR_BFHFNMIGN_Pos	./core_cm3.h	433;"	d
+SCB_CCR_DIV_0_TRP_Msk	./core_cm3.h	437;"	d
+SCB_CCR_DIV_0_TRP_Pos	./core_cm3.h	436;"	d
+SCB_CCR_NONBASETHRDENA_Msk	./core_cm3.h	446;"	d
+SCB_CCR_NONBASETHRDENA_Pos	./core_cm3.h	445;"	d
+SCB_CCR_STKALIGN_Msk	./core_cm3.h	431;"	d
+SCB_CCR_STKALIGN_Pos	./core_cm3.h	430;"	d
+SCB_CCR_UNALIGN_TRP_Msk	./core_cm3.h	440;"	d
+SCB_CCR_UNALIGN_TRP_Pos	./core_cm3.h	439;"	d
+SCB_CCR_USERSETMPEND_Msk	./core_cm3.h	443;"	d
+SCB_CCR_USERSETMPEND_Pos	./core_cm3.h	442;"	d
+SCB_CFSR_BUSFAULTSR_Msk	./core_cm3.h	496;"	d
+SCB_CFSR_BUSFAULTSR_Pos	./core_cm3.h	495;"	d
+SCB_CFSR_MEMFAULTSR_Msk	./core_cm3.h	499;"	d
+SCB_CFSR_MEMFAULTSR_Pos	./core_cm3.h	498;"	d
+SCB_CFSR_USGFAULTSR_Msk	./core_cm3.h	493;"	d
+SCB_CFSR_USGFAULTSR_Pos	./core_cm3.h	492;"	d
+SCB_CPUID_ARCHITECTURE_Msk	./core_cm3.h	346;"	d
+SCB_CPUID_ARCHITECTURE_Pos	./core_cm3.h	345;"	d
+SCB_CPUID_IMPLEMENTER_Msk	./core_cm3.h	340;"	d
+SCB_CPUID_IMPLEMENTER_Pos	./core_cm3.h	339;"	d
+SCB_CPUID_PARTNO_Msk	./core_cm3.h	349;"	d
+SCB_CPUID_PARTNO_Pos	./core_cm3.h	348;"	d
+SCB_CPUID_REVISION_Msk	./core_cm3.h	352;"	d
+SCB_CPUID_REVISION_Pos	./core_cm3.h	351;"	d
+SCB_CPUID_VARIANT_Msk	./core_cm3.h	343;"	d
+SCB_CPUID_VARIANT_Pos	./core_cm3.h	342;"	d
+SCB_DFSR_BKPT_Msk	./core_cm3.h	522;"	d
+SCB_DFSR_BKPT_Pos	./core_cm3.h	521;"	d
+SCB_DFSR_DWTTRAP_Msk	./core_cm3.h	519;"	d
+SCB_DFSR_DWTTRAP_Pos	./core_cm3.h	518;"	d
+SCB_DFSR_EXTERNAL_Msk	./core_cm3.h	513;"	d
+SCB_DFSR_EXTERNAL_Pos	./core_cm3.h	512;"	d
+SCB_DFSR_HALTED_Msk	./core_cm3.h	525;"	d
+SCB_DFSR_HALTED_Pos	./core_cm3.h	524;"	d
+SCB_DFSR_VCATCH_Msk	./core_cm3.h	516;"	d
+SCB_DFSR_VCATCH_Pos	./core_cm3.h	515;"	d
+SCB_HFSR_DEBUGEVT_Msk	./core_cm3.h	503;"	d
+SCB_HFSR_DEBUGEVT_Pos	./core_cm3.h	502;"	d
+SCB_HFSR_FORCED_Msk	./core_cm3.h	506;"	d
+SCB_HFSR_FORCED_Pos	./core_cm3.h	505;"	d
+SCB_HFSR_VECTTBL_Msk	./core_cm3.h	509;"	d
+SCB_HFSR_VECTTBL_Pos	./core_cm3.h	508;"	d
+SCB_ICSR_ISRPENDING_Msk	./core_cm3.h	374;"	d
+SCB_ICSR_ISRPENDING_Pos	./core_cm3.h	373;"	d
+SCB_ICSR_ISRPREEMPT_Msk	./core_cm3.h	371;"	d
+SCB_ICSR_ISRPREEMPT_Pos	./core_cm3.h	370;"	d
+SCB_ICSR_NMIPENDSET_Msk	./core_cm3.h	356;"	d
+SCB_ICSR_NMIPENDSET_Pos	./core_cm3.h	355;"	d
+SCB_ICSR_PENDSTCLR_Msk	./core_cm3.h	368;"	d
+SCB_ICSR_PENDSTCLR_Pos	./core_cm3.h	367;"	d
+SCB_ICSR_PENDSTSET_Msk	./core_cm3.h	365;"	d
+SCB_ICSR_PENDSTSET_Pos	./core_cm3.h	364;"	d
+SCB_ICSR_PENDSVCLR_Msk	./core_cm3.h	362;"	d
+SCB_ICSR_PENDSVCLR_Pos	./core_cm3.h	361;"	d
+SCB_ICSR_PENDSVSET_Msk	./core_cm3.h	359;"	d
+SCB_ICSR_PENDSVSET_Pos	./core_cm3.h	358;"	d
+SCB_ICSR_RETTOBASE_Msk	./core_cm3.h	380;"	d
+SCB_ICSR_RETTOBASE_Pos	./core_cm3.h	379;"	d
+SCB_ICSR_VECTACTIVE_Msk	./core_cm3.h	383;"	d
+SCB_ICSR_VECTACTIVE_Pos	./core_cm3.h	382;"	d
+SCB_ICSR_VECTPENDING_Msk	./core_cm3.h	377;"	d
+SCB_ICSR_VECTPENDING_Pos	./core_cm3.h	376;"	d
+SCB_SCR_SEVONPEND_Msk	./core_cm3.h	421;"	d
+SCB_SCR_SEVONPEND_Pos	./core_cm3.h	420;"	d
+SCB_SCR_SLEEPDEEP_Msk	./core_cm3.h	424;"	d
+SCB_SCR_SLEEPDEEP_Pos	./core_cm3.h	423;"	d
+SCB_SCR_SLEEPONEXIT_Msk	./core_cm3.h	427;"	d
+SCB_SCR_SLEEPONEXIT_Pos	./core_cm3.h	426;"	d
+SCB_SHCSR_BUSFAULTACT_Msk	./core_cm3.h	486;"	d
+SCB_SHCSR_BUSFAULTACT_Pos	./core_cm3.h	485;"	d
+SCB_SHCSR_BUSFAULTENA_Msk	./core_cm3.h	453;"	d
+SCB_SHCSR_BUSFAULTENA_Pos	./core_cm3.h	452;"	d
+SCB_SHCSR_BUSFAULTPENDED_Msk	./core_cm3.h	462;"	d
+SCB_SHCSR_BUSFAULTPENDED_Pos	./core_cm3.h	461;"	d
+SCB_SHCSR_MEMFAULTACT_Msk	./core_cm3.h	489;"	d
+SCB_SHCSR_MEMFAULTACT_Pos	./core_cm3.h	488;"	d
+SCB_SHCSR_MEMFAULTENA_Msk	./core_cm3.h	456;"	d
+SCB_SHCSR_MEMFAULTENA_Pos	./core_cm3.h	455;"	d
+SCB_SHCSR_MEMFAULTPENDED_Msk	./core_cm3.h	465;"	d
+SCB_SHCSR_MEMFAULTPENDED_Pos	./core_cm3.h	464;"	d
+SCB_SHCSR_MONITORACT_Msk	./core_cm3.h	477;"	d
+SCB_SHCSR_MONITORACT_Pos	./core_cm3.h	476;"	d
+SCB_SHCSR_PENDSVACT_Msk	./core_cm3.h	474;"	d
+SCB_SHCSR_PENDSVACT_Pos	./core_cm3.h	473;"	d
+SCB_SHCSR_SVCALLACT_Msk	./core_cm3.h	480;"	d
+SCB_SHCSR_SVCALLACT_Pos	./core_cm3.h	479;"	d
+SCB_SHCSR_SVCALLPENDED_Msk	./core_cm3.h	459;"	d
+SCB_SHCSR_SVCALLPENDED_Pos	./core_cm3.h	458;"	d
+SCB_SHCSR_SYSTICKACT_Msk	./core_cm3.h	471;"	d
+SCB_SHCSR_SYSTICKACT_Pos	./core_cm3.h	470;"	d
+SCB_SHCSR_USGFAULTACT_Msk	./core_cm3.h	483;"	d
+SCB_SHCSR_USGFAULTACT_Pos	./core_cm3.h	482;"	d
+SCB_SHCSR_USGFAULTENA_Msk	./core_cm3.h	450;"	d
+SCB_SHCSR_USGFAULTENA_Pos	./core_cm3.h	449;"	d
+SCB_SHCSR_USGFAULTPENDED_Msk	./core_cm3.h	468;"	d
+SCB_SHCSR_USGFAULTPENDED_Pos	./core_cm3.h	467;"	d
+SCB_Type	./core_cm3.h	/^} SCB_Type;$/;"	t	typeref:struct:__anon10
+SCB_VTOR_TBLBASE_Msk	./core_cm3.h	388;"	d
+SCB_VTOR_TBLBASE_Pos	./core_cm3.h	387;"	d
+SCB_VTOR_TBLOFF_Msk	./core_cm3.h	391;"	d
+SCB_VTOR_TBLOFF_Msk	./core_cm3.h	394;"	d
+SCB_VTOR_TBLOFF_Pos	./core_cm3.h	390;"	d
+SCB_VTOR_TBLOFF_Pos	./core_cm3.h	393;"	d
+SCI_CTRL	./LPC177x_8x.h	/^  __IO uint32_t  SCI_CTRL;				\/*!< Offset: 0x048 Smart card Interface Control Register (R\/W) *\/$/;"	m	struct:__anon34
+SCLH	./LPC177x_8x.h	/^  __IO uint32_t SCLH;                   \/*!< Offset: 0x010 SCH Duty Cycle Register High Half Word (R\/W) *\/$/;"	m	struct:__anon39
+SCLL	./LPC177x_8x.h	/^  __IO uint32_t SCLL;                   \/*!< Offset: 0x014 SCL Duty Cycle Register Low Half Word (R\/W) *\/$/;"	m	struct:__anon39
+SCR	./LPC177x_8x.h	/^	__IO uint8_t  SCR;$/;"	m	struct:__anon26
+SCR	./LPC177x_8x.h	/^  __IO uint32_t  SCR;                   \/*!< Offset: 0x01C Scratch Pad Register (R\/W) *\/$/;"	m	struct:__anon34
+SCR	./LPC177x_8x.h	/^  __IO uint8_t  SCR;$/;"	m	struct:__anon30
+SCR	./core_cm3.h	/^  __IO uint32_t SCR;                     \/*!< Offset: 0x010 (R\/W)  System Control Register                               *\/$/;"	m	struct:__anon10
+SCS	./LPC177x_8x.h	/^  __IO uint32_t SCS;                        \/*!< Offset: 0x1A0 (R\/W)  System Controls and Status Register *\/$/;"	m	struct:__anon20
+SCS_BASE	./core_cm3.h	1219;"	d
+SCS_Val	./system_LPC177x_8x.c	210;"	d	file:
+SCnSCB	./core_cm3.h	1228;"	d
+SCnSCB_ACTLR_DISDEFWBUF_Msk	./core_cm3.h	559;"	d
+SCnSCB_ACTLR_DISDEFWBUF_Pos	./core_cm3.h	558;"	d
+SCnSCB_ACTLR_DISFOLD_Msk	./core_cm3.h	556;"	d
+SCnSCB_ACTLR_DISFOLD_Pos	./core_cm3.h	555;"	d
+SCnSCB_ACTLR_DISMCYCINT_Msk	./core_cm3.h	562;"	d
+SCnSCB_ACTLR_DISMCYCINT_Pos	./core_cm3.h	561;"	d
+SCnSCB_ICTR_INTLINESNUM_Msk	./core_cm3.h	551;"	d
+SCnSCB_ICTR_INTLINESNUM_Pos	./core_cm3.h	550;"	d
+SCnSCB_Type	./core_cm3.h	/^} SCnSCB_Type;$/;"	t	typeref:struct:__anon11
+SEC	./LPC177x_8x.h	/^  __IO uint8_t  SEC;$/;"	m	struct:__anon41
+SEED	./LPC177x_8x.h	/^  __IO uint32_t SEED;$/;"	m	struct:__anon61
+SET	./LPC177x_8x.h	/^  __IO uint32_t SET;$/;"	m	struct:__anon22
+SET	./LPC177x_8x.h	/^  __O  uint32_t SET;$/;"	m	struct:__anon46
+SFF_GRP_sa	./LPC177x_8x.h	/^	__IO uint32_t SFF_GRP_sa;$/;"	m	struct:__anon49
+SFF_sa	./LPC177x_8x.h	/^	__IO uint32_t SFF_sa;$/;"	m	struct:__anon49
+SHCSR	./core_cm3.h	/^  __IO uint32_t SHCSR;                   \/*!< Offset: 0x024 (R\/W)  System Handler Control and State Register             *\/$/;"	m	struct:__anon10
+SHP	./core_cm3.h	/^  __IO uint8_t  SHP[12];                 \/*!< Offset: 0x018 (R\/W)  System Handlers Priority Registers (4-7, 8-11, 12-15) *\/$/;"	m	struct:__anon10
+SLEEPCNT	./core_cm3.h	/^  __IO uint32_t SLEEPCNT;                \/*!< Offset: 0x010 (R\/W)  Sleep Count Register                      *\/$/;"	m	struct:__anon15
+SPIFI_IRQHandler	./startup_LPC177x_8x.s	/^SPIFI_IRQHandler            $/;"	l
+SPPR	./core_cm3.h	/^  __IO uint32_t SPPR;                    \/*!< Offset: 0x0F0 (R\/W)  Selected Pin Protocol Register *\/$/;"	m	struct:__anon16
+SPSEL	./core_cm3.h	/^    uint32_t SPSEL:1;                    \/*!< bit:      1  Stack to be used                   *\/$/;"	m	struct:__anon7::__anon8
+SR	./LPC177x_8x.h	/^	__I  uint32_t SR;$/;"	m	struct:__anon51
+SR	./LPC177x_8x.h	/^  __I  uint32_t SR;                     \/*!< Offset: 0x00C Status Registe (R\/ ) *\/$/;"	m	struct:__anon38
+SSP0_IRQHandler	./startup_LPC177x_8x.s	/^SSP0_IRQHandler$/;"	l
+SSP0_IRQn	./LPC177x_8x.h	/^  SSP0_IRQn                     = 14,       \/*!< SSP0 Interrupt                                   *\/$/;"	e	enum:IRQn
+SSP1_IRQHandler	./startup_LPC177x_8x.s	/^SSP1_IRQHandler$/;"	l
+SSP1_IRQn	./LPC177x_8x.h	/^  SSP1_IRQn                     = 15,       \/*!< SSP1 Interrupt                                   *\/$/;"	e	enum:IRQn
+SSP2_IRQHandler	./startup_LPC177x_8x.s	/^SSP2_IRQHandler$/;"	l
+SSP2_IRQn	./LPC177x_8x.h	/^  SSP2_IRQn                     = 36,       \/*!< SSP2 Interrupt                                   *\/$/;"	e	enum:IRQn
+SSPSR	./core_cm3.h	/^  __IO uint32_t SSPSR;                   \/*!< Offset: 0x000 (R\/ )  Supported Parallel Port Size Register     *\/$/;"	m	struct:__anon16
+STACKMAX	./ebsy.h	12;"	d
+STAT	./LPC177x_8x.h	/^  __I  uint32_t STAT;                   \/*!< Offset: 0x004 I2C Status Register (R\/ ) *\/$/;"	m	struct:__anon39
+STAT	./LPC177x_8x.h	/^  __I  uint32_t STAT;                   \/*!< Offset: 0x030       A\/D Status Register (R\/ ) *\/$/;"	m	struct:__anon43
+STAT	./LPC177x_8x.h	/^  __I  uint32_t STAT;$/;"	m	struct:__anon46
+STATE	./LPC177x_8x.h	/^  __I  uint32_t STATE;$/;"	m	struct:__anon40
+STATUS	./LPC177x_8x.h	/^  __I  uint32_t STATUS;$/;"	m	struct:__anon47
+STIR	./core_cm3.h	/^  __O  uint32_t STIR;                    \/*!< Offset: 0xE00 ( \/W)  Software Trigger Interrupt Register     *\/$/;"	m	struct:__anon9
+SUM	./LPC177x_8x.h	/^  __I  uint32_t SUM;$/;"	m	union:__anon61::__anon62
+SUPP	./LPC177x_8x.h	/^  __IO uint32_t SUPP;$/;"	m	struct:__anon58
+SVCHandler_main	./syscall.c	/^int SVCHandler_main(unsigned int *svc_args) {$/;"	f
+SVC_00	./syscall.h	2;"	d
+SVC_01	./syscall.h	3;"	d
+SVC_02	./syscall.h	4;"	d
+SVC_Handler	./startup_LPC177x_8x.s	/^SVC_Handler     PROC$/;"	l
+SVC_Handler	./syscall.s	/^SVC_Handler proc$/;"	l
+SVCall_IRQn	./LPC177x_8x.h	/^  SVCall_IRQn                   = -5,       \/*!< 11 Cortex-M3 SV Call Interrupt                   *\/$/;"	e	enum:IRQn
+SYNCCTRL	./LPC177x_8x.h	/^  __IO uint32_t  SYNCCTRL;              \/*!< Offset: 0x058 Synchronous Mode Control Register (R\/W ) *\/$/;"	m	struct:__anon34
+SYS_fork	./fork.c	/^int SYS_fork(void) {$/;"	f
+SoftBReq	./LPC177x_8x.h	/^  __IO uint32_t SoftBReq;$/;"	m	struct:__anon52
+SoftLBReq	./LPC177x_8x.h	/^  __IO uint32_t SoftLBReq;$/;"	m	struct:__anon52
+SoftLSReq	./LPC177x_8x.h	/^  __IO uint32_t SoftLSReq;$/;"	m	struct:__anon52
+SoftSReq	./LPC177x_8x.h	/^  __IO uint32_t SoftSReq;$/;"	m	struct:__anon52
+StCtrl	./LPC177x_8x.h	/^  __IO uint32_t StCtrl;$/;"	m	struct:__anon54
+Stack_Mem	./startup_LPC177x_8x.s	/^Stack_Mem       SPACE   Stack_Size$/;"	l
+Stack_Size	./startup_LPC177x_8x.s	/^Stack_Size      EQU     0x00000200$/;"	d
+StaticConfig0	./LPC177x_8x.h	/^  __IO uint32_t StaticConfig0;$/;"	m	struct:__anon60
+StaticConfig1	./LPC177x_8x.h	/^  __IO uint32_t StaticConfig1;$/;"	m	struct:__anon60
+StaticConfig2	./LPC177x_8x.h	/^  __IO uint32_t StaticConfig2;$/;"	m	struct:__anon60
+StaticConfig3	./LPC177x_8x.h	/^  __IO uint32_t StaticConfig3;$/;"	m	struct:__anon60
+StaticExtendedWait	./LPC177x_8x.h	/^  __IO uint32_t StaticExtendedWait;$/;"	m	struct:__anon60
+StaticWaitOen0	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitOen0;$/;"	m	struct:__anon60
+StaticWaitOen1	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitOen1;$/;"	m	struct:__anon60
+StaticWaitOen2	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitOen2;$/;"	m	struct:__anon60
+StaticWaitOen3	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitOen3;$/;"	m	struct:__anon60
+StaticWaitPage0	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitPage0;$/;"	m	struct:__anon60
+StaticWaitPage1	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitPage1;$/;"	m	struct:__anon60
+StaticWaitPage2	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitPage2;$/;"	m	struct:__anon60
+StaticWaitPage3	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitPage3;$/;"	m	struct:__anon60
+StaticWaitRd0	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitRd0;$/;"	m	struct:__anon60
+StaticWaitRd1	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitRd1;$/;"	m	struct:__anon60
+StaticWaitRd2	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitRd2;$/;"	m	struct:__anon60
+StaticWaitRd3	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitRd3;$/;"	m	struct:__anon60
+StaticWaitTurn0	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitTurn0;$/;"	m	struct:__anon60
+StaticWaitTurn1	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitTurn1;$/;"	m	struct:__anon60
+StaticWaitTurn2	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitTurn2;$/;"	m	struct:__anon60
+StaticWaitTurn3	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitTurn3;$/;"	m	struct:__anon60
+StaticWaitWen0	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitWen0;$/;"	m	struct:__anon60
+StaticWaitWen1	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitWen1;$/;"	m	struct:__anon60
+StaticWaitWen2	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitWen2;$/;"	m	struct:__anon60
+StaticWaitWen3	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitWen3;$/;"	m	struct:__anon60
+StaticWaitWr0	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitWr0;$/;"	m	struct:__anon60
+StaticWaitWr1	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitWr1;$/;"	m	struct:__anon60
+StaticWaitWr2	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitWr2;$/;"	m	struct:__anon60
+StaticWaitWr3	./LPC177x_8x.h	/^  __IO uint32_t StaticWaitWr3;$/;"	m	struct:__anon60
+Status	./LPC177x_8x.h	/^  __I  uint32_t Status;$/;"	m	struct:__anon58
+Status	./LPC177x_8x.h	/^  __I  uint32_t Status;$/;"	m	struct:__anon60
+Sync	./LPC177x_8x.h	/^  __IO uint32_t Sync;$/;"	m	struct:__anon52
+SysErrIntClr	./LPC177x_8x.h	/^  __O  uint32_t SysErrIntClr;$/;"	m	struct:__anon54
+SysErrIntSet	./LPC177x_8x.h	/^  __O  uint32_t SysErrIntSet;$/;"	m	struct:__anon54
+SysErrIntSt	./LPC177x_8x.h	/^  __I  uint32_t SysErrIntSt;$/;"	m	struct:__anon54
+SysTick	./core_cm3.h	1230;"	d
+SysTick_BASE	./core_cm3.h	1224;"	d
+SysTick_CALIB_NOREF_Msk	./core_cm3.h	606;"	d
+SysTick_CALIB_NOREF_Pos	./core_cm3.h	605;"	d
+SysTick_CALIB_SKEW_Msk	./core_cm3.h	609;"	d
+SysTick_CALIB_SKEW_Pos	./core_cm3.h	608;"	d
+SysTick_CALIB_TENMS_Msk	./core_cm3.h	612;"	d
+SysTick_CALIB_TENMS_Pos	./core_cm3.h	611;"	d
+SysTick_CTRL	./main.c	/^volatile uintptr_t SysTick_CTRL;$/;"	v
+SysTick_CTRL_CLKSOURCE_Msk	./core_cm3.h	588;"	d
+SysTick_CTRL_CLKSOURCE_Pos	./core_cm3.h	587;"	d
+SysTick_CTRL_COUNTFLAG_Msk	./core_cm3.h	585;"	d
+SysTick_CTRL_COUNTFLAG_Pos	./core_cm3.h	584;"	d
+SysTick_CTRL_ENABLE_Msk	./core_cm3.h	594;"	d
+SysTick_CTRL_ENABLE_Pos	./core_cm3.h	593;"	d
+SysTick_CTRL_TICKINT_Msk	./core_cm3.h	591;"	d
+SysTick_CTRL_TICKINT_Pos	./core_cm3.h	590;"	d
+SysTick_Config	./core_cm3.h	/^__STATIC_INLINE uint32_t SysTick_Config(uint32_t ticks)$/;"	f
+SysTick_Handler	./handlers.c	/^void SysTick_Handler(void) {$/;"	f
+SysTick_Handler	./startup_LPC177x_8x.s	/^SysTick_Handler PROC$/;"	l
+SysTick_IRQn	./LPC177x_8x.h	/^  SysTick_IRQn                  = -1,       \/*!< 15 Cortex-M3 System Tick Interrupt               *\/$/;"	e	enum:IRQn
+SysTick_LOAD_RELOAD_Msk	./core_cm3.h	598;"	d
+SysTick_LOAD_RELOAD_Pos	./core_cm3.h	597;"	d
+SysTick_Type	./core_cm3.h	/^} SysTick_Type;$/;"	t	typeref:struct:__anon12
+SysTick_VAL_CURRENT_Msk	./core_cm3.h	602;"	d
+SysTick_VAL_CURRENT_Pos	./core_cm3.h	601;"	d
+SystemCoreClock	./system_LPC177x_8x.c	/^uint32_t SystemCoreClock = __CORE_CLK;\/*!< System Clock Frequency (Core Clock)*\/$/;"	v
+SystemCoreClockUpdate	./system_LPC177x_8x.c	/^void SystemCoreClockUpdate (void)            \/* Get Core Clock Frequency      *\/$/;"	f
+SystemInit	./system_LPC177x_8x.c	/^void SystemInit (void)$/;"	f
+T	./core_cm3.h	/^    uint32_t T:1;                        \/*!< bit:     24  Thumb bit        (read 0)          *\/$/;"	m	struct:__anon5::__anon6
+TC	./LPC177x_8x.h	/^  __IO uint32_t TC;                     \/*!< Offset: 0x008 Timer Counter Register (R\/W) *\/$/;"	m	struct:__anon24
+TC	./LPC177x_8x.h	/^  __IO uint32_t TC;                     \/*!< Offset: 0x008 Timer Counter Register (R\/W) *\/$/;"	m	struct:__anon25
+TC	./LPC177x_8x.h	/^  __IO uint32_t TC;$/;"	m	struct:__anon42
+TC0	./LPC177x_8x.h	/^  __IO uint32_t TC0;$/;"	m	struct:__anon45
+TC1	./LPC177x_8x.h	/^  __IO uint32_t TC1;$/;"	m	struct:__anon45
+TC2	./LPC177x_8x.h	/^  __IO uint32_t TC2;$/;"	m	struct:__anon45
+TCR	./LPC177x_8x.h	/^  __IO uint32_t TCR;                    \/*!< Offset: 0x004 Timer Control Register (R\/W) *\/$/;"	m	struct:__anon24
+TCR	./LPC177x_8x.h	/^  __IO uint32_t TCR;                    \/*!< Offset: 0x004 Timer Control Register (R\/W) *\/$/;"	m	struct:__anon25
+TCR	./core_cm3.h	/^  __IO uint32_t TCR;                     \/*!< Offset: 0xE80 (R\/W)  ITM Trace Control Register                *\/$/;"	m	struct:__anon13
+TDA1	./LPC177x_8x.h	/^	__IO uint32_t TDA1;$/;"	m	struct:__anon51
+TDA2	./LPC177x_8x.h	/^	__IO uint32_t TDA2;$/;"	m	struct:__anon51
+TDA3	./LPC177x_8x.h	/^	__IO uint32_t TDA3;$/;"	m	struct:__anon51
+TDB1	./LPC177x_8x.h	/^	__IO uint32_t TDB1;$/;"	m	struct:__anon51
+TDB2	./LPC177x_8x.h	/^	__IO uint32_t TDB2;$/;"	m	struct:__anon51
+TDB3	./LPC177x_8x.h	/^	__IO uint32_t TDB3;$/;"	m	struct:__anon51
+TENMS	./ebsy.h	13;"	d
+TER	./LPC177x_8x.h	/^	__IO uint8_t  TER;$/;"	m	struct:__anon26
+TER	./LPC177x_8x.h	/^  __IO uint32_t  TER;                   \/*!< Offset: 0x05C Transmit Enable Register (R\/W) *\/$/;"	m	struct:__anon34
+TER	./LPC177x_8x.h	/^  __IO uint8_t  TER;$/;"	m	struct:__anon30
+TER	./core_cm3.h	/^  __IO uint32_t TER;                     \/*!< Offset: 0xE00 (R\/W)  ITM Trace Enable Register                 *\/$/;"	m	struct:__anon13
+TEST	./LPC177x_8x.h	/^  __IO uint32_t TEST;$/;"	m	struct:__anon58
+TFI1	./LPC177x_8x.h	/^	__IO uint32_t TFI1;$/;"	m	struct:__anon51
+TFI2	./LPC177x_8x.h	/^	__IO uint32_t TFI2;$/;"	m	struct:__anon51
+TFI3	./LPC177x_8x.h	/^	__IO uint32_t TFI3;$/;"	m	struct:__anon51
+THR	./LPC177x_8x.h	/^		__O  uint8_t  THR;$/;"	m	union:__anon26::__anon27
+THR	./LPC177x_8x.h	/^  __O  uint32_t  THR;                   \/*!< Offset: 0x000 Transmit Holding Register ( \/W) *\/$/;"	m	union:__anon34::__anon35
+THR	./LPC177x_8x.h	/^  __O  uint8_t  THR;$/;"	m	union:__anon30::__anon31
+TID1	./LPC177x_8x.h	/^	__IO uint32_t TID1;$/;"	m	struct:__anon51
+TID2	./LPC177x_8x.h	/^	__IO uint32_t TID2;$/;"	m	struct:__anon51
+TID3	./LPC177x_8x.h	/^	__IO uint32_t TID3;$/;"	m	struct:__anon51
+TIME	./LPC177x_8x.h	/^  __I  uint32_t TIME;$/;"	m	struct:__anon46
+TIMER0_IRQHandler	./startup_LPC177x_8x.s	/^TIMER0_IRQHandler$/;"	l
+TIMER0_IRQn	./LPC177x_8x.h	/^  TIMER0_IRQn                   = 1,        \/*!< Timer0 Interrupt                                 *\/$/;"	e	enum:IRQn
+TIMER1_IRQHandler	./startup_LPC177x_8x.s	/^TIMER1_IRQHandler$/;"	l
+TIMER1_IRQn	./LPC177x_8x.h	/^  TIMER1_IRQn                   = 2,        \/*!< Timer1 Interrupt                                 *\/$/;"	e	enum:IRQn
+TIMER2_IRQHandler	./startup_LPC177x_8x.s	/^TIMER2_IRQHandler$/;"	l
+TIMER2_IRQn	./LPC177x_8x.h	/^  TIMER2_IRQn                   = 3,        \/*!< Timer2 Interrupt                                 *\/$/;"	e	enum:IRQn
+TIMER3_IRQHandler	./startup_LPC177x_8x.s	/^TIMER3_IRQHandler$/;"	l
+TIMER3_IRQn	./LPC177x_8x.h	/^  TIMER3_IRQn                   = 4,        \/*!< Timer3 Interrupt                                 *\/$/;"	e	enum:IRQn
+TIMH	./LPC177x_8x.h	/^  __IO uint32_t TIMH;                   \/* LCD Registers                      *\/$/;"	m	struct:__anon59
+TIMV	./LPC177x_8x.h	/^  __IO uint32_t TIMV;$/;"	m	struct:__anon59
+TPI	./core_cm3.h	1234;"	d
+TPI_ACPR_PRESCALER_Msk	./core_cm3.h	901;"	d
+TPI_ACPR_PRESCALER_Pos	./core_cm3.h	900;"	d
+TPI_BASE	./core_cm3.h	1222;"	d
+TPI_DEVID_AsynClkIn_Msk	./core_cm3.h	1001;"	d
+TPI_DEVID_AsynClkIn_Pos	./core_cm3.h	1000;"	d
+TPI_DEVID_MANCVALID_Msk	./core_cm3.h	992;"	d
+TPI_DEVID_MANCVALID_Pos	./core_cm3.h	991;"	d
+TPI_DEVID_MinBufSz_Msk	./core_cm3.h	998;"	d
+TPI_DEVID_MinBufSz_Pos	./core_cm3.h	997;"	d
+TPI_DEVID_NRZVALID_Msk	./core_cm3.h	989;"	d
+TPI_DEVID_NRZVALID_Pos	./core_cm3.h	988;"	d
+TPI_DEVID_NrTraceInput_Msk	./core_cm3.h	1004;"	d
+TPI_DEVID_NrTraceInput_Pos	./core_cm3.h	1003;"	d
+TPI_DEVID_PTINVALID_Msk	./core_cm3.h	995;"	d
+TPI_DEVID_PTINVALID_Pos	./core_cm3.h	994;"	d
+TPI_DEVTYPE_MajorType_Msk	./core_cm3.h	1011;"	d
+TPI_DEVTYPE_MajorType_Pos	./core_cm3.h	1010;"	d
+TPI_DEVTYPE_SubType_Msk	./core_cm3.h	1008;"	d
+TPI_DEVTYPE_SubType_Pos	./core_cm3.h	1007;"	d
+TPI_FFCR_EnFCont_Msk	./core_cm3.h	925;"	d
+TPI_FFCR_EnFCont_Pos	./core_cm3.h	924;"	d
+TPI_FFCR_TrigIn_Msk	./core_cm3.h	922;"	d
+TPI_FFCR_TrigIn_Pos	./core_cm3.h	921;"	d
+TPI_FFSR_FlInProg_Msk	./core_cm3.h	918;"	d
+TPI_FFSR_FlInProg_Pos	./core_cm3.h	917;"	d
+TPI_FFSR_FtNonStop_Msk	./core_cm3.h	909;"	d
+TPI_FFSR_FtNonStop_Pos	./core_cm3.h	908;"	d
+TPI_FFSR_FtStopped_Msk	./core_cm3.h	915;"	d
+TPI_FFSR_FtStopped_Pos	./core_cm3.h	914;"	d
+TPI_FFSR_TCPresent_Msk	./core_cm3.h	912;"	d
+TPI_FFSR_TCPresent_Pos	./core_cm3.h	911;"	d
+TPI_FIFO0_ETM0_Msk	./core_cm3.h	951;"	d
+TPI_FIFO0_ETM0_Pos	./core_cm3.h	950;"	d
+TPI_FIFO0_ETM1_Msk	./core_cm3.h	948;"	d
+TPI_FIFO0_ETM1_Pos	./core_cm3.h	947;"	d
+TPI_FIFO0_ETM2_Msk	./core_cm3.h	945;"	d
+TPI_FIFO0_ETM2_Pos	./core_cm3.h	944;"	d
+TPI_FIFO0_ETM_ATVALID_Msk	./core_cm3.h	939;"	d
+TPI_FIFO0_ETM_ATVALID_Pos	./core_cm3.h	938;"	d
+TPI_FIFO0_ETM_bytecount_Msk	./core_cm3.h	942;"	d
+TPI_FIFO0_ETM_bytecount_Pos	./core_cm3.h	941;"	d
+TPI_FIFO0_ITM_ATVALID_Msk	./core_cm3.h	933;"	d
+TPI_FIFO0_ITM_ATVALID_Pos	./core_cm3.h	932;"	d
+TPI_FIFO0_ITM_bytecount_Msk	./core_cm3.h	936;"	d
+TPI_FIFO0_ITM_bytecount_Pos	./core_cm3.h	935;"	d
+TPI_FIFO1_ETM_ATVALID_Msk	./core_cm3.h	965;"	d
+TPI_FIFO1_ETM_ATVALID_Pos	./core_cm3.h	964;"	d
+TPI_FIFO1_ETM_bytecount_Msk	./core_cm3.h	968;"	d
+TPI_FIFO1_ETM_bytecount_Pos	./core_cm3.h	967;"	d
+TPI_FIFO1_ITM0_Msk	./core_cm3.h	977;"	d
+TPI_FIFO1_ITM0_Pos	./core_cm3.h	976;"	d
+TPI_FIFO1_ITM1_Msk	./core_cm3.h	974;"	d
+TPI_FIFO1_ITM1_Pos	./core_cm3.h	973;"	d
+TPI_FIFO1_ITM2_Msk	./core_cm3.h	971;"	d
+TPI_FIFO1_ITM2_Pos	./core_cm3.h	970;"	d
+TPI_FIFO1_ITM_ATVALID_Msk	./core_cm3.h	959;"	d
+TPI_FIFO1_ITM_ATVALID_Pos	./core_cm3.h	958;"	d
+TPI_FIFO1_ITM_bytecount_Msk	./core_cm3.h	962;"	d
+TPI_FIFO1_ITM_bytecount_Pos	./core_cm3.h	961;"	d
+TPI_ITATBCTR0_ATREADY_Msk	./core_cm3.h	981;"	d
+TPI_ITATBCTR0_ATREADY_Pos	./core_cm3.h	980;"	d
+TPI_ITATBCTR2_ATREADY_Msk	./core_cm3.h	955;"	d
+TPI_ITATBCTR2_ATREADY_Pos	./core_cm3.h	954;"	d
+TPI_ITCTRL_Mode_Msk	./core_cm3.h	985;"	d
+TPI_ITCTRL_Mode_Pos	./core_cm3.h	984;"	d
+TPI_SPPR_TXMODE_Msk	./core_cm3.h	905;"	d
+TPI_SPPR_TXMODE_Pos	./core_cm3.h	904;"	d
+TPI_TRIGGER_TRIGGER_Msk	./core_cm3.h	929;"	d
+TPI_TRIGGER_TRIGGER_Pos	./core_cm3.h	928;"	d
+TPI_Type	./core_cm3.h	/^} TPI_Type;$/;"	t	typeref:struct:__anon16
+TPR	./core_cm3.h	/^  __IO uint32_t TPR;                     \/*!< Offset: 0xE40 (R\/W)  ITM Trace Privilege Register              *\/$/;"	m	struct:__anon13
+TRIGGER	./core_cm3.h	/^  __I  uint32_t TRIGGER;                 \/*!< Offset: 0xEE8 (R\/ )  TRIGGER *\/$/;"	m	struct:__anon16
+TSV0	./LPC177x_8x.h	/^  __I  uint32_t TSV0;$/;"	m	struct:__anon58
+TSV1	./LPC177x_8x.h	/^  __I  uint32_t TSV1;$/;"	m	struct:__anon58
+TV	./LPC177x_8x.h	/^  __I  uint32_t TV;$/;"	m	struct:__anon42
+TXBITRATE	./LPC177x_8x.h	/^  __IO uint32_t TXBITRATE;$/;"	m	struct:__anon40
+TXFIFO	./LPC177x_8x.h	/^  __O  uint32_t TXFIFO;$/;"	m	struct:__anon40
+TXMODE	./LPC177x_8x.h	/^  __IO uint32_t TXMODE;$/;"	m	struct:__anon40
+TXRATE	./LPC177x_8x.h	/^  __IO uint32_t TXRATE;$/;"	m	struct:__anon40
+TYPE	./core_cm3.h	/^  __I  uint32_t TYPE;                    \/*!< Offset: 0x000 (R\/ )  MPU Type Register                              *\/$/;"	m	struct:__anon17
+Tmr	./LPC177x_8x.h	/^  __IO uint32_t Tmr;$/;"	m	struct:__anon54
+TxConsumeIndex	./LPC177x_8x.h	/^  __I  uint32_t TxConsumeIndex;$/;"	m	struct:__anon58
+TxData	./LPC177x_8x.h	/^  __O  uint32_t TxData;$/;"	m	struct:__anon54
+TxDescriptor	./LPC177x_8x.h	/^  __IO uint32_t TxDescriptor;$/;"	m	struct:__anon58
+TxDescriptorNumber	./LPC177x_8x.h	/^  __IO uint32_t TxDescriptorNumber;$/;"	m	struct:__anon58
+TxPLen	./LPC177x_8x.h	/^  __O  uint32_t TxPLen;$/;"	m	struct:__anon54
+TxProduceIndex	./LPC177x_8x.h	/^  __IO uint32_t TxProduceIndex;$/;"	m	struct:__anon58
+TxSR	./LPC177x_8x.h	/^  __I  uint32_t TxSR;$/;"	m	struct:__anon50
+TxStatus	./LPC177x_8x.h	/^  __IO uint32_t TxStatus;$/;"	m	struct:__anon58
+UART0	./uart0.h	2;"	d
+UART0_IRQHandler	./handlers.c	/^void UART0_IRQHandler(void) {$/;"	f
+UART0_IRQHandler	./startup_LPC177x_8x.s	/^UART0_IRQHandler$/;"	l
+UART0_IRQn	./LPC177x_8x.h	/^  UART0_IRQn                    = 5,        \/*!< UART0 Interrupt                                  *\/$/;"	e	enum:IRQn
+UART1_IRQHandler	./startup_LPC177x_8x.s	/^UART1_IRQHandler$/;"	l
+UART1_IRQn	./LPC177x_8x.h	/^  UART1_IRQn                    = 6,        \/*!< UART1 Interrupt                                  *\/$/;"	e	enum:IRQn
+UART2_IRQHandler	./startup_LPC177x_8x.s	/^UART2_IRQHandler$/;"	l
+UART2_IRQn	./LPC177x_8x.h	/^  UART2_IRQn                    = 7,        \/*!< UART2 Interrupt                                  *\/$/;"	e	enum:IRQn
+UART3_IRQHandler	./startup_LPC177x_8x.s	/^UART3_IRQHandler$/;"	l
+UART3_IRQn	./LPC177x_8x.h	/^  UART3_IRQn                    = 8,        \/*!< UART3 Interrupt                                  *\/$/;"	e	enum:IRQn
+UART4_IRQHandler	./startup_LPC177x_8x.s	/^UART4_IRQHandler$/;"	l
+UART4_IRQn	./LPC177x_8x.h	/^  UART4_IRQn                    = 35,       \/*!< UART4 Interrupt                                  *\/$/;"	e	enum:IRQn
+UDCAH	./LPC177x_8x.h	/^  __IO uint32_t UDCAH;$/;"	m	struct:__anon54
+UPBASE	./LPC177x_8x.h	/^  __IO uint32_t UPBASE;$/;"	m	struct:__anon59
+UPCURR	./LPC177x_8x.h	/^  __I  uint32_t UPCURR;$/;"	m	struct:__anon59
+USBActivity_IRQHandler	./startup_LPC177x_8x.s	/^USBActivity_IRQHandler$/;"	l
+USBActivity_IRQn	./LPC177x_8x.h	/^  USBActivity_IRQn              = 33,       \/*!< USB Activity interrupt                           *\/$/;"	e	enum:IRQn
+USBCLKSEL	./LPC177x_8x.h	/^  __IO uint32_t USBCLKSEL;                  \/*!< Offset: 0x108 (R\/W)  USB Clock Selection Register *\/$/;"	m	struct:__anon20
+USBCLKSEL_Val	./system_LPC177x_8x.c	227;"	d	file:
+USBClkCtrl	./LPC177x_8x.h	/^  __IO uint32_t USBClkCtrl;             \/* USB Clock Control Registers        *\/$/;"	m	union:__anon54::__anon56
+USBClkSt	./LPC177x_8x.h	/^  __I  uint32_t USBClkSt;$/;"	m	union:__anon54::__anon57
+USBClock	./system_LPC177x_8x.c	/^uint32_t USBClock 		 = (48000000UL);		  \/*!< USB Clock Frequency - this value will$/;"	v
+USBIntSt	./LPC177x_8x.h	/^  __IO uint32_t USBIntSt;                   \/*!< Offset: 0x1C0 (R\/W)  USB Interrupt Status Register *\/$/;"	m	struct:__anon20
+USB_IRQHandler	./startup_LPC177x_8x.s	/^USB_IRQHandler$/;"	l
+USB_IRQn	./LPC177x_8x.h	/^  USB_IRQn                      = 24,       \/*!< USB Interrupt                                    *\/$/;"	e	enum:IRQn
+UsageFault_IRQn	./LPC177x_8x.h	/^  UsageFault_IRQn               = -10,      \/*!< 6 Cortex-M3 Usage Fault Interrupt                *\/$/;"	e	enum:IRQn
+V	./core_cm3.h	/^    uint32_t V:1;                        \/*!< bit:     28  Overflow condition code flag       *\/$/;"	m	struct:__anon1::__anon2
+V	./core_cm3.h	/^    uint32_t V:1;                        \/*!< bit:     28  Overflow condition code flag       *\/$/;"	m	struct:__anon5::__anon6
+VAL	./core_cm3.h	/^  __IO uint32_t VAL;                     \/*!< Offset: 0x008 (R\/W)  SysTick Current Value Register      *\/$/;"	m	struct:__anon12
+VEL	./LPC177x_8x.h	/^  __I  uint32_t VEL;$/;"	m	struct:__anon46
+VELCOMP	./LPC177x_8x.h	/^  __IO uint32_t VELCOMP;$/;"	m	struct:__anon46
+VTOR	./core_cm3.h	/^  __IO uint32_t VTOR;                    \/*!< Offset: 0x008 (R\/W)  Vector Table Offset Register                          *\/$/;"	m	struct:__anon10
+WARNINT	./LPC177x_8x.h	/^  __IO uint32_t WARNINT;$/;"	m	struct:__anon42
+WDATA	./LPC177x_8x.h	/^  __IO uint32_t WDATA;$/;"	m	struct:__anon66
+WDT_IRQHandler	./startup_LPC177x_8x.s	/^WDT_IRQHandler$/;"	l
+WDT_IRQn	./LPC177x_8x.h	/^  WDT_IRQn                      = 0,        \/*!< Watchdog Timer Interrupt                         *\/$/;"	e	enum:IRQn
+WDT_OSC	./system_LPC177x_8x.h	71;"	d
+WINDOW	./LPC177x_8x.h	/^  __IO uint32_t WINDOW;$/;"	m	struct:__anon42
+WINDOW	./LPC177x_8x.h	/^  __IO uint32_t WINDOW;$/;"	m	struct:__anon46
+WR_DATA_BYTE	./LPC177x_8x.h	/^  	}WR_DATA_BYTE;$/;"	m	union:__anon61::__anon62	typeref:struct:__anon61::__anon62::__anon65
+WR_DATA_DWORD	./LPC177x_8x.h	/^  } WR_DATA_DWORD;$/;"	m	union:__anon61::__anon62	typeref:struct:__anon61::__anon62::__anon63
+WR_DATA_WORD	./LPC177x_8x.h	/^  }WR_DATA_WORD;$/;"	m	union:__anon61::__anon62	typeref:struct:__anon61::__anon62::__anon64
+WSTATE	./LPC177x_8x.h	/^  __IO uint32_t WSTATE;			\/* 0x0090 *\/$/;"	m	struct:__anon66
+XTAL	./system_LPC177x_8x.h	67;"	d
+YEAR	./LPC177x_8x.h	/^  __IO uint16_t YEAR;$/;"	m	struct:__anon41
+Z	./core_cm3.h	/^    uint32_t Z:1;                        \/*!< bit:     30  Zero condition code flag           *\/$/;"	m	struct:__anon1::__anon2
+Z	./core_cm3.h	/^    uint32_t Z:1;                        \/*!< bit:     30  Zero condition code flag           *\/$/;"	m	struct:__anon5::__anon6
+__ASM	./core_cm3.c	28;"	d	file:
+__ASM	./core_cm3.c	32;"	d	file:
+__ASM	./core_cm3.c	36;"	d	file:
+__ASM	./core_cm3.c	40;"	d	file:
+__ASM	./core_cm3.h	65;"	d
+__ASM	./core_cm3.h	70;"	d
+__ASM	./core_cm3.h	75;"	d
+__ASM	./core_cm3.h	79;"	d
+__ASM	./core_cm3.h	84;"	d
+__CCLK_DIV	./system_LPC177x_8x.c	310;"	d	file:
+__CLK_DIV	./system_LPC177x_8x.c	37;"	d	file:
+__CLREX	./core_cm3.c	/^__ASM void __CLREX(void)$/;"	f
+__CM3_CMSIS_VERSION	./core_cm3.h	58;"	d
+__CM3_CMSIS_VERSION_MAIN	./core_cm3.h	56;"	d
+__CM3_CMSIS_VERSION_SUB	./core_cm3.h	57;"	d
+__CM3_REV	./core_cm3.h	134;"	d
+__CORE_CLK	./system_LPC177x_8x.c	327;"	d	file:
+__CORE_CLK	./system_LPC177x_8x.c	331;"	d	file:
+__CORE_CLK	./system_LPC177x_8x.c	337;"	d	file:
+__CORE_CLK	./system_LPC177x_8x.c	341;"	d	file:
+__CORE_CLK	./system_LPC177x_8x.c	348;"	d	file:
+__CORE_CM3_H_DEPENDANT	./core_cm3.h	129;"	d
+__CORE_CM3_H_GENERIC	./core_cm3.h	32;"	d
+__CORTEX_M	./core_cm3.h	61;"	d
+__ECLK_DIV	./system_LPC177x_8x.c	312;"	d	file:
+__EMC_CLK	./system_LPC177x_8x.c	329;"	d	file:
+__EMC_CLK	./system_LPC177x_8x.c	333;"	d	file:
+__EMC_CLK	./system_LPC177x_8x.c	339;"	d	file:
+__EMC_CLK	./system_LPC177x_8x.c	343;"	d	file:
+__EMC_CLK	./system_LPC177x_8x.c	350;"	d	file:
+__FPU_USED	./core_cm3.h	92;"	d
+__I	./core_cm3.h	163;"	d
+__I	./core_cm3.h	165;"	d
+__INLINE	./core_cm3.c	29;"	d	file:
+__INLINE	./core_cm3.c	33;"	d	file:
+__INLINE	./core_cm3.c	37;"	d	file:
+__INLINE	./core_cm3.c	41;"	d	file:
+__INLINE	./core_cm3.h	66;"	d
+__INLINE	./core_cm3.h	71;"	d
+__INLINE	./core_cm3.h	80;"	d
+__INLINE	./core_cm3.h	85;"	d
+__IO	./core_cm3.h	168;"	d
+__LPC177x_8x_H__	./LPC177x_8x.h	29;"	d
+__M	./system_LPC177x_8x.c	308;"	d	file:
+__MPU_PRESENT	./LPC177x_8x.h	103;"	d
+__MPU_PRESENT	./core_cm3.h	139;"	d
+__NVIC_PRIO_BITS	./LPC177x_8x.h	104;"	d
+__NVIC_PRIO_BITS	./core_cm3.h	144;"	d
+__O	./core_cm3.h	167;"	d
+__PCLK_DIV	./system_LPC177x_8x.c	311;"	d	file:
+__PER_CLK	./system_LPC177x_8x.c	328;"	d	file:
+__PER_CLK	./system_LPC177x_8x.c	332;"	d	file:
+__PER_CLK	./system_LPC177x_8x.c	338;"	d	file:
+__PER_CLK	./system_LPC177x_8x.c	342;"	d	file:
+__PER_CLK	./system_LPC177x_8x.c	349;"	d	file:
+__PLL0_CLK	./system_LPC177x_8x.c	309;"	d	file:
+__REV16	./core_cm3.c	/^__ASM uint32_t __REV16(uint32_t value)$/;"	f
+__REVSH	./core_cm3.c	/^__ASM int32_t __REVSH(int32_t value)$/;"	f
+__STATIC_INLINE	./core_cm3.h	67;"	d
+__STATIC_INLINE	./core_cm3.h	72;"	d
+__STATIC_INLINE	./core_cm3.h	76;"	d
+__STATIC_INLINE	./core_cm3.h	81;"	d
+__STATIC_INLINE	./core_cm3.h	86;"	d
+__SYSTEM_LPC177x_8x_H	./system_LPC177x_8x.h	28;"	d
+__Vectors	./startup_LPC177x_8x.s	/^__Vectors       DCD     __initial_sp              ; Top of Stack$/;"	l
+__Vendor_SysTickConfig	./LPC177x_8x.h	105;"	d
+__Vendor_SysTickConfig	./core_cm3.h	149;"	d
+__get_APSR	./core_cm3.c	/^__ASM uint32_t __get_APSR(void)$/;"	f
+__get_BASEPRI	./core_cm3.c	/^__ASM uint32_t  __get_BASEPRI(void)$/;"	f
+__get_CONTROL	./core_cm3.c	/^__ASM uint32_t __get_CONTROL(void)$/;"	f
+__get_FAULTMASK	./core_cm3.c	/^__ASM uint32_t  __get_FAULTMASK(void)$/;"	f
+__get_IPSR	./core_cm3.c	/^__ASM uint32_t __get_IPSR(void)$/;"	f
+__get_MSP	./core_cm3.c	/^__ASM uint32_t __get_MSP(void)$/;"	f
+__get_PRIMASK	./core_cm3.c	/^__ASM uint32_t __get_PRIMASK(void)$/;"	f
+__get_PSP	./core_cm3.c	/^__ASM uint32_t __get_PSP(void)$/;"	f
+__get_xPSR	./core_cm3.c	/^__ASM uint32_t __get_xPSR(void)$/;"	f
+__heap_base	./startup_LPC177x_8x.s	/^__heap_base$/;"	l
+__heap_limit	./startup_LPC177x_8x.s	/^__heap_limit$/;"	l
+__initial_sp	./startup_LPC177x_8x.s	/^__initial_sp$/;"	l
+__set_BASEPRI	./core_cm3.c	/^__ASM void __set_BASEPRI(uint32_t basePri)$/;"	f
+__set_CONTROL	./core_cm3.c	/^__ASM void __set_CONTROL(uint32_t control)$/;"	f
+__set_FAULTMASK	./core_cm3.c	/^__ASM void __set_FAULTMASK(uint32_t faultMask)$/;"	f
+__set_MSP	./core_cm3.c	/^__ASM void __set_MSP(uint32_t mainStackPointer)$/;"	f
+__set_PRIMASK	./core_cm3.c	/^__ASM void __set_PRIMASK(uint32_t priMask)$/;"	f
+__set_PSP	./core_cm3.c	/^__ASM void __set_PSP(uint32_t topOfProcStack)$/;"	f
+__user_initial_stackheap	./startup_LPC177x_8x.s	/^__user_initial_stackheap$/;"	l
+_reserved0	./core_cm3.h	/^    uint32_t _reserved0:15;              \/*!< bit:  9..23  Reserved                           *\/$/;"	m	struct:__anon5::__anon6
+_reserved0	./core_cm3.h	/^    uint32_t _reserved0:23;              \/*!< bit:  9..31  Reserved                           *\/$/;"	m	struct:__anon3::__anon4
+_reserved0	./core_cm3.h	/^    uint32_t _reserved0:27;              \/*!< bit:  0..26  Reserved                           *\/$/;"	m	struct:__anon1::__anon2
+_reserved0	./core_cm3.h	/^    uint32_t _reserved0:29;              \/*!< bit:  3..31  Reserved                           *\/$/;"	m	struct:__anon7::__anon8
+_reserved0	./core_cm3.h	/^    uint32_t _reserved0:7;               \/*!< bit:  9..15  Reserved                           *\/$/;"	m	struct:__anon5::__anon6
+_reserved1	./core_cm3.h	/^    uint32_t _reserved1:4;               \/*!< bit: 20..23  Reserved                           *\/$/;"	m	struct:__anon5::__anon6
+b	./core_cm3.h	/^  } b;                                   \/*!< Structure used for bit  access                  *\/$/;"	m	union:__anon1	typeref:struct:__anon1::__anon2
+b	./core_cm3.h	/^  } b;                                   \/*!< Structure used for bit  access                  *\/$/;"	m	union:__anon3	typeref:struct:__anon3::__anon4
+b	./core_cm3.h	/^  } b;                                   \/*!< Structure used for bit  access                  *\/$/;"	m	union:__anon5	typeref:struct:__anon5::__anon6
+b	./core_cm3.h	/^  } b;                                   \/*!< Structure used for bit  access                  *\/$/;"	m	union:__anon7	typeref:struct:__anon7::__anon8
+buf	./rbuf.h	/^	uint8_t buf[RBUF_SIZE];$/;"	m	struct:ringBuf
+copy_stack	./fork.c	/^void copy_stack(int new_pid) {$/;"	f
+count	./rbuf.h	/^	int count;$/;"	m	struct:ringBuf
+create_new_proc	./fork.c	/^void create_new_proc(int new_pid) {$/;"	f
+ctxsw	./ctxsw.s	/^ctxsw PROC$/;"	l
+cur_pid	./main.c	/^uint32_t cur_pid = 1;$/;"	v
+cur_sp	./main.c	/^uintptr_t cur_sp, next_sp;$/;"	v
+firstProc	./ctxsw.s	/^firstProc PROC$/;"	l
+fork	./fork.c	/^int fork() {$/;"	f
+get_new_pid	./fork.c	/^int get_new_pid(void) {$/;"	f
+get_next_pid	./sched.c	/^void get_next_pid(void)$/;"	f
+get_r0	./helpers.s	/^get_r0 proc$/;"	l
+head	./rbuf.h	/^	int head;$/;"	m	struct:ringBuf
+interrupts_disable	./helpers.s	/^interrupts_disable proc$/;"	l
+interrupts_enable	./helpers.s	/^interrupts_enable proc$/;"	l
+main	./main.c	/^int main(void)$/;"	f
+mask	./LPC177x_8x.h	/^  __IO uint32_t mask[512];              \/* ID Masks                           *\/$/;"	m	struct:__anon48
+nPRIV	./core_cm3.h	/^    uint32_t nPRIV:1;                    \/*!< bit:      0  Execution privilege in Thread mode *\/$/;"	m	struct:__anon7::__anon8
+next_pid	./main.c	/^uint32_t next_pid = 1;$/;"	v
+next_sp	./main.c	/^uintptr_t cur_sp, next_sp;$/;"	v
+numProcs	./main.c	/^uint8_t numProcs = 3;$/;"	v
+p1	./main.c	/^void p1(void)$/;"	f
+p2	./main.c	/^void p2(void)$/;"	f
+p3	./main.c	/^void p3(void)$/;"	f
+pid	./ebsy.h	/^		int32_t pid;$/;"	m	struct:__anon19
+proc	./ebsy.h	/^} proc;$/;"	t	typeref:struct:__anon19
+procs	./main.c	/^proc procs[] = {$/;"	v
+ringBuf	./rbuf.h	/^typedef struct ringBuf {$/;"	s
+ringBuf	./rbuf.h	/^} ringBuf;$/;"	t	typeref:struct:ringBuf
+ringBuf_empty	./rbuf.c	/^int ringBuf_empty(ringBuf *buf) {$/;"	f
+ringBuf_flush	./rbuf.c	/^void ringBuf_flush(ringBuf *buf, const int clearBuffer){$/;"	f
+ringBuf_full	./rbuf.c	/^int ringBuf_full(ringBuf *buf) {$/;"	f
+ringBuf_get	./rbuf.c	/^int ringBuf_get(ringBuf *buf) {$/;"	f
+ringBuf_init	./rbuf.c	/^void ringBuf_init(ringBuf *buf) {$/;"	f
+ringBuf_put	./rbuf.c	/^void ringBuf_put(ringBuf *buf, const unsigned char c) {$/;"	f
+sp	./ebsy.h	/^		uintptr_t sp;$/;"	m	struct:__anon19
+stack	./main.c	/^uint32_t stack[MAXPROCS][STACKMAX];$/;"	v
+tail	./rbuf.h	/^	int tail;$/;"	m	struct:ringBuf
+u16	./core_cm3.h	/^    __O  uint16_t   u16;                 \/*!< Offset: 0x000 ( \/W)  ITM Stimulus Port 16-bit                  *\/$/;"	m	union:__anon13::__anon14
+u32	./core_cm3.h	/^    __O  uint32_t   u32;                 \/*!< Offset: 0x000 ( \/W)  ITM Stimulus Port 32-bit                  *\/$/;"	m	union:__anon13::__anon14
+u8	./core_cm3.h	/^    __O  uint8_t    u8;                  \/*!< Offset: 0x000 ( \/W)  ITM Stimulus Port 8-bit                   *\/$/;"	m	union:__anon13::__anon14
+uart0_close	./uart0.c	/^int uart0_close(void) {$/;"	f
+uart0_init	./uart0.c	/^int uart0_init(void) {$/;"	f
+uart0_ioctl	./uart0.c	/^int uart0_ioctl(uint32_t request, uint32_t requestparam) {$/;"	f
+uart0_open	./uart0.c	/^int uart0_open(void) {$/;"	f
+uart0_read	./uart0.c	/^int uart0_read(uint8_t *buf, int nbytes) {$/;"	f
+uart0_write	./uart0.c	/^int uart0_write(uint8_t *buf, int nbytes) {$/;"	f
+update_cur_sp	./helpers.c	/^void update_cur_sp(uintptr_t sp) {$/;"	f
+w	./core_cm3.h	/^  uint32_t w;                            \/*!< Type      used for word access                  *\/$/;"	m	union:__anon1
+w	./core_cm3.h	/^  uint32_t w;                            \/*!< Type      used for word access                  *\/$/;"	m	union:__anon3
+w	./core_cm3.h	/^  uint32_t w;                            \/*!< Type      used for word access                  *\/$/;"	m	union:__anon5
+w	./core_cm3.h	/^  uint32_t w;                            \/*!< Type      used for word access                  *\/$/;"	m	union:__anon7
+xPSR_Type	./core_cm3.h	/^} xPSR_Type;$/;"	t	typeref:union:__anon5
