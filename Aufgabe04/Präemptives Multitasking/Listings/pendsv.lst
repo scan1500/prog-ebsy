@@ -1,0 +1,69 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             pendsv_s, CODE, READONLY
+    2 00000000         
+    3 00000000                 IMPORT           ctxsw
+    4 00000000         
+    5 00000000         ; called after SysTick_Handler
+    6 00000000         PendSV_Handler
+                               PROC
+    7 00000000                 export           PendSV_Handler
+    8 00000000         
+    9 00000000 F7FF FFFE       BL               ctxsw
+   10 00000004 F06F 0E02       LDR              LR, =0xFFFFFFFD ; return to THR
+                                                            EAD-Mode using PSP
+   11 00000008 4770            BX               LR          ; branch into the n
+                                                            ew process (next_pi
+                                                            d)
+   12 0000000A         
+   13 0000000A                 ENDP
+   14 0000000A         
+   15 0000000A                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\pendsv.d -o.\objects\pendsv.o -IC:\Keil_v5\ARM\RV31\INC 
+-IC:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x --predefine=
+"__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 524" --list=.\listings\pend
+sv.lst pendsv.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+PendSV_Handler 00000000
+
+Symbol: PendSV_Handler
+   Definitions
+      At line 6 in file pendsv.s
+   Uses
+      At line 7 in file pendsv.s
+Comment: PendSV_Handler used once
+pendsv_s 00000000
+
+Symbol: pendsv_s
+   Definitions
+      At line 1 in file pendsv.s
+   Uses
+      None
+Comment: pendsv_s unused
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+ctxsw 00000000
+
+Symbol: ctxsw
+   Definitions
+      At line 3 in file pendsv.s
+   Uses
+      At line 9 in file pendsv.s
+Comment: ctxsw used once
+1 symbol
+335 symbols in table

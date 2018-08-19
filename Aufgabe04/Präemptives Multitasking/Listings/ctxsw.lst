@@ -1,0 +1,185 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             |.text|, CODE, READONLY
+    2 00000000         
+    3 00000000         ; Globale Variablen
+    4 00000000                 EXTERN           SysTick_CTRL
+    5 00000000                 EXTERN           cur_pid
+    6 00000000                 EXTERN           cur_sp
+    7 00000000                 EXTERN           next_pid
+    8 00000000                 EXTERN           next_sp
+    9 00000000         
+   10 00000000         
+   11 00000000         firstProc
+                               PROC
+   12 00000000                 export           firstProc
+   13 00000000         
+   14 00000000         ; Von MSP auf PSP wechseln
+   15 00000000 F04F 0102       MOV              R1, #2
+   16 00000004 F381 8814       MSR              CONTROL, r1
+   17 00000008 F3BF 8F6F       isb
+   18 0000000C         
+   19 0000000C         ; Einstieg aus R0 in LR kopieren
+   20 0000000C 4685            MOV              SP, R0
+   21 0000000E F85D EB04       POP              {LR}
+   22 00000012         
+   23 00000012         ; Am aktuellen PSP-Register werden: xPSR, PC, LR, R12, R
+                       3, R2, R1, R1 (= 8 Reg.)
+   24 00000012         ; Diese 8 Reg. werden via Hardware bei Sprung in Handler
+                        auf PSP-Stack gespeichert
+   25 00000012         ; Das heißt ab ctxsw hat PSP den Wert: PSP+(8x4)
+   26 00000012 4668            MOV              R0, SP
+   27 00000014 F380 8809       MSR              psp, R0
+   28 00000018         
+   29 00000018         ; SysTick an [..111]
+   30 00000018 490D            LDR              R1, =SysTick_CTRL
+   31 0000001A 680A            LDR              R2, [R1]
+   32 0000001C 6811            LDR              R1, [R2]
+   33 0000001E F041 0107       ORR              R1, #0x7
+   34 00000022 6011            STR              R1, [R2]
+   35 00000024         
+   36 00000024 4770            BX               LR
+   37 00000026         
+   38 00000026                 ENDP
+   39 00000026         
+   40 00000026         ctxsw   PROC
+   41 00000026                 export           ctxsw
+   42 00000026         
+   43 00000026         ;Aktuellen Wert von PSP nach R1 kopieren 
+   44 00000026         ;Platz auf Stack schaffen (8 Worte)
+   45 00000026         ;R4-R11 auf Stack sichern
+   46 00000026 F3EF 8109       MRS              R1, psp
+   47 0000002A 3920            SUBS             R1, #32
+   48 0000002C E881 0FF0       STMIA            R1,{R4-R11}
+   49 00000030         
+   50 00000030         ; Aktuellen Stackpointer updaten.
+   51 00000030         ; SP ganz unten am Prozess-Stack, ab hier später 8 Worte
+                        rücksichern 
+   52 00000030 4808            LDR              R0, =cur_sp
+   53 00000032 6800            LDR              R0,[R0]
+   54 00000034 6001            STR              R1, [R0]
+   55 00000036         
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+   56 00000036         ; Pointer auf nächsten Stack in R1 laden
+   57 00000036 4808            LDR              R0, =next_sp
+   58 00000038 6800            LDR              R0, [R0]
+   59 0000003A 6801            LDR              R1, [R0]
+   60 0000003C         
+   61 0000003C         ; cur_pid = next_pid
+   62 0000003C 4A07            LDR              R2, =cur_pid
+   63 0000003E 4B08            LDR              R3, =next_pid
+   64 00000040 681B            LDR              R3, [R3]
+   65 00000042 6013            STR              R3, [R2]
+   66 00000044         
+   67 00000044         ; Rücksichern an letzter Prozess-Stack Adresse beginnen 
+                       (8 Worte)
+   68 00000044         ; Aktuellen Stackpointer in PSP speichern
+   69 00000044         ; Implizite Rücksicherung der restlichen 8 Worte ab Rück
+                       sprung in Prozess
+   70 00000044         ; Rückkehr in PendSV
+   71 00000044 E8B1 0FF0       LDMIA            R1!, {R4-R11}
+   72 00000048 F381 8809       MSR              psp, R1
+   73 0000004C         
+   74 0000004C 4770            BX               LR
+   75 0000004E         
+   76 0000004E                 ENDP
+   77 0000004E         
+   78 0000004E                 END
+              00 00 00000000 
+              00000000 
+              00000000 
+              00000000 
+              00000000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\ctxsw.d -o.\objects\ctxsw.o -IC:\Keil_v5\ARM\RV31\INC -I
+C:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\NXP\LPC177x_8x --predefine="_
+_EVAL SETA 1" --predefine="__UVISION_VERSION SETA 524" --list=.\listings\ctxsw.
+lst ctxsw.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 1 in file ctxsw.s
+   Uses
+      None
+Comment: .text unused
+ctxsw 00000026
+
+Symbol: ctxsw
+   Definitions
+      At line 40 in file ctxsw.s
+   Uses
+      At line 41 in file ctxsw.s
+Comment: ctxsw used once
+firstProc 00000000
+
+Symbol: firstProc
+   Definitions
+      At line 11 in file ctxsw.s
+   Uses
+      At line 12 in file ctxsw.s
+Comment: firstProc used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+SysTick_CTRL 00000000
+
+Symbol: SysTick_CTRL
+   Definitions
+      At line 4 in file ctxsw.s
+   Uses
+      At line 30 in file ctxsw.s
+Comment: SysTick_CTRL used once
+cur_pid 00000000
+
+Symbol: cur_pid
+   Definitions
+      At line 5 in file ctxsw.s
+   Uses
+      At line 62 in file ctxsw.s
+Comment: cur_pid used once
+cur_sp 00000000
+
+Symbol: cur_sp
+   Definitions
+      At line 6 in file ctxsw.s
+   Uses
+      At line 52 in file ctxsw.s
+Comment: cur_sp used once
+next_pid 00000000
+
+Symbol: next_pid
+   Definitions
+      At line 7 in file ctxsw.s
+   Uses
+      At line 63 in file ctxsw.s
+Comment: next_pid used once
+next_sp 00000000
+
+Symbol: next_sp
+   Definitions
+      At line 8 in file ctxsw.s
+   Uses
+      At line 57 in file ctxsw.s
+Comment: next_sp used once
+5 symbols
+342 symbols in table
